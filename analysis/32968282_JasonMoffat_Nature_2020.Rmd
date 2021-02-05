@@ -9,9 +9,13 @@ editor_options:
   chunk_output_type: console
 ---
 
-## Introduction
+## Condition alignment
 
-```{r}
-
+```{r, message=FALSE, warning=FALSE}
+library(GEOquery)
+gse = getGEO(filename="data/32968282_JasonMoffat_Nature_2020/GSE149933-GPL17021_series_matrix.txt.gz",GSEMatrix=TRUE,getGPL = FALSE)
+write.table(gse, 'data/32968282_JasonMoffat_Nature_2020/GPL17021.txt', quote = F, sep = '\t', col.names = T)
+meta_GPL17021 = read.table('data/32968282_JasonMoffat_Nature_2020/GPL17021.txt', stringsAsFactors = F, sep = '\t', row.names = 1)
+print(meta_GPL17021[1:5,c("title","source_name_ch1", "characteristics_ch1.1", "time.point.ch1")])
 ```
 
