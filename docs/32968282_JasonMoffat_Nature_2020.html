@@ -434,23 +434,32 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomBuilderPierunMAGeCKVISPRtreee99dfcdec419f81c097dafcb37e0d7a1831ef906targetblanke99dfcda"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/BuilderPie/run_MAGeCK-VISPR/tree/e99dfcdec419f81c097dafcb37e0d7a1831ef906" target="_blank">e99dfcd</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomBuilderPierunMAGeCKVISPRtree84e3693f7d9bd1cd5899b5bd0a6fed5479ce23f1targetblank84e3693a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/BuilderPie/run_MAGeCK-VISPR/tree/84e3693f7d9bd1cd5899b5bd0a6fed5479ce23f1" target="_blank">84e3693</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomBuilderPierunMAGeCKVISPRtreee99dfcdec419f81c097dafcb37e0d7a1831ef906targetblanke99dfcda" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomBuilderPierunMAGeCKVISPRtree84e3693f7d9bd1cd5899b5bd0a6fed5479ce23f1targetblank84e3693a" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version <a href="https://github.com/BuilderPie/run_MAGeCK-VISPR/tree/e99dfcdec419f81c097dafcb37e0d7a1831ef906" target="_blank">e99dfcd</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/BuilderPie/run_MAGeCK-VISPR/tree/84e3693f7d9bd1cd5899b5bd0a6fed5479ce23f1" target="_blank">84e3693</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
 Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
 </p>
 <pre><code>
 Ignored files:
+    Ignored:    .DS_Store
     Ignored:    data/.DS_Store
+
+Untracked files:
+    Untracked:  data/32968282_JasonMoffat_Nature_2020/GPL17021.txt
+    Untracked:  data/32968282_JasonMoffat_Nature_2020/GSE149933-GPL17021_series_matrix.txt.gz
+    Untracked:  data/32968282_JasonMoffat_Nature_2020/GSE149933-GPL19057_series_matrix.txt.gz
+
+Unstaged changes:
+    Modified:   data/32968282_JasonMoffat_Nature_2020/README.md
 
 </code></pre>
 <p>
@@ -489,6 +498,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/BuilderPie/run_MAGeCK-VISPR/blob/84e3693f7d9bd1cd5899b5bd0a6fed5479ce23f1/analysis/32968282_JasonMoffat_Nature_2020.Rmd" target="_blank">84e3693</a>
+</td>
+<td>
+BuilderPie
+</td>
+<td>
+2021-02-05
+</td>
+<td>
+wflow_publish(“analysis/32968282_JasonMoffat_Nature_2020.Rmd”)
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/BuilderPie/run_MAGeCK-VISPR/75789d56ff2ce1e4cd34e0d48e7898c9171e3964/docs/32968282_JasonMoffat_Nature_2020.html" target="_blank">75789d5</a>
+</td>
+<td>
+BuilderPie
+</td>
+<td>
+2021-02-05
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 Rmd
@@ -547,8 +590,25 @@ BuilderPie
 </div>
 </div>
 </div>
-<div id="introduction" class="section level2">
-<h2>Introduction</h2>
+<div id="condition-alignment" class="section level2">
+<h2>Condition alignment</h2>
+<pre class="r"><code>library(GEOquery)
+gse = getGEO(filename=&quot;data/32968282_JasonMoffat_Nature_2020/GSE149933-GPL17021_series_matrix.txt.gz&quot;,GSEMatrix=TRUE,getGPL = FALSE)
+write.table(gse, &#39;data/32968282_JasonMoffat_Nature_2020/GPL17021.txt&#39;, quote = F, sep = &#39;\t&#39;, col.names = T)
+meta_GPL17021 = read.table(&#39;data/32968282_JasonMoffat_Nature_2020/GPL17021.txt&#39;, stringsAsFactors = F, sep = &#39;\t&#39;, row.names = 1)
+print(meta_GPL17021[1:5,c(&quot;title&quot;,&quot;source_name_ch1&quot;, &quot;characteristics_ch1.1&quot;, &quot;time.point.ch1&quot;)])</code></pre>
+<pre><code>                          title                         source_name_ch1
+GSM4518178    MUS_60_EMT6-HA T0 EMT6 cell line + haemagglutinin antigen
+GSM4518179 MUS_61_EMT6-HA T11 A EMT6 cell line + haemagglutinin antigen
+GSM4518180 MUS_62_EMT6-HA T11 B EMT6 cell line + haemagglutinin antigen
+GSM4518181 MUS_63_EMT6-HA T11 C EMT6 cell line + haemagglutinin antigen
+GSM4518182 MUS_64_EMT6-HA T19 A EMT6 cell line + haemagglutinin antigen
+           characteristics_ch1.1 time.point.ch1
+GSM4518178       treatment: none             T0
+GSM4518179    treatment: Control            T11
+GSM4518180    treatment: Control            T11
+GSM4518181    treatment: Control            T11
+GSM4518182    treatment: Control            T19</code></pre>
 <br>
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-sessioninfo" data-toggle="collapse" data-target="#workflowr-sessioninfo" style="display: block;">
@@ -569,20 +629,25 @@ locale:
 [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
 
 attached base packages:
-[1] stats     graphics  grDevices utils     datasets  methods   base     
+[1] parallel  stats     graphics  grDevices utils     datasets  methods  
+[8] base     
 
 other attached packages:
-[1] workflowr_1.6.2
+[1] GEOquery_2.54.1     Biobase_2.46.0      BiocGenerics_0.32.0
+[4] workflowr_1.6.2    
 
 loaded via a namespace (and not attached):
- [1] Rcpp_1.0.5       rstudioapi_0.11  whisker_0.4      knitr_1.30      
- [5] magrittr_1.5     R6_2.4.1         rlang_0.4.8      stringr_1.4.0   
- [9] tools_3.6.1      xfun_0.18        git2r_0.27.1     htmltools_0.5.0 
-[13] ellipsis_0.3.1   rprojroot_1.3-2  yaml_2.2.1       digest_0.6.27   
-[17] tibble_3.0.4     lifecycle_0.2.0  crayon_1.3.4     later_1.1.0.1   
-[21] vctrs_0.3.4      promises_1.1.1   fs_1.5.0         glue_1.4.2      
-[25] evaluate_0.14    rmarkdown_2.5    stringi_1.5.3    compiler_3.6.1  
-[29] pillar_1.4.6     backports_1.1.10 httpuv_1.5.4     pkgconfig_2.0.3 </code></pre>
+ [1] Rcpp_1.0.5       pillar_1.4.6     compiler_3.6.1   later_1.1.0.1   
+ [5] git2r_0.27.1     tools_3.6.1      digest_0.6.27    evaluate_0.14   
+ [9] lifecycle_0.2.0  tibble_3.0.4     pkgconfig_2.0.3  rlang_0.4.8     
+[13] cli_2.1.0        rstudioapi_0.11  yaml_2.2.1       xfun_0.18       
+[17] xml2_1.3.2       stringr_1.4.0    dplyr_1.0.2      knitr_1.30      
+[21] hms_0.5.3        generics_0.0.2   fs_1.5.0         vctrs_0.3.4     
+[25] rprojroot_1.3-2  tidyselect_1.1.0 glue_1.4.2       R6_2.4.1        
+[29] fansi_0.4.1      rmarkdown_2.5    limma_3.42.2     tidyr_1.1.2     
+[33] readr_1.4.0      purrr_0.3.4      magrittr_1.5     whisker_0.4     
+[37] backports_1.1.10 promises_1.1.1   ellipsis_0.3.1   htmltools_0.5.0 
+[41] assertthat_0.2.1 httpuv_1.5.4     stringi_1.5.3    crayon_1.3.4    </code></pre>
 </div>
 </div>
 
