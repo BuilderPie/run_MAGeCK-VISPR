@@ -2,7 +2,9 @@
 title: "32968282_JasonMoffat_Nature_2020"
 author: "BuilderPie"
 date: "2021-02-05"
-output: workflowr::wflow_html
+output: 
+  workflowr::wflow_html:
+    toc: false
 editor_options:
   chunk_output_type: console
 ---
