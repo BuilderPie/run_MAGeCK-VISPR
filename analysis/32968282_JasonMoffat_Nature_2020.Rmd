@@ -62,6 +62,8 @@ for (i in 1:length(colName)){
   }
 }
 finalCount = as.data.frame(finalCount)
+write.table(x = finalCount, file = 'output/32968282_JasonMoffat_Nature_2020/32968282_JasonMoffat_Nature_2020_rawcount.txt', quote = F, sep = '\t', col.names = T)
+finalCount = log(finalCount + 1)
 
 cellline = c("EMT6-HA_", "CT26-HA_", "4T1-HA_", "B16-Ova_", "MC38-Ova_", "Renca-HA_")
 for (cl in cellline){
@@ -81,6 +83,6 @@ for (cl in cellline){
                  main = paste0(cl, "PCA")))
 }
 
-write.table(x = finalCount, file = 'output/32968282_JasonMoffat_Nature_2020/32968282_JasonMoffat_Nature_2020_rawcount.txt', quote = F, sep = '\t', col.names = T)
+
 ```
 
