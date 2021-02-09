@@ -12,15 +12,16 @@ editor_options:
 ## Condition alignment
 
 ```{r, message=FALSE, warning=FALSE}
+library(workflowr)
 library(GEOquery)
 library(ggfortify)
 gse = getGEO(filename="data/32968282_JasonMoffat_Nature_2020/GSE149933-GPL17021_series_matrix.txt.gz",GSEMatrix=TRUE,getGPL = FALSE)
-dir.create("output/32968282_JasonMoffat_Nature_2020", recursive = T)
+dir.create("output/32968282_JasonMoffat_Nature_2020", recursive = T, showWarnings = F)
 write.table(gse, 'output/32968282_JasonMoffat_Nature_2020/GPL17021.txt', quote = F, sep = '\t', col.names = T)
 meta_GPL17021 = read.table('output/32968282_JasonMoffat_Nature_2020/GPL17021.txt', stringsAsFactors = F, sep = '\t', row.names = 1)
 
 gse = getGEO(filename="data/32968282_JasonMoffat_Nature_2020/GSE149933-GPL19057_series_matrix.txt.gz",GSEMatrix=TRUE,getGPL = FALSE)
-dir.create("output/32968282_JasonMoffat_Nature_2020", recursive = T, showWarnings = F)
+# dir.create("output/32968282_JasonMoffat_Nature_2020", recursive = T, showWarnings = F)
 write.table(gse, 'output/32968282_JasonMoffat_Nature_2020/GPL19057.txt', quote = F, sep = '\t', col.names = T)
 meta_GPL19057 = read.table('output/32968282_JasonMoffat_Nature_2020/GPL19057.txt', stringsAsFactors = F, sep = '\t', row.names = 1)
 
@@ -69,18 +70,23 @@ cellline = c("EMT6-HA_", "CT26-HA_", "4T1-HA_", "B16-Ova_", "MC38-Ova_", "Renca-
 for (cl in cellline){
   # print(cl)
   df = as.data.frame(t(finalCount[, grep(cl, colnames(finalCount))]))
-  df$species = gsub(pattern = cl, replacement = '', rownames(df))
-  df$species = gsub(pattern = "_", replacement = '', df$species)
-  rownames(df) = df$species
+  pca_res <- prcomp(df)
+  df$condition = sapply(X = strsplit(rownames(df),"_"), FUN = function(x){x[4]})
+  df$timepoint = sapply(X = strsplit(rownames(df),"_"), FUN = function(x){x[2]})
   # df[ , which(apply(df, 2, var) != 0)]
   # pca_res <- prcomp(df[,-dim(df)[2]], scale. = TRUE)
-  pca_res <- prcomp(df[,-dim(df)[2]])
-  print(autoplot(pca_res, data = df, colour = 'species', label = TRUE, label.size = 4, 
+  # print(autoplot(pca_res, data = df, colour = 'species', label = TRUE, label.size = 4, 
                  # xlim = c((1.3*min(pca_res$rotation[,'PC1'],na.rm=T)-0.3*max(min(pca_res$rotation[,'PC1'],na.rm=T))),
                  #          (1.3*max(pca_res$rotation[,'PC1'],na.rm=T)-0.3*min(pca_res$rotation[,'PC1'],na.rm=T))), 
                  # ylim = c((1.3*min(pca_res$rotation[,'PC2'],na.rm=T)-0.3*max(min(pca_res$rotation[,'PC2'],na.rm=T))),
                  #          (1.3*max(pca_res$rotation[,'PC2'],na.rm=T)-0.3*min(pca_res$rotation[,'PC2'],na.rm=T))),
-                 main = paste0(cl, "PCA")))
+                 # main = paste0(cl, "PCA")))
+  
+  print(autoplot(pca_res, data = df, colour = 'condition', shape = "timepoint", size = 5, main = paste0(cl, "PCA")))
+  
+  df = df[-grep("_T0_", rownames(df)), ]
+  pca_res <- prcomp(df[, -which(colnames(df)=="condition" | colnames(df)=="timepoint")])
+  print(autoplot(pca_res, data = df, colour = 'condition', shape = "timepoint", size = 5, main = paste0(cl, "wo_T0")))
 }
 
 
