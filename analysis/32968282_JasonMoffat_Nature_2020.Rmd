@@ -75,7 +75,7 @@ for (cl in cellline){
   df = as.data.frame(t(finalCount[, grep(cl, colnames(finalCount))]))
   pca_res <- prcomp(df)
   df$condition = sapply(X = strsplit(rownames(df),"_"), FUN = function(x){x[4]})
-  df$timepoint = sapply(X = strsplit(rownames(df),"_"), FUN = function(x){x[2]})
+  df$batch = sapply(X = strsplit(rownames(df),"_"), FUN = function(x){x[3]})
   # df[ , which(apply(df, 2, var) != 0)]
   # pca_res <- prcomp(df[,-dim(df)[2]], scale. = TRUE)
   # print(autoplot(pca_res, data = df, colour = 'species', label = TRUE, label.size = 4, 
@@ -85,17 +85,17 @@ for (cl in cellline){
                  #          (1.3*max(pca_res$rotation[,'PC2'],na.rm=T)-0.3*min(pca_res$rotation[,'PC2'],na.rm=T))),
                  # main = paste0(cl, "PCA")))
   
-  print(autoplot(pca_res, data = df, colour = 'condition', shape = "timepoint", size = 5, main = paste0(cl, "PCA")))
+  print(autoplot(pca_res, data = df, colour = 'condition', shape = "batch", size = 5, main = paste0(cl, "PCA")))
   
-  cor_res = cor(t(df[, -which(colnames(df)=="condition" | colnames(df)=="timepoint")]))
+  cor_res = cor(t(df[, -which(colnames(df)=="condition" | colnames(df)=="batch")]))
   print(Heatmap(cor_res, col = colorRamp2(c(min(cor_res, na.rm = T), 1), c("white", "red")),
           column_title = paste0(cl, "Correlation")))
   
   df = df[-grep("_T0_", rownames(df)), ]
-  pca_res <- prcomp(df[, -which(colnames(df)=="condition" | colnames(df)=="timepoint")])
-  print(autoplot(pca_res, data = df, colour = 'condition', shape = "timepoint", size = 5, main = paste0(cl, "wo_T0")))
+  pca_res <- prcomp(df[, -which(colnames(df)=="condition" | colnames(df)=="batch")])
+  print(autoplot(pca_res, data = df, colour = 'condition', shape = "batch", size = 5, main = paste0(cl, "wo_T0")))
   
-  cor_res = cor(t(df[, -which(colnames(df)=="condition" | colnames(df)=="timepoint")]))
+  cor_res = cor(t(df[, -which(colnames(df)=="condition" | colnames(df)=="batch")]))
   print(Heatmap(cor_res, col = colorRamp2(c(min(cor_res, na.rm = T), 1), c("white", "red")),
           column_title = paste0(cl, "wo_T0_Correlation")))
 }
