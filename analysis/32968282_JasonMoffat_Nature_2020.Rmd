@@ -15,6 +15,9 @@ editor_options:
 library(workflowr)
 library(GEOquery)
 library(ggfortify)
+library(ComplexHeatmap)
+library(circlize)
+
 gse = getGEO(filename="data/32968282_JasonMoffat_Nature_2020/GSE149933-GPL17021_series_matrix.txt.gz",GSEMatrix=TRUE,getGPL = FALSE)
 dir.create("output/32968282_JasonMoffat_Nature_2020", recursive = T, showWarnings = F)
 write.table(gse, 'output/32968282_JasonMoffat_Nature_2020/GPL17021.txt', quote = F, sep = '\t', col.names = T)
@@ -84,11 +87,18 @@ for (cl in cellline){
   
   print(autoplot(pca_res, data = df, colour = 'condition', shape = "timepoint", size = 5, main = paste0(cl, "PCA")))
   
+  cor_res = cor(t(df[, -which(colnames(df)=="condition" | colnames(df)=="timepoint")]))
+  print(Heatmap(cor_res, col = colorRamp2(c(min(cor_res, na.rm = T), 1), c("white", "red")),
+          column_title = paste0(cl, "Correlation")))
+  
   df = df[-grep("_T0_", rownames(df)), ]
   pca_res <- prcomp(df[, -which(colnames(df)=="condition" | colnames(df)=="timepoint")])
   print(autoplot(pca_res, data = df, colour = 'condition', shape = "timepoint", size = 5, main = paste0(cl, "wo_T0")))
+  
+  cor_res = cor(t(df[, -which(colnames(df)=="condition" | colnames(df)=="timepoint")]))
+  print(Heatmap(cor_res, col = colorRamp2(c(min(cor_res, na.rm = T), 1), c("white", "red")),
+          column_title = paste0(cl, "wo_T0_Correlation")))
 }
-
 
 ```
 
