@@ -13,9 +13,74 @@ editor_options:
 
 ```{r, message=FALSE, warning=FALSE}
 library(GEOquery)
+library(ggfortify)
 gse = getGEO(filename="data/32968282_JasonMoffat_Nature_2020/GSE149933-GPL17021_series_matrix.txt.gz",GSEMatrix=TRUE,getGPL = FALSE)
-write.table(gse, 'data/32968282_JasonMoffat_Nature_2020/GPL17021.txt', quote = F, sep = '\t', col.names = T)
-meta_GPL17021 = read.table('data/32968282_JasonMoffat_Nature_2020/GPL17021.txt', stringsAsFactors = F, sep = '\t', row.names = 1)
-print(meta_GPL17021[1:5,c("title","source_name_ch1", "characteristics_ch1.1", "time.point.ch1")])
+dir.create("output/32968282_JasonMoffat_Nature_2020", recursive = T)
+write.table(gse, 'output/32968282_JasonMoffat_Nature_2020/GPL17021.txt', quote = F, sep = '\t', col.names = T)
+meta_GPL17021 = read.table('output/32968282_JasonMoffat_Nature_2020/GPL17021.txt', stringsAsFactors = F, sep = '\t', row.names = 1)
+
+gse = getGEO(filename="data/32968282_JasonMoffat_Nature_2020/GSE149933-GPL19057_series_matrix.txt.gz",GSEMatrix=TRUE,getGPL = FALSE)
+dir.create("output/32968282_JasonMoffat_Nature_2020", recursive = T, showWarnings = F)
+write.table(gse, 'output/32968282_JasonMoffat_Nature_2020/GPL19057.txt', quote = F, sep = '\t', col.names = T)
+meta_GPL19057 = read.table('output/32968282_JasonMoffat_Nature_2020/GPL19057.txt', stringsAsFactors = F, sep = '\t', row.names = 1)
+
+treatment_GPL17021 = meta_GPL17021$characteristics_ch1.1
+treatment_GPL17021[grep('Control',treatment_GPL17021, ignore.case = T)]="_Con"
+treatment_GPL17021[grep('T cell',treatment_GPL17021, ignore.case = T)]="_T"
+treatment_GPL17021[grep('none',treatment_GPL17021, ignore.case = T)]="_none"
+treatment_GPL17021[grep('IFN-gamma',treatment_GPL17021, ignore.case = T)]="_IFNg"
+treatment_GPL17021[grep('TNF-alpha',treatment_GPL17021, ignore.case = T)]="_TNFa"
+
+treatment_GPL19057 = meta_GPL19057$characteristics_ch1.1
+treatment_GPL19057[grep('Control',treatment_GPL19057, ignore.case = T)]="_Con"
+treatment_GPL19057[grep('T cell',treatment_GPL19057, ignore.case = T)]="_T"
+treatment_GPL19057[grep('none',treatment_GPL19057, ignore.case = T)]="_none"
+treatment_GPL19057[grep('IFN-gamma',treatment_GPL19057, ignore.case = T)]="_IFNg"
+treatment_GPL19057[grep('TNF-alpha',treatment_GPL19057, ignore.case = T)]="_TNFa"
+
+
+title_comb = c(paste0(meta_GPL17021$title, treatment_GPL17021), 
+               paste0(meta_GPL19057$title, treatment_GPL19057))
+
+print(meta_GPL17021[1:14,c("title","source_name_ch1", "characteristics_ch1.1", "time.point.ch1")])
+
+rawCount = read.table(file = "data/32968282_JasonMoffat_Nature_2020/GSE149933_mTKO_readCounts_4May20.txt", header = T)
+title_comb = gsub(" ", "_", title_comb)
+title_trim = sub("^([^_]*_[^_]*).*", "\\1", title_comb)
+colName = colnames(rawCount)
+finalCount = c()
+for (i in 1:length(colName)){
+  ind = which(title_trim == colName[i])
+  if (length(ind)>0){
+    # print(ind)
+    # print(colName[i])
+    # print(title_trim[ind])
+    finalCount = cbind(finalCount, rawCount[,i])
+    colnames(finalCount)[dim(finalCount)[2]] = sub("^([^_]*_[^_]*).", "", title_comb[ind])
+    # print(title_comb[ind])
+    # print(colnames(finalCount)[dim(finalCount)[2]])
+  }
+}
+finalCount = as.data.frame(finalCount)
+
+cellline = c("EMT6-HA_", "CT26-HA_", "4T1-HA_", "B16-Ova_", "MC38-Ova_", "Renca-HA_")
+for (cl in cellline){
+  # print(cl)
+  df = as.data.frame(t(finalCount[, grep(cl, colnames(finalCount))]))
+  df$species = gsub(pattern = cl, replacement = '', rownames(df))
+  df$species = gsub(pattern = "_", replacement = '', df$species)
+  rownames(df) = df$species
+  # df[ , which(apply(df, 2, var) != 0)]
+  # pca_res <- prcomp(df[,-dim(df)[2]], scale. = TRUE)
+  pca_res <- prcomp(df[,-dim(df)[2]])
+  print(autoplot(pca_res, data = df, colour = 'species', label = TRUE, label.size = 4, 
+                 # xlim = c((1.3*min(pca_res$rotation[,'PC1'],na.rm=T)-0.3*max(min(pca_res$rotation[,'PC1'],na.rm=T))),
+                 #          (1.3*max(pca_res$rotation[,'PC1'],na.rm=T)-0.3*min(pca_res$rotation[,'PC1'],na.rm=T))), 
+                 # ylim = c((1.3*min(pca_res$rotation[,'PC2'],na.rm=T)-0.3*max(min(pca_res$rotation[,'PC2'],na.rm=T))),
+                 #          (1.3*max(pca_res$rotation[,'PC2'],na.rm=T)-0.3*min(pca_res$rotation[,'PC2'],na.rm=T))),
+                 main = paste0(cl, "PCA")))
+}
+
+write.table(x = finalCount, file = 'output/32968282_JasonMoffat_Nature_2020/32968282_JasonMoffat_Nature_2020_rawcount.txt', quote = F, sep = '\t', col.names = T)
 ```
 
