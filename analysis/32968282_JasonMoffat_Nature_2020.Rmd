@@ -66,7 +66,10 @@ for (i in 1:length(colName)){
   }
 }
 finalCount = as.data.frame(finalCount)
-write.table(x = finalCount, file = 'output/32968282_JasonMoffat_Nature_2020/32968282_JasonMoffat_Nature_2020_rawcount.txt', quote = F, sep = '\t', col.names = T)
+finalCount_output = cbind(rawCount[,6:7], finalCount)
+colnames(finalCount_output)[1:2] = c("Gene", "sgRNA")
+dir.create("../run_MAGeCK-VISPR_output/32968282_JasonMoffat_Nature_2020", recursive = T, showWarnings = F)
+write.table(x = finalCount_output, file = '../run_MAGeCK-VISPR_output/32968282_JasonMoffat_Nature_2020/32968282_JasonMoffat_Nature_2020_rawcount.txt', quote = F, sep = '\t', col.names = T)
 finalCount = log(finalCount + 1)
 
 cellline = c("EMT6-HA_", "CT26-HA_", "4T1-HA_", "B16-Ova_", "MC38-Ova_", "Renca-HA_")
@@ -102,3 +105,13 @@ for (cl in cellline){
 
 ```
 
+```{r MAGEcK-VISPR, engine='bash', eval=FALSE}
+conda activate mageck-vispr
+cd ~/Tigger/Tigger/prepare_data/otherPreprocessing/Crispr/
+
+# change step1_run_mageck_vispr.R Line 243 from
+# runmageckvispr(annfile = annfile, run = c("rra"), study = NULL, countFolder = '/liulab/zzeng/Tigger/static/data/Crispr/rawCount', dryrun = FALSE)
+# to
+# runmageckvispr(annfile = annfile, run = c("rra"), study = '32968282_JasonMoffat_Nature_2020', countFolder = '/liulab/zzeng/Tigger/static/data/Crispr/rawCount', dryrun = FALSE)
+Rscript step1_run_mageck_vispr.R
+```
