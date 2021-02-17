@@ -8,4 +8,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-## <a href="https://builderpie.github.io/run_MAGeCK-VISPR/32968282_JasonMoffat_Nature_2020.html">32968282_JasonMoffat_Nature_2020</a>
+### <a href="https://builderpie.github.io/run_MAGeCK-VISPR/qc_all.html">Quality Check</a>
+
+### <a href="https://builderpie.github.io/run_MAGeCK-VISPR/32968282_JasonMoffat_Nature_2020.html">32968282_JasonMoffat_Nature_2020</a>
