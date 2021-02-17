@@ -12,27 +12,32 @@ editor_options:
   chunk_output_type: console
 ---
 
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(cache = FALSE, message = FALSE)
+```
+
 ## 26189680_AvivRegev_Cell_2015 
 
 ### MAGeCK-VISPR Results {.tabset}
 
 #### Average
 
-```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap=''}
-knitr::include_graphics('data/median_scaled_QC/RankPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_Sorting_DC.png')
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap=''}
+knitr::include_graphics('../data/median_scaled_QC/RankPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_Sorting_DC.png')
 ```
 
 #### Raw
 
-```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap=''}
-knitr::include_graphics('data/RRA_QC/RankPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_EX1_Sorting_DC.png')
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap=''}
+knitr::include_graphics('../data/RRA_QC/RankPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_EX1_Sorting_DC.png')
 ```
 
 
 ### Original Figures
 
 <!-- #### Figure -->
-```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap=''}
-knitr::include_graphics("data/original_fig/26189680_AvivRegev_Cell_2015_BMDCs_TNF_Sorting_DC.png")
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap=''}
+knitr::include_graphics("../data/original_fig/26189680_AvivRegev_Cell_2015_BMDCs_TNF_Sorting_DC.png")
 ```
 
