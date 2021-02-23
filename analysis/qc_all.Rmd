@@ -18,28 +18,330 @@ knitr::opts_chunk$set(cache = FALSE, message = FALSE)
 ```
 
 ## 26189680_AvivRegev_Cell_2015 
-
-### MAGeCK-VISPR Results {.tabset}
-
-#### Average
-
-```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
-knitr::include_graphics('assets/median_scaled_QC/RankPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_Sorting_DC.png', error = FALSE)
-```
-
-#### Raw
-
-```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
-knitr::include_graphics('assets/RRA_QC/RankPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_EX1_Sorting_DC.png', error = FALSE)
-knitr::include_graphics('assets/RRA_QC/RankPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_EX2_Sorting_DC.png', error = FALSE)
-knitr::include_graphics('assets/RRA_QC/RankPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_EX3_Sorting_DC.png', error = FALSE)
-```
-
+### Overview
+**Model**: Bone marrow derived dendritic cells (BMDCs) <br />
+**Treatment**: Tumor necrosis factor (TNF) <br />
+**Type**: Sorting <br />
+**Description**: CRISPR screen in mouse bone marrow derived dendritic cells (BMDCs) and sorted with TNF high vs. TNF low conditions. Positive values indicate genes whose knockout can increase TNF protein expression level.<br />
 
 ### Original Figures
-
 <!-- #### Figure -->
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
 knitr::include_graphics("assets/original_fig/26189680_AvivRegev_Cell_2015_BMDCs_TNF_Sorting_DC.png", error = FALSE)
 ```
 
+### MAGeCK-VISPR Results {.tabset}
+#### Average - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_Sorting_DC.png', error = FALSE)
+```
+
+#### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_EX1_Sorting_DC.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_EX2_Sorting_DC.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_EX3_Sorting_DC.png', error = FALSE)
+```
+
+#### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_EX1_Sorting_DC.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_EX2_Sorting_DC.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_EX3_Sorting_DC.png', error = FALSE)
+```
+
+
+## 28723893_WNicholasHaining_Nature_2017
+### Overview
+**Model**: B16F10 (murine skin melanoma)<br />
+**Treatment**: GVAX + anti-PD1<br />
+**Type**: In-Vivo<br />
+**Description**: <br />
+
+### Original Figures
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/28723893_WNicholasHaining_Nature_2017_B16F10_aPD1_Invivo_SKCM.png", error = FALSE)
+```
+
+### MAGeCK-VISPR Results {.tabset}
+#### Average - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_aPD1_Invivo_SKCM.png', error = FALSE)
+```
+
+#### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r1_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r2_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r3_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r4_Invivo_SKCM.png', error = FALSE)
+```
+
+#### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r1_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r2_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r3_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r4_Invivo_SKCM.png', error = FALSE)
+```
+
+
+##
+### Overview
+**Model**: <br />
+**Treatment**: <br />
+**Type**: <br />
+**Description**: <br />
+
+### Original Figures
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/", error = FALSE)
+```
+
+### MAGeCK-VISPR Results {.tabset}
+#### Average - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/', error = FALSE)
+```
+
+#### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/', error = FALSE)
+```
+
+#### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
+```
+
+
+##
+### Overview
+**Model**: <br />
+**Treatment**: <br />
+**Type**: <br />
+**Description**: <br />
+
+### Original Figures
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/", error = FALSE)
+```
+
+### MAGeCK-VISPR Results {.tabset}
+#### Average - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/', error = FALSE)
+```
+
+#### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/', error = FALSE)
+```
+
+#### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
+```
+
+
+##
+### Overview
+**Model**: <br />
+**Treatment**: <br />
+**Type**: <br />
+**Description**: <br />
+
+### Original Figures
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/", error = FALSE)
+```
+
+### MAGeCK-VISPR Results {.tabset}
+#### Average - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/', error = FALSE)
+```
+
+#### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/', error = FALSE)
+```
+
+#### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
+```
+
+
+##
+### Overview
+**Model**: <br />
+**Treatment**: <br />
+**Type**: <br />
+**Description**: <br />
+
+### Original Figures
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/", error = FALSE)
+```
+
+### MAGeCK-VISPR Results {.tabset}
+#### Average - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/', error = FALSE)
+```
+
+#### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/', error = FALSE)
+```
+
+#### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
+```
+
+
+##
+### Overview
+**Model**: <br />
+**Treatment**: <br />
+**Type**: <br />
+**Description**: <br />
+
+### Original Figures
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/", error = FALSE)
+```
+
+### MAGeCK-VISPR Results {.tabset}
+#### Average - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/', error = FALSE)
+```
+
+#### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/', error = FALSE)
+```
+
+#### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
+```
+
+
+##
+### Overview
+**Model**: <br />
+**Treatment**: <br />
+**Type**: <br />
+**Description**: <br />
+
+### Original Figures
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/", error = FALSE)
+```
+
+### MAGeCK-VISPR Results {.tabset}
+#### Average - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/', error = FALSE)
+```
+
+#### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/', error = FALSE)
+```
+
+#### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
+```
+
+
+##
+### Overview
+**Model**: <br />
+**Treatment**: <br />
+**Type**: <br />
+**Description**: <br />
+
+### Original Figures
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/", error = FALSE)
+```
+
+### MAGeCK-VISPR Results {.tabset}
+#### Average - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/', error = FALSE)
+```
+
+#### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/', error = FALSE)
+```
+
+#### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
+```
+
+
+##
+### Overview
+**Model**: <br />
+**Treatment**: <br />
+**Type**: <br />
+**Description**: <br />
+
+### Original Figures
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/", error = FALSE)
+```
+
+### MAGeCK-VISPR Results {.tabset}
+#### Average - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/', error = FALSE)
+```
+
+#### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/', error = FALSE)
+```
+
+#### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
+```
+
+
+##
+### Overview
+**Model**: <br />
+**Treatment**: <br />
+**Type**: <br />
+**Description**: <br />
+
+### Original Figures
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/", error = FALSE)
+```
+
+### MAGeCK-VISPR Results {.tabset}
+#### Average - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/', error = FALSE)
+```
+
+#### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/', error = FALSE)
+```
+
+#### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
+```
