@@ -17,7 +17,7 @@ library(knitr)
 knitr::opts_chunk$set(cache = FALSE, message = FALSE)
 ```
 
-## **26189680_AvivRegev_Cell_2015** 
+## **26189680 | AvivRegev | Cell | 2015** 
 ### **Overview**
 **PMID**: 26189680<br />
 **Model**: Bone marrow derived dendritic cells (BMDCs)<br />
@@ -53,7 +53,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/26189680_AvivRegev_Cell_2015_
 ```
 -----
 
-## **28723893_WNicholasHaining_Nature_2017 GVAX+aPD1**
+## **28723893 | WNicholasHaining | Nature | 2017 | GVAX+aPD1**
 ### **Overview**
 **PMID**: 28723893<br />
 **Model**: B16F10 (murine skin melanoma cell line)<br />
@@ -92,7 +92,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 ```
 -----
 
-## **28723893_WNicholasHaining_Nature_2017 GVAX**
+## **28723893 | WNicholasHaining | Nature | 2017 | GVAX**
 ### **Overview**
 **PMID**: 28723893<br />
 **Model**: B16F10 (murine skin melanoma cell line)<br />
@@ -129,7 +129,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 ```
 -----
 
-## **28723893_WNicholasHaining_Nature_2017 koTCRa**
+## **28723893 | WNicholasHaining | Nature | 2017 | koTCRa**
 ### **Overview**
 **PMID**: 28723893<br />
 **Model**: B16F10 (murine skin melanoma cell line)<br />
@@ -166,7 +166,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 ```
 -----
 
-## **28783722_NicholasPRestifo_Nature_2017**
+## **28783722 | NicholasPRestifo | Nature | 2017**
 ### **Overview**
 **PMID**: 28783722<br />
 **Model**: Mel624 (human malignant melanoma cell line)<br />
@@ -199,7 +199,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28783722_NicholasPRestifo_Nat
 ```
 -----
 
-## **28813417_MarkADawson_Nature_2017**
+## **28813417 | MarkADawson | Nature | 2017**
 ### **Overview**
 **PMID**: 28813417<br />
 **Model**: BxPC-3 (human pancreatic cancer cell line)<br />
