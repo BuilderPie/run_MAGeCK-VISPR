@@ -248,7 +248,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28813417_MarkADawson_Nature_2
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
 knitr::include_graphics("assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA.png", error = FALSE)
 ```
------
+
 ### **MAGeCK-VISPR Results** {.tabset}
 #### Average - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
