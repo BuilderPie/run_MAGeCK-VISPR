@@ -1,7 +1,7 @@
 ---
 title: "Quality Check"
 author: "Dian Li"
-date: "2021-02-17"
+date: "2021-02-24"
 output: 
   workflowr::wflow_html:
     toc: true
@@ -17,8 +17,8 @@ library(knitr)
 knitr::opts_chunk$set(cache = FALSE, message = FALSE)
 ```
 
-## 26189680_AvivRegev_Cell_2015 
-### Overview
+## **26189680_AvivRegev_Cell_2015** 
+### **Overview**
 **PMID**: 26189680<br />
 **Model**: Bone marrow derived dendritic cells (BMDCs)<br />
 **Treatment**: Tumor necrosis factor (TNF) high<br />
@@ -26,35 +26,35 @@ knitr::opts_chunk$set(cache = FALSE, message = FALSE)
 **Type**: Sorting <br />
 **Description**: CRISPR screen in mouse bone marrow derived dendritic cells (BMDCs) and sorted with TNF high vs. TNF low conditions. Positive values indicate genes whose knockout can increase TNF protein expression level.<br />
 
-### Original Figures
+### **Original Figures**
 <!-- #### Figure -->
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
 knitr::include_graphics("assets/original_fig/26189680_AvivRegev_Cell_2015_BMDCs_TNF_Sorting_DC.png", error = FALSE)
 ```
-
-### MAGeCK-VISPR Results {.tabset}
+-----
+### **MAGeCK-VISPR Results** {.tabset}
 #### Average - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/median_scaled_QC/RankPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_Sorting_DC.png', error = FALSE)
 ```
-
+-----
 #### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/RankPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_EX1_Sorting_DC.png', error = FALSE)
 knitr::include_graphics('assets/RRA_QC/RankPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_EX2_Sorting_DC.png', error = FALSE)
 knitr::include_graphics('assets/RRA_QC/RankPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_EX3_Sorting_DC.png', error = FALSE)
 ```
-
+-----
 #### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_EX1_Sorting_DC.png', error = FALSE)
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_EX2_Sorting_DC.png', error = FALSE)
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_EX3_Sorting_DC.png', error = FALSE)
 ```
+-----
 
-
-## 28723893_WNicholasHaining_Nature_2017 GVAX+aPD1
-### Overview
+## **28723893_WNicholasHaining_Nature_2017 GVAX+aPD1**
+### **Overview**
 **PMID**: 28723893<br />
 **Model**: B16F10 (murine skin melanoma cell line)<br />
 **Treatment**: Irradiated tumour cell vaccine (GVAX) + anti-PD1 in wild type mice<br />
@@ -62,19 +62,19 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/26189680_AvivRegev_Cell_2015_
 **Type**: In-vivo<br />
 **Description**: In-vivo CRISPR screen in transplantable tumours in mice treated with immunotherapy (GVAX + anti-PD1). Negative values indicate genes whose knockout can enhance the efficacy of anti-PD1 mediated tumor killing.<br />
 
-### Original Figures
+### **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
 knitr::include_graphics("assets/original_fig/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_Invivo_SKCM_0.png", error = FALSE)
 knitr::include_graphics("assets/original_fig/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_Invivo_SKCM_1.png", error = FALSE)
 knitr::include_graphics("assets/original_fig/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_Invivo_SKCM_2.png", error = FALSE)
 ```
-
-### MAGeCK-VISPR Results {.tabset}
+-----
+### **MAGeCK-VISPR Results** {.tabset}
 #### Average - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/median_scaled_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_Invivo_SKCM.png', error = FALSE)
 ```
-
+-----
 #### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r1_Invivo_SKCM.png', error = FALSE)
@@ -82,7 +82,7 @@ knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature
 knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r3_Invivo_SKCM.png', error = FALSE)
 knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r4_Invivo_SKCM.png', error = FALSE)
 ```
-
+-----
 #### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r1_Invivo_SKCM.png', error = FALSE)
@@ -90,9 +90,10 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r3_Invivo_SKCM.png', error = FALSE)
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r4_Invivo_SKCM.png', error = FALSE)
 ```
+-----
 
-## 28723893_WNicholasHaining_Nature_2017 GVAX
-### Overview
+## **28723893_WNicholasHaining_Nature_2017 GVAX**
+### **Overview**
 **PMID**: 28723893<br />
 **Model**: B16F10 (murine skin melanoma cell line)<br />
 **Treatment**: Irradiated tumour cell vaccine (GVAX) only in wild type mice<br />
@@ -100,17 +101,17 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 **Type**: In-vivo<br />
 **Description**: In-vivo CRISPR screen in transplantable tumours in mice treated with GVAX. Negative values indicate genes whose knockout can enhance the efficacy of GVAX mediated tumor killing.<br />
 
-### Original Figures
+### **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
 knitr::include_graphics("assets/original_fig/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_Invivo_SKCM.png", error = FALSE)
 ```
-
-### MAGeCK-VISPR Results {.tabset}
+-----
+### **MAGeCK-VISPR Results** {.tabset}
 #### Average - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/median_scaled_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_Invivo_SKCM.png', error = FALSE)
 ```
-
+-----
 #### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_r1_Invivo_SKCM.png', error = FALSE)
@@ -118,7 +119,7 @@ knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature
 knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_r3_Invivo_SKCM.png', error = FALSE)
 knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_r4_Invivo_SKCM.png', error = FALSE)
 ```
-
+-----
 #### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_r1_Invivo_SKCM.png', error = FALSE)
@@ -126,9 +127,10 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_r3_Invivo_SKCM.png', error = FALSE)
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_r4_Invivo_SKCM.png', error = FALSE)
 ```
+-----
 
-## 28723893_WNicholasHaining_Nature_2017 koTCRa
-### Overview
+## **28723893_WNicholasHaining_Nature_2017 koTCRa**
+### **Overview**
 **PMID**: 28723893<br />
 **Model**: B16F10 (murine skin melanoma cell line)<br />
 **Treatment**: TCRa-/- (knockout) mice<br />
@@ -136,17 +138,17 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 **Type**: In-vivo<br />
 **Description**: In-vivo CRISPR screen in transplantable tumours in TCRa-/- (knockout) mice. Negative values indicate genes whose knockout can decrease tumor growing in TCRa-/- mice.<br />
 
-### Original Figures
+### **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
 knitr::include_graphics("assets/original_fig/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_Invivo_SKCM.png", error = FALSE)
 ```
-
-### MAGeCK-VISPR Results {.tabset}
+-----
+### **MAGeCK-VISPR Results** {.tabset}
 #### Average - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/median_scaled_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_Invivo_SKCM.png', error = FALSE)
 ```
-
+-----
 #### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_r1_Invivo_SKCM.png', error = FALSE)
@@ -154,7 +156,7 @@ knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature
 knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_r3_Invivo_SKCM.png', error = FALSE)
 knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_r4_Invivo_SKCM.png', error = FALSE)
 ```
-
+-----
 #### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_r1_Invivo_SKCM.png', error = FALSE)
@@ -162,9 +164,10 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_r3_Invivo_SKCM.png', error = FALSE)
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_r4_Invivo_SKCM.png', error = FALSE)
 ```
+-----
 
-## 28783722_NicholasPRestifo_Nature_2017
-### Overview
+## **28783722_NicholasPRestifo_Nature_2017**
+### **Overview**
 **PMID**: 28783722<br />
 **Model**: Mel624 (human malignant melanoma cell line)<br />
 **Treatment**: Effect T cell<br />
@@ -172,32 +175,99 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 **Type**: Coculture-T<br />
 **Description**: CRISPR screen in human malignant melanoma cell line Mel624 co-cultured with effect T cells. Negative values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing.<br />
 
-### Original Figures
+### **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
 knitr::include_graphics("assets/original_fig/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_Coculture.png", error = FALSE)
 ```
-
-### MAGeCK-VISPR Results {.tabset}
+-----
+### **MAGeCK-VISPR Results** {.tabset}
 #### Average - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/median_scaled_QC/RankPlot/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_Coculture-T_SKCM.png', error = FALSE)
 ```
-
+-----
 #### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/RankPlot/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_s1_Coculture-T_SKCM.png', error = FALSE)
 knitr::include_graphics('assets/RRA_QC/RankPlot/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_s2_Coculture-T_SKCM.png', error = FALSE)
 ```
-
+-----
 #### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_s1_Coculture-T_SKCM.png', error = FALSE)
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_s2_Coculture-T_SKCM.png', error = FALSE)
 ```
+-----
 
+## **28813417_MarkADawson_Nature_2017**
+### **Overview**
+**PMID**: 28813417<br />
+**Model**: BxPC-3 (human pancreatic cancer cell line)<br />
+**Treatment**: Sorting cells with PD-L1_low surface marker. Pretreated with or without interferon gamma<br />
+**Control**: Input<br />
+**Type**: Sortings<br />
+**Description**: CRISPR screen in human pancreatic cancer cell line BxPC-3 and sorted with PD-L1 low conditions. Positive values indicate genes whose knockout can decrease PD-L1 protein expression level.<br />
 
-##
-### Overview
+### **Original Figures**
+```{r, echo=FALSE, out.width='55%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/28813417_MarkADawson_Nature_2017.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/28813417_MarkADawson_Nature_2017_BxPC-3_PD-L1.High.IFNg-.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/28813417_MarkADawson_Nature_2017_BxPC-3_PD-L1.High.IFNg.png", error = FALSE)
+```
+
+### **MAGeCK-VISPR Results** {.tabset}
+#### Average - Rank Plot
+Too few genes were selected due to experient protocols. Thus we did not include this dataset to our study.
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+# knitr::include_graphics('assets/median_scaled_QC/RankPlot/', error = FALSE)
+```
+-----
+#### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/28813417_MarkADawson_Nature_2017_BxPC-3_PD-L1.High.IFNg-_Sorting_PAAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/28813417_MarkADawson_Nature_2017_BxPC-3_PD-L1.High.IFNg_Sorting_PAAD.png', error = FALSE)
+```
+-----
+#### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28813417_MarkADawson_Nature_2017_BxPC-3_PD-L1.High.IFNg-_Sorting_PAAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28813417_MarkADawson_Nature_2017_BxPC-3_PD-L1.High.IFNg_Sorting_PAAD.png', error = FALSE)
+```
+-----
+
+## **29301958 | KaiWWucherpfennig | Science | 2018 | B16F10 | OT-I.OVA**
+### **Overview**
+**PMID**: 29301958<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: After CRISPR screen, B16F10 cells were cocultured with OT-I T cells specific for ovalbumin (OVA) peptide.<br />
+**Control**: OT-I T cells not specific for OVA peptide<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in mouse skin cancer cells co-cultured with OT-I T cells specific for OVA peptide compared to non-OVA specific. Negative values indicate genes whose knockout can enhance the efficacy of OVA specific T-cell mediated tumor killing.<br />
+
+### **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/", error = FALSE)
+```
+-----
+### **MAGeCK-VISPR Results** {.tabset}
+#### Average - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/', error = FALSE)
+```
+-----
+#### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/', error = FALSE)
+```
+-----
+#### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
+```
+-----
+
+## ****
+### **Overview**
 **PMID**: <br />
 **Model**: <br />
 **Treatment**: <br />
@@ -205,30 +275,30 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28783722_NicholasPRestifo_Nat
 **Type**: <br />
 **Description**: <br />
 
-### Original Figures
+### **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
 knitr::include_graphics("../docs/assets/original_fig/", error = FALSE)
 ```
-
-### MAGeCK-VISPR Results {.tabset}
+-----
+### **MAGeCK-VISPR Results** {.tabset}
 #### Average - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/', error = FALSE)
 ```
-
+-----
 #### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/', error = FALSE)
 ```
-
+-----
 #### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
 ```
+-----
 
-
-##
-### Overview
+## ****
+### **Overview**
 **PMID**: <br />
 **Model**: <br />
 **Treatment**: <br />
@@ -236,30 +306,30 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
 **Type**: <br />
 **Description**: <br />
 
-### Original Figures
+### **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
 knitr::include_graphics("../docs/assets/original_fig/", error = FALSE)
 ```
-
-### MAGeCK-VISPR Results {.tabset}
+-----
+### **MAGeCK-VISPR Results** {.tabset}
 #### Average - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/', error = FALSE)
 ```
-
+-----
 #### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/', error = FALSE)
 ```
-
+-----
 #### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
 ```
+-----
 
-
-##
-### Overview
+## ****
+### **Overview**
 **PMID**: <br />
 **Model**: <br />
 **Treatment**: <br />
@@ -267,30 +337,30 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
 **Type**: <br />
 **Description**: <br />
 
-### Original Figures
+### **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
 knitr::include_graphics("../docs/assets/original_fig/", error = FALSE)
 ```
-
-### MAGeCK-VISPR Results {.tabset}
+-----
+### **MAGeCK-VISPR Results** {.tabset}
 #### Average - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/', error = FALSE)
 ```
-
+-----
 #### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/', error = FALSE)
 ```
-
+-----
 #### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
 ```
+-----
 
-
-##
-### Overview
+## ****
+### **Overview**
 **PMID**: <br />
 **Model**: <br />
 **Treatment**: <br />
@@ -298,30 +368,30 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
 **Type**: <br />
 **Description**: <br />
 
-### Original Figures
+### **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
 knitr::include_graphics("../docs/assets/original_fig/", error = FALSE)
 ```
-
-### MAGeCK-VISPR Results {.tabset}
+-----
+### **MAGeCK-VISPR Results** {.tabset}
 #### Average - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/', error = FALSE)
 ```
-
+-----
 #### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/', error = FALSE)
 ```
-
+-----
 #### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
 ```
+-----
 
-
-##
-### Overview
+## ****
+### **Overview**
 **PMID**: <br />
 **Model**: <br />
 **Treatment**: <br />
@@ -329,30 +399,30 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
 **Type**: <br />
 **Description**: <br />
 
-### Original Figures
+### **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
 knitr::include_graphics("../docs/assets/original_fig/", error = FALSE)
 ```
-
-### MAGeCK-VISPR Results {.tabset}
+-----
+### **MAGeCK-VISPR Results** {.tabset}
 #### Average - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/', error = FALSE)
 ```
-
+-----
 #### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/', error = FALSE)
 ```
-
+-----
 #### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
 ```
+-----
 
-
-##
-### Overview
+## ****
+### **Overview**
 **PMID**: <br />
 **Model**: <br />
 **Treatment**: <br />
@@ -360,85 +430,24 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
 **Type**: <br />
 **Description**: <br />
 
-### Original Figures
+### **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
 knitr::include_graphics("../docs/assets/original_fig/", error = FALSE)
 ```
-
-### MAGeCK-VISPR Results {.tabset}
+-----
+### **MAGeCK-VISPR Results** {.tabset}
 #### Average - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/', error = FALSE)
 ```
-
+-----
 #### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/', error = FALSE)
 ```
-
+-----
 #### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
 ```
-
-
-##
-### Overview
-**PMID**: <br />
-**Model**: <br />
-**Treatment**: <br />
-**Control**: <br />
-**Type**: <br />
-**Description**: <br />
-
-### Original Figures
-```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/", error = FALSE)
-```
-
-### MAGeCK-VISPR Results {.tabset}
-#### Average - Rank Plot
-```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/', error = FALSE)
-```
-
-#### Raw - Rank Plot
-```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/', error = FALSE)
-```
-
-#### Raw - Volcano Plot
-```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
-```
-
-
-##
-### Overview
-**PMID**: <br />
-**Model**: <br />
-**Treatment**: <br />
-**Control**: <br />
-**Type**: <br />
-**Description**: <br />
-
-### Original Figures
-```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/", error = FALSE)
-```
-
-### MAGeCK-VISPR Results {.tabset}
-#### Average - Rank Plot
-```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/', error = FALSE)
-```
-
-#### Raw - Rank Plot
-```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/', error = FALSE)
-```
-
-#### Raw - Volcano Plot
-```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/', error = FALSE)
-```
+-----
