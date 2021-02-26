@@ -15,7 +15,9 @@ editor_options:
 ```{r setup, include=FALSE}
 library(knitr)
 knitr::opts_chunk$set(cache = FALSE, message = FALSE)
+library(workflowr)
 ```
+
 
 ## **26189680 | AvivRegev | Cell | 2015** 
 ### **Overview**
@@ -28,16 +30,18 @@ knitr::opts_chunk$set(cache = FALSE, message = FALSE)
 
 ### **Original Figures**
 <!-- #### Figure -->
-```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics("assets/original_fig/26189680_AvivRegev_Cell_2015_BMDCs_TNF_Sorting_DC.png", error = FALSE)
 ```
 -----
+
 ### **MAGeCK-VISPR Results** {.tabset}
-#### Average - Rank Plot
+#### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/median_scaled_QC/RankPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_Sorting_DC.png', error = FALSE)
 ```
 -----
+
 #### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/RankPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_EX1_Sorting_DC.png', error = FALSE)
@@ -45,6 +49,7 @@ knitr::include_graphics('assets/RRA_QC/RankPlot/26189680_AvivRegev_Cell_2015_BMD
 knitr::include_graphics('assets/RRA_QC/RankPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_EX3_Sorting_DC.png', error = FALSE)
 ```
 -----
+
 #### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/26189680_AvivRegev_Cell_2015_BMDCs_TNF_EX1_Sorting_DC.png', error = FALSE)
@@ -65,16 +70,20 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/26189680_AvivRegev_Cell_2015_
 ### **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
 knitr::include_graphics("assets/original_fig/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_Invivo_SKCM_0.png", error = FALSE)
-knitr::include_graphics("assets/original_fig/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_Invivo_SKCM_1.png", error = FALSE)
 knitr::include_graphics("assets/original_fig/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_Invivo_SKCM_2.png", error = FALSE)
 ```
+```{r, echo=FALSE, out.width='65%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_Invivo_SKCM_1.png", error = FALSE)
+```
 -----
+
 ### **MAGeCK-VISPR Results** {.tabset}
-#### Average - Rank Plot
+#### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/median_scaled_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_Invivo_SKCM.png', error = FALSE)
 ```
 -----
+
 #### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r1_Invivo_SKCM.png', error = FALSE)
@@ -83,6 +92,7 @@ knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature
 knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r4_Invivo_SKCM.png', error = FALSE)
 ```
 -----
+
 #### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r1_Invivo_SKCM.png', error = FALSE)
@@ -106,12 +116,14 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 knitr::include_graphics("assets/original_fig/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_Invivo_SKCM.png", error = FALSE)
 ```
 -----
+
 ### **MAGeCK-VISPR Results** {.tabset}
-#### Average - Rank Plot
+#### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/median_scaled_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_Invivo_SKCM.png', error = FALSE)
 ```
 -----
+
 #### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_r1_Invivo_SKCM.png', error = FALSE)
@@ -120,6 +132,7 @@ knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature
 knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_r4_Invivo_SKCM.png', error = FALSE)
 ```
 -----
+
 #### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_r1_Invivo_SKCM.png', error = FALSE)
@@ -143,12 +156,14 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 knitr::include_graphics("assets/original_fig/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_Invivo_SKCM.png", error = FALSE)
 ```
 -----
+
 ### **MAGeCK-VISPR Results** {.tabset}
-#### Average - Rank Plot
+#### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/median_scaled_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_Invivo_SKCM.png', error = FALSE)
 ```
 -----
+
 #### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_r1_Invivo_SKCM.png', error = FALSE)
@@ -157,6 +172,7 @@ knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature
 knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_r4_Invivo_SKCM.png', error = FALSE)
 ```
 -----
+
 #### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_r1_Invivo_SKCM.png', error = FALSE)
@@ -180,18 +196,21 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 knitr::include_graphics("assets/original_fig/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_Coculture.png", error = FALSE)
 ```
 -----
+
 ### **MAGeCK-VISPR Results** {.tabset}
-#### Average - Rank Plot
+#### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/median_scaled_QC/RankPlot/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_Coculture-T_SKCM.png', error = FALSE)
 ```
 -----
+
 #### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/RankPlot/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_s1_Coculture-T_SKCM.png', error = FALSE)
 knitr::include_graphics('assets/RRA_QC/RankPlot/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_s2_Coculture-T_SKCM.png', error = FALSE)
 ```
 -----
+
 #### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_s1_Coculture-T_SKCM.png', error = FALSE)
@@ -205,29 +224,36 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28783722_NicholasPRestifo_Nat
 **Model**: BxPC-3 (human pancreatic cancer cell line)<br />
 **Treatment**: Sorting cells with PD-L1_low surface marker. Pretreated with or without interferon gamma<br />
 **Control**: Input<br />
-**Type**: Sortings<br />
+**Type**: Sorting<br />
 **Description**: CRISPR screen in human pancreatic cancer cell line BxPC-3 and sorted with PD-L1 low conditions. Positive values indicate genes whose knockout can decrease PD-L1 protein expression level.<br />
 
 ### **Original Figures**
-```{r, echo=FALSE, out.width='55%', fig.align='left', fig.cap=''}
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
 knitr::include_graphics("assets/original_fig/28813417_MarkADawson_Nature_2017.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='35%', fig.align='left', fig.cap=''}
 knitr::include_graphics("assets/original_fig/28813417_MarkADawson_Nature_2017_BxPC-3_PD-L1.High.IFNg-.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='45%', fig.align='left', fig.cap=''}
 knitr::include_graphics("assets/original_fig/28813417_MarkADawson_Nature_2017_BxPC-3_PD-L1.High.IFNg.png", error = FALSE)
 ```
+-----
 
 ### **MAGeCK-VISPR Results** {.tabset}
-#### Average - Rank Plot
+#### Processed - Rank Plot
 Too few genes were selected due to experient protocols. Thus we did not include this dataset to our study.
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 # knitr::include_graphics('assets/median_scaled_QC/RankPlot/', error = FALSE)
 ```
 -----
+
 #### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/RankPlot/28813417_MarkADawson_Nature_2017_BxPC-3_PD-L1.High.IFNg-_Sorting_PAAD.png', error = FALSE)
 knitr::include_graphics('assets/RRA_QC/RankPlot/28813417_MarkADawson_Nature_2017_BxPC-3_PD-L1.High.IFNg_Sorting_PAAD.png', error = FALSE)
 ```
 -----
+
 #### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28813417_MarkADawson_Nature_2017_BxPC-3_PD-L1.High.IFNg-_Sorting_PAAD.png', error = FALSE)
@@ -248,19 +274,184 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28813417_MarkADawson_Nature_2
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
 knitr::include_graphics("assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA.png", error = FALSE)
 ```
+-----
 
 ### **MAGeCK-VISPR Results** {.tabset}
-#### Average - Rank Plot
+#### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/median_scaled_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA_Coculture-T_SKCM.png', error = FALSE)
 ```
+-----
 
 #### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA_Coculture-T_SKCM.png', error = FALSE)
 ```
 -----
+
 #### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA_Coculture-T_SKCM.png', error = FALSE)
 ```
+-----
+
+
+## **33271120 | JonathanWYewdell | Immunity | 2021 | BJAB | MHCI**
+### **Overview**
+**PMID**: 33271120<br />
+**Model**: BJAB (human diffuse large B-cell lymphoma, DLBCL)<br />
+**Treatment**: After CRISPR screen, BJAB cells were sorted two rounds with high level MHC-I-specific W6/32 antibody.<br />
+**Control**: Sorted with low level MHC-I-specific antibody.<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in human diffuse large B-cell lymphoma (DLBCL) BJAB cells and sorted with MHC-I high vs. MHC-I low conditions. Positive values indicate genes whose knockout can increase MHC-I protein expression level.<br />
+
+### **Original Figures**
+```{r, echo=FALSE, out.width='55%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/33271120_JonathanWYewdell_Immunity_2021_BJAB_MHCI.png", error = FALSE)
+```
+
+-----
+
+### **MAGeCK-VISPR Results** {.tabset}
+#### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/33271120_JonathanWYewdell_Immunity_2021_BJAB_MHCI_Sorting_DLBCL.png', error = FALSE)
+```
+
+-----
+
+#### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/33271120_JonathanWYewdell_Immunity_2021_BJAB_MHCI_r1_Sorting_DLBCL.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/33271120_JonathanWYewdell_Immunity_2021_BJAB_MHCI_r2_Sorting_DLBCL.png', error = FALSE)
+```
+
+-----
+
+#### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33271120_JonathanWYewdell_Immunity_2021_BJAB_MHCI_r1_Sorting_DLBCL.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33271120_JonathanWYewdell_Immunity_2021_BJAB_MHCI_r2_Sorting_DLBCL.png', error = FALSE)
+```
+
+-----
+
+## **33271120 | JonathanWYewdell | Immunity | 2021 | HBL1 | MHCI**
+### **Overview**
+**PMID**: 33271120<br />
+**Model**: HBL1 (human diffuse large B-cell lymphoma, DLBCL)<br />
+**Treatment**: After CRISPR screen, HBL1 cells were sorted two rounds with high level MHC-I-specific W6/32 antibody.<br />
+**Control**: Sorted with low level MHC-I-specific antibody.<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in human diffuse large B-cell lymphoma (DLBCL) HBL1 cells and sorted with MHC-I high vs. MHC-I low conditions. Positive values indicate genes whose knockout can increase MHC-I protein expression level.<br />
+
+### **Original Figures**
+```{r, echo=FALSE, out.width='55%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/33271120_JonathanWYewdell_Immunity_2021_HBL1_MHCI.png", error = FALSE)
+```
+
+-----
+
+### **MAGeCK-VISPR Results** {.tabset}
+#### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/33271120_JonathanWYewdell_Immunity_2021_HBL1_MHCI_Sorting_DLBCL.png', error = FALSE)
+```
+
+-----
+
+#### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/33271120_JonathanWYewdell_Immunity_2021_HBL1_MHCI_r1_Sorting_DLBCL.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/33271120_JonathanWYewdell_Immunity_2021_HBL1_MHCI_r2_Sorting_DLBCL.png', error = FALSE)
+```
+
+-----
+
+#### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33271120_JonathanWYewdell_Immunity_2021_HBL1_MHCI_r1_Sorting_DLBCL.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33271120_JonathanWYewdell_Immunity_2021_HBL1_MHCI_r2_Sorting_DLBCL.png', error = FALSE)
+```
+
+-----
+
+## **33271120 | JonathanWYewdell | Immunity | 2021 | SUDHL5 | MHCI**
+### **Overview**
+**PMID**: 33271120<br />
+**Model**: SUDHL5 (human diffuse large B-cell lymphoma, DLBCL)<br />
+**Treatment**: After CRISPR screen, BJAB cells were sorted two rounds with high level MHC-I-specific W6/32 antibody.<br />
+**Control**: Sorted with low level MHC-I-specific antibody.<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in human diffuse large B-cell lymphoma (DLBCL) SUDHL5 cells and sorted with MHC-I high vs. MHC-I low conditions. Positive values indicate genes whose knockout can increase MHC-I protein expression level.<br />
+
+### **Original Figures**
+```{r, echo=FALSE, out.width='55%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/33271120_JonathanWYewdell_Immunity_2021_SUDHL5_MHCI.png", error = FALSE)
+```
+
+-----
+
+### **MAGeCK-VISPR Results** {.tabset}
+#### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/33271120_JonathanWYewdell_Immunity_2021_SUDHL5_MHCI_Sorting_DLBCL.png', error = FALSE)
+```
+
+-----
+
+#### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/33271120_JonathanWYewdell_Immunity_2021_SUDHL5_MHCI_r1_Sorting_DLBCL.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/33271120_JonathanWYewdell_Immunity_2021_SUDHL5_MHCI_r2_Sorting_DLBCL.png', error = FALSE)
+```
+
+-----
+
+#### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33271120_JonathanWYewdell_Immunity_2021_SUDHL5_MHCI_r1_Sorting_DLBCL.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33271120_JonathanWYewdell_Immunity_2021_SUDHL5_MHCI_r2_Sorting_DLBCL.png', error = FALSE)
+```
+
+-----
+
+## **33271120 | JonathanWYewdell | Immunity | 2021 | TMD8 | MHCI**
+### **Overview**
+**PMID**: 33271120<br />
+**Model**: TMD8 (human diffuse large B-cell lymphoma, DLBCL)<br />
+**Treatment**: After CRISPR screen, BJAB cells were sorted two rounds with high level MHC-I-specific W6/32 antibody.<br />
+**Control**: Sorted with low level MHC-I-specific antibody.<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in human diffuse large B-cell lymphoma (DLBCL) TMD8 cells and sorted with MHC-I high vs. MHC-I low conditions. Positive values indicate genes whose knockout can increase MHC-I protein expression level.<br />
+
+### **Original Figures**
+```{r, echo=FALSE, out.width='55%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/33271120_JonathanWYewdell_Immunity_2021_TMD8_MHCI.png", error = FALSE)
+```
+
+-----
+
+### **MAGeCK-VISPR Results** {.tabset}
+#### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/33271120_JonathanWYewdell_Immunity_2021_TMD8_MHCI_Sorting_DLBCL.png', error = FALSE)
+```
+
+-----
+
+#### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/33271120_JonathanWYewdell_Immunity_2021_TMD8_MHCI_r1_Sorting_DLBCL.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/33271120_JonathanWYewdell_Immunity_2021_TMD8_MHCI_r2_Sorting_DLBCL.png', error = FALSE)
+```
+
+-----
+
+#### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33271120_JonathanWYewdell_Immunity_2021_TMD8_MHCI_r1_Sorting_DLBCL.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33271120_JonathanWYewdell_Immunity_2021_TMD8_MHCI_r2_Sorting_DLBCL.png', error = FALSE)
+```
+
+-----
