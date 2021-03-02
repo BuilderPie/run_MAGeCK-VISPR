@@ -5,13 +5,13 @@ navbar:
   left:
   - text: Home
     href: index.html
-  - text: Coculture screenings
+  - text: Coculture
     href: 01-coculture.html
-  - text: Essentiality screenings
+  - text: Essentiality
     href: 02-essentiality.html
-  - text: Invivo screenings
+  - text: Invivo
     href: 03-invivo.html
-  - text: Sorting screenings
+  - text: Sorting
     href: 04-sorting.html
 output:
   workflowr::wflow_html:
