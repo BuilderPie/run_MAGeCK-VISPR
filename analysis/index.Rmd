@@ -3,36 +3,72 @@ title: "MAGeCK-VISPR Quality Check"
 author: "Dian Li, Wubing Zhang, Davis Zexian Zeng"
 site: workflowr::wflow_site
 date: "`r Sys.Date()`"
-output:
+output: 
   workflowr::wflow_html:
-    toc: True
-    toc_depth: 1
-    css: style.css
+    toc: true
     number_sections: true
+    toc_depth: 2
+    df_print: paged
+    css: style.css
+    toc_float:
+      collapsed: false
+      smooth_scroll: true
 editor_options:
   chunk_output_type: console
 description: "This document contains quality check (QC) results for running MAGeCK-VISPR 'test' module on CRISPR data."
 ---
 
 # **Introduction**
+
 This document contains quality check (QC) results from running **MAGeCK-VISPR** _test_ module on immune-related CRISPR data. We have annotated the results into four major categories: **Coculture screenings**, **Essentiality screenings**, **In-vivo screenings**, and **Sorting screenings**. 
 
+---
+
 # **Coculture screenings**
-## <a href="01-coculture.html#"></a>
-## <a href="01-coculture.html#"></a>
-## <a href="01-coculture.html#"></a>
+
+## **Coculture-NK**
+
+1. <a href="01-coculture.html#"></a>
+
+---
+
+## **Coculture-T**
+
+1. <a href="01-coculture.html#1_28783722_|_NicholasPRestifo_|_Nature_|_2017_|_Mel624_|_EffectT">28783722 | NicholasPRestifo | Nature | 2017 | Mel624 | EffectT</a>
+2. <a href="01-coculture.html#2_29301958_|_KaiWWucherpfennig_|_Science_|_2018_|_B16F10_|_OT-IOVA">29301958 | KaiWWucherpfennig | Science | 2018 | B16F10 | OT-I.OVA</a>
+3. <a href="01-coculture.html#"></a>
+
+---
 
 # **Essentiality screenings**
-## <a href="02-essentiality.html#"></a>
+
+1. <a href="02-essentiality.html#"></a>
+
+---
 
 # **In-vivo screenings**
-## <a href="03-invivo.html#28723893_|_WNicholasHaining_|_Nature_|_2017_|_GVAX+aPD1">28723893_|_WNicholasHaining_|_Nature_|_2017_|_GVAX+aPD1</a>
-## <a href="03-invivo.html#"></a>
 
+1. <a href="03-invivo.html#1_28723893_|_WNicholasHaining_|_Nature_|_2017_|_GVAX+aPD1">28723893 | WNicholasHaining | Nature | 2017 | GVAX+aPD1</a>
+2. <a href="03-invivo.html#2_28723893_|_WNicholasHaining_|_Nature_|_2017_|_GVAX">28723893 | WNicholasHaining | Nature | 2017 | GVAX</a>
+3. <a href="03-invivo.html#3_28723893_|_WNicholasHaining_|_Nature_|_2017_|_koTCRa">28723893 | WNicholasHaining | Nature | 2017 | koTCRa</a>
+4. <a href="03-invivo.html#"></a>
+
+---
 
 # **Sorting screenings**
-## <a href="04-sorting.html#26189680_|_AvivRegev_|_Cell_|_2015_|_BMDCs_|_TNF">26189680 | AvivRegev | Cell | 2015 | BMDCs | TNF</a>
-## <a href=""></a>
+
+1. <a href="04-sorting.html#1_26189680_|_AvivRegev_|_Cell_|_2015_|_BMDCs_|_TNF">26189680 | AvivRegev | Cell | 2015 | BMDCs | TNF</a>
+2. <a href="04-sorting.html#2_28813417_|_MarkADawson_|_Nature_|_2017_|_BxPC-3_|_PD-L1">28813417 | MarkADawson | Nature | 2017 | BxPC-3 | PD-L1</a>
+3. <a href="04-sorting.html#3_33271120_|_JonathanWYewdell_|_Immunity_|_2021_|_BJAB_|_MHCI">33271120 | JonathanWYewdell | Immunity | 2021 | BJAB | MHCI</a>
+4. <a href="04-sorting.html#4_33271120_|_JonathanWYewdell_|_Immunity_|_2021_|_HBL1_|_MHCI">33271120 | JonathanWYewdell | Immunity | 2021 | HBL1 | MHCI</a>
+5. <a href="04-sorting.html#5_33271120_|_JonathanWYewdell_|_Immunity_|_2021_|_SUDHL5_|_MHCI">33271120 | JonathanWYewdell | Immunity | 2021 | SUDHL5 | MHCI</a>
+6. <a href="04-sorting.html#6_33271120_|_JonathanWYewdell_|_Immunity_|_2021_|_TMD8_|_MHCI">33271120 | JonathanWYewdell | Immunity | 2021 | TMD8 | MHCI</a>
+7. <a href="04-sorting.html#"></a>
+
+
+---
 
 # **Additional files**
-## <a href="https://builderpie.github.io/run_MAGeCK-VISPR/32968282_JasonMoffat_Nature_2020.html">32968282_JasonMoffat_Nature_2020</a>
+1. <a href="https://builderpie.github.io/run_MAGeCK-VISPR/32968282_JasonMoffat_Nature_2020.html">32968282_JasonMoffat_Nature_2020</a>
+
+---

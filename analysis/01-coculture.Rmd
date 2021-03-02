@@ -15,4 +15,82 @@ editor_options:
   chunk_output_type: console
 ---
 
-Describe your project.
+# **28783722 | NicholasPRestifo | Nature | 2017 | Mel624 | EffectT**
+## **Overview**
+**PMID**: 28783722<br />
+**Model**: Mel624 (human malignant melanoma cell line)<br />
+**Treatment**: Effect T cell<br />
+**Control**: Without T cell<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in human malignant melanoma cell line Mel624 co-cultured with effect T cells. Negative values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing.<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_Coculture.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_s1_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_s2_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_s1_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_s2_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+# **29301958 | KaiWWucherpfennig | Science | 2018 | B16F10 | OT-I.OVA**
+## **Overview**
+**PMID**: 29301958<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: After CRISPR screen, B16F10 cells were cocultured with OT-I T cells specific for ovalbumin (OVA) peptide.<br />
+**Control**: OT-I T cells not specific for OVA peptide<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in mouse skin cancer cells co-cultured with OT-I T cells specific for OVA peptide compared to non-OVA specific. Negative values indicate genes whose knockout can enhance the efficacy of OVA specific T-cell mediated tumor killing.<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+
