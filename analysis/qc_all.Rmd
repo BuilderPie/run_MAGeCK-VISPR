@@ -1,13 +1,16 @@
 ---
 title: "Quality Check"
-author: "Dian Li"
-date: "2021-02-24"
+author: "Dian Li, Wubing Zhang, Davis Zexian Zeng"
+date: "`r Sys.Date()`"
 output: 
   workflowr::wflow_html:
     toc: true
     number_sections: false
     toc_depth: 2
     df_print: paged
+    css: style.css
+    toc_float:
+      collapsed: false
 editor_options:
   chunk_output_type: console
 ---
@@ -455,3 +458,5 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33271120_JonathanWYewdell_Imm
 ```
 
 -----
+
+
