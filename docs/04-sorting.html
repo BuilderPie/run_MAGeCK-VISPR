@@ -13,7 +13,7 @@
 
 <meta name="date" content="2021-03-02" />
 
-<title>MAGeCK-VISPR Quality Check</title>
+<title>Sorting screenings</title>
 
 <script src="site_libs/header-attrs-2.5/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -22,9 +22,14 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 <link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
 <script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 
@@ -273,6 +278,75 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
 
 </head>
 
@@ -280,6 +354,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -323,7 +407,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">MAGeCK-VISPR Quality Check</h1>
+<h1 class="title toc-ignore">Sorting screenings</h1>
 <h4 class="author">Dian Li, Wubing Zhang, Davis Zexian Zeng</h4>
 <h4 class="date">2021-03-02</h4>
 
@@ -488,7 +572,7 @@ Note that any generated files, e.g. HTML, png, CSS, etc., are not included in t
 <div id="versions" class="tab-pane fade">
 
 <p>
-These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/index.Rmd</code>) and HTML (<code>docs/index.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
+These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/04-sorting.Rmd</code>) and HTML (<code>docs/04-sorting.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
 </p>
 <div class="table-responsive">
 <table class="table table-condensed table-hover">
@@ -517,7 +601,7 @@ Message
 Rmd
 </td>
 <td>
-<a href="https://github.com/BuilderPie/run_MAGeCK-VISPR/blob/b1e6b47e0c68170e5d82e676982caec732ca2362/analysis/index.Rmd" target="_blank">b1e6b47</a>
+<a href="https://github.com/BuilderPie/run_MAGeCK-VISPR/blob/b1e6b47e0c68170e5d82e676982caec732ca2362/analysis/04-sorting.Rmd" target="_blank">b1e6b47</a>
 </td>
 <td>
 BuilderPie
@@ -529,346 +613,6 @@ BuilderPie
 test new subpages
 </td>
 </tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/BuilderPie/run_MAGeCK-VISPR/2a1996a5d07e105c26fcd35f099a99e1e3ace9bc/docs/index.html" target="_blank">2a1996a</a>
-</td>
-<td>
-BuilderPie
-</td>
-<td>
-2021-02-26
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/BuilderPie/run_MAGeCK-VISPR/ae75cba780d8dba8afe1dcf4c680c588febb06a0/docs/index.html" target="_blank">ae75cba</a>
-</td>
-<td>
-BuilderPie
-</td>
-<td>
-2021-02-24
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/BuilderPie/run_MAGeCK-VISPR/1ea42ceccd0b5dda773b3b042d2908b91bdef833/docs/index.html" target="_blank">1ea42ce</a>
-</td>
-<td>
-BuilderPie
-</td>
-<td>
-2021-02-24
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/BuilderPie/run_MAGeCK-VISPR/8dcd93bd53e03f8395a6a638d6e8e14e376edd25/docs/index.html" target="_blank">8dcd93b</a>
-</td>
-<td>
-BuilderPie
-</td>
-<td>
-2021-02-24
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/BuilderPie/run_MAGeCK-VISPR/c1deb270e5029e00ff79d3535d43b2bb1df2f1bd/docs/index.html" target="_blank">c1deb27</a>
-</td>
-<td>
-BuilderPie
-</td>
-<td>
-2021-02-24
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/BuilderPie/run_MAGeCK-VISPR/8d8c933895f6c008191203a552bc05e6d7fff803/docs/index.html" target="_blank">8d8c933</a>
-</td>
-<td>
-BuilderPie
-</td>
-<td>
-2021-02-24
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/BuilderPie/run_MAGeCK-VISPR/deaff820c8a319905cba744da9758ee0317dd2cb/docs/index.html" target="_blank">deaff82</a>
-</td>
-<td>
-BuilderPie
-</td>
-<td>
-2021-02-23
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/BuilderPie/run_MAGeCK-VISPR/4f44dc969a0f9f2766a9e5bae9e6d9df5b6360bb/docs/index.html" target="_blank">4f44dc9</a>
-</td>
-<td>
-BuilderPie
-</td>
-<td>
-2021-02-23
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/BuilderPie/run_MAGeCK-VISPR/c5677922ad634a2eae49be5041aaf43f5b39c805/docs/index.html" target="_blank">c567792</a>
-</td>
-<td>
-BuilderPie
-</td>
-<td>
-2021-02-23
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/BuilderPie/run_MAGeCK-VISPR/blob/3c3ca5a5f2d042f11bad36a3c60648b6f1dde403/analysis/index.Rmd" target="_blank">3c3ca5a</a>
-</td>
-<td>
-BuilderPie
-</td>
-<td>
-2021-02-23
-</td>
-<td>
-wflow_publish(c(“analysis/index.Rmd”, “analysis/qc_all.Rmd”))
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/BuilderPie/run_MAGeCK-VISPR/8dd2442e72fb33c7b4a2024ffaf77334008af74b/docs/index.html" target="_blank">8dd2442</a>
-</td>
-<td>
-BuilderPie
-</td>
-<td>
-2021-02-17
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/BuilderPie/run_MAGeCK-VISPR/2ae60ab051411cd5930ceff06f6f8f66d0332e35/docs/index.html" target="_blank">2ae60ab</a>
-</td>
-<td>
-BuilderPie
-</td>
-<td>
-2021-02-17
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/BuilderPie/run_MAGeCK-VISPR/ff8a67edd991533262e3b51f9dcaa1b1ebe6fcf3/docs/index.html" target="_blank">ff8a67e</a>
-</td>
-<td>
-BuilderPie
-</td>
-<td>
-2021-02-17
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/BuilderPie/run_MAGeCK-VISPR/e6a230ddef1cebc4fcaefd9288583f73b61bdf2c/docs/index.html" target="_blank">e6a230d</a>
-</td>
-<td>
-BuilderPie
-</td>
-<td>
-2021-02-17
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/BuilderPie/run_MAGeCK-VISPR/b01b081a0812d22b55a885a1c17c900fc69b1e79/docs/index.html" target="_blank">b01b081</a>
-</td>
-<td>
-BuilderPie
-</td>
-<td>
-2021-02-17
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/BuilderPie/run_MAGeCK-VISPR/blob/7b89d8e6a150f2004ce6d0b82b0c36ee4c027ce6/analysis/index.Rmd" target="_blank">7b89d8e</a>
-</td>
-<td>
-BuilderPie
-</td>
-<td>
-2021-02-17
-</td>
-<td>
-qc_all
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/BuilderPie/run_MAGeCK-VISPR/e2dd23228480f0f74e60ebfbe0098a50b375e9d6/docs/index.html" target="_blank">e2dd232</a>
-</td>
-<td>
-BuilderPie
-</td>
-<td>
-2021-02-10
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/BuilderPie/run_MAGeCK-VISPR/blob/9bf5c5ce7a50fd4c5ffcd8b41e5c38b885398f91/analysis/index.Rmd" target="_blank">9bf5c5c</a>
-</td>
-<td>
-BuilderPie
-</td>
-<td>
-2021-02-10
-</td>
-<td>
-Home
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/BuilderPie/run_MAGeCK-VISPR/95bd1f013b3155bb19d805e6e32f37d8bfbf966e/docs/index.html" target="_blank">95bd1f0</a>
-</td>
-<td>
-BuilderPie
-</td>
-<td>
-2021-02-03
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/BuilderPie/run_MAGeCK-VISPR/blob/210a247b69a3cc76dfb64302b97b6324c1a7afb9/analysis/index.Rmd" target="_blank">210a247</a>
-</td>
-<td>
-BuilderPie
-</td>
-<td>
-2021-02-03
-</td>
-<td>
-Start workflowr project.
-</td>
-</tr>
 </tbody>
 </table>
 </div>
@@ -876,11 +620,7 @@ Start workflowr project.
 </div>
 </div>
 </div>
-<div id="quality-check" class="section level3">
-<h3><a href="qc_all.html">Quality Check</a></h3>
-</div>
-<div id="jasonmoffat_nature_2020" class="section level3">
-<h3><a href="https://builderpie.github.io/run_MAGeCK-VISPR/32968282_JasonMoffat_Nature_2020.html">32968282_JasonMoffat_Nature_2020</a></h3>
+<p>Describe your project.</p>
 <br>
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-sessioninfo" data-toggle="collapse" data-target="#workflowr-sessioninfo" style="display: block;">
@@ -916,7 +656,6 @@ loaded via a namespace (and not attached):
 [25] evaluate_0.14    rmarkdown_2.5    stringi_1.5.3    compiler_3.6.1  
 [29] pillar_1.4.6     backports_1.1.10 httpuv_1.5.4     pkgconfig_2.0.3 </code></pre>
 </div>
-</div>
 
 
 <!-- Adjust MathJax settings so that all math formulae are shown using
@@ -934,6 +673,8 @@ footer is added to webpages before the MathJax javascript. -->
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -966,6 +707,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
