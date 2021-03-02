@@ -4,6 +4,10 @@ body{
   /*font-size: 16pt;*/
 }
 /* Headers */
-/*h1,h2,h3,h4,h5,h6{
-  font-size: 24pt;
-}*/
+h1{
+  font-size: 20pt;
+}
+
+h2{
+  font-size: 16pt;
+}
