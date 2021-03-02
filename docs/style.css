@@ -6,8 +6,15 @@ body{
 /* Headers */
 h1{
   font-size: 20pt;
+  margin-bottom: 0px;
 }
 
 h2{
   font-size: 16pt;
+  margin-bottom: 5px;
+}
+
+ol li {
+font-size: 14pt;
+margin-bottom: 0px;
 }
