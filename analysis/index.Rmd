@@ -1,11 +1,15 @@
 ---
-title: "Home"
+title: "MAGeCK-VISPR Quality Check"
+author: "Dian Li, Wubing Zhang, Davis Zexian Zeng"
 site: workflowr::wflow_site
+date: "`r Sys.Date()`"
 output:
   workflowr::wflow_html:
     toc: false
+    css: style.css
 editor_options:
   chunk_output_type: console
+description: "This document contains quality check (QC) results for running MAGeCK-VISPR 'test' module on CRISPR data."
 ---
 
 ### <a href="qc_all.html">Quality Check</a>
