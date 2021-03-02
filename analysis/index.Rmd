@@ -5,8 +5,8 @@ site: workflowr::wflow_site
 date: "`r Sys.Date()`"
 output:
   workflowr::wflow_html:
-    toc: False
-    # toc_depth: 2
+    toc: True
+    toc_depth: 1
     css: style.css
     number_sections: true
 editor_options:
@@ -14,20 +14,25 @@ editor_options:
 description: "This document contains quality check (QC) results for running MAGeCK-VISPR 'test' module on CRISPR data."
 ---
 
-# Introduction
+# **Introduction**
 This document contains quality check (QC) results from running **MAGeCK-VISPR** _test_ module on immune-related CRISPR data. We have annotated the results into four major categories: **Coculture screenings**, **Essentiality screenings**, **In-vivo screenings**, and **Sorting screenings**. 
 
-# Coculture screenings
+# **Coculture screenings**
+## <a href="01-coculture.html#"></a>
+## <a href="01-coculture.html#"></a>
+## <a href="01-coculture.html#"></a>
+
+# **Essentiality screenings**
+## <a href="02-essentiality.html#"></a>
+
+# **In-vivo screenings**
+## <a href="03-invivo.html#28723893_|_WNicholasHaining_|_Nature_|_2017_|_GVAX+aPD1">28723893_|_WNicholasHaining_|_Nature_|_2017_|_GVAX+aPD1</a>
+## <a href="03-invivo.html#"></a>
+
+
+# **Sorting screenings**
 ## <a href="04-sorting.html#26189680_|_AvivRegev_|_Cell_|_2015_|_BMDCs_|_TNF">26189680 | AvivRegev | Cell | 2015 | BMDCs | TNF</a>
+## <a href=""></a>
 
-# Essentiality screenings
-
-
-# In-vivo screenings
-
-
-# Sorting screenings
-
-
-# Additional files
+# **Additional files**
 ## <a href="https://builderpie.github.io/run_MAGeCK-VISPR/32968282_JasonMoffat_Nature_2020.html">32968282_JasonMoffat_Nature_2020</a>

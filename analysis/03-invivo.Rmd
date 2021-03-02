@@ -5,8 +5,8 @@ date: "`r Sys.Date()`"
 output: 
   workflowr::wflow_html:
     toc: true
-    number_sections: false
-    toc_depth: 2
+    number_sections: true
+    toc_depth: 1
     df_print: paged
     css: style.css
     toc_float:
@@ -15,4 +15,138 @@ editor_options:
   chunk_output_type: console
 ---
 
-Describe your project.
+# **28723893 | WNicholasHaining | Nature | 2017 | GVAX+aPD1**
+## **Overview**
+**PMID**: 28723893<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: Irradiated tumour cell vaccine (GVAX) + anti-PD1 in wild type mice<br />
+**Control**: TCRa-/- (knockout) mice<br />
+**Type**: In-vivo<br />
+**Description**: In-vivo CRISPR screen in transplantable tumours in mice treated with immunotherapy (GVAX + anti-PD1). Negative values indicate genes whose knockout can enhance the efficacy of anti-PD1 mediated tumor killing.<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_Invivo_SKCM_0.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_Invivo_SKCM_2.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='65%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_Invivo_SKCM_1.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_Invivo_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r1_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r2_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r3_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r4_Invivo_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r1_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r2_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r3_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX+aPD1_r4_Invivo_SKCM.png', error = FALSE)
+```
+
+-----
+
+# **28723893 | WNicholasHaining | Nature | 2017 | GVAX**
+## **Overview**
+**PMID**: 28723893<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: Irradiated tumour cell vaccine (GVAX) only in wild type mice<br />
+**Control**: TCRa-/- (knockout) mice<br />
+**Type**: In-vivo<br />
+**Description**: In-vivo CRISPR screen in transplantable tumours in mice treated with GVAX. Negative values indicate genes whose knockout can enhance the efficacy of GVAX mediated tumor killing.<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_Invivo_SKCM.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_Invivo_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_r1_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_r2_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_r3_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_r4_Invivo_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_r1_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_r2_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_r3_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_GVAX_r4_Invivo_SKCM.png', error = FALSE)
+```
+
+-----
+
+# **28723893 | WNicholasHaining | Nature | 2017 | koTCRa**
+## **Overview**
+**PMID**: 28723893<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: TCRa-/- (knockout) mice<br />
+**Control**: Cells growing in vitro<br />
+**Type**: In-vivo<br />
+**Description**: In-vivo CRISPR screen in transplantable tumours in TCRa-/- (knockout) mice. Negative values indicate genes whose knockout can decrease tumor growing in TCRa-/- mice.<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_Invivo_SKCM.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_Invivo_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_r1_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_r2_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_r3_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_r4_Invivo_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_r1_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_r2_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_r3_Invivo_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_r4_Invivo_SKCM.png', error = FALSE)
+```
+
+-----

@@ -5,8 +5,8 @@ date: "`r Sys.Date()`"
 output: 
   workflowr::wflow_html:
     toc: true
-    number_sections: false
-    toc_depth: 2
+    number_sections: true
+    toc_depth: 1
     df_print: paged
     css: style.css
     toc_float:

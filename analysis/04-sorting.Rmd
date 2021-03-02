@@ -6,7 +6,7 @@ output:
   workflowr::wflow_html:
     toc: true
     number_sections: true
-    toc_depth: 2
+    toc_depth: 1
     df_print: paged
     css: style.css
     toc_float:
@@ -16,7 +16,7 @@ editor_options:
 ---
 
 # **26189680 | AvivRegev | Cell | 2015 | BMDCs | TNF**
-## Overview 
+## **Overview** 
 **PMID**: 26189680<br />
 **Model**: Bone marrow derived dendritic cells (BMDCs)<br />
 **Treatment**: Tumor necrosis factor (TNF) high<br />
