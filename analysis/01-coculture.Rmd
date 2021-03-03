@@ -18,8 +18,6 @@ editor_options:
 # Positive control
 **Description**: CRISPR screens with _Coculture_ condition using a list of positive control genes. Negative LFC values indicate genes whose knockout can increase the efficacy of NK / T cell mediated tumor killing<br />
 
-## **Original Figures**
-<!-- #### Figure -->
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
 knitr::include_graphics("assets/positive_control_final/QC_Heatmap_scaled_coculture.svg", error = FALSE)
 ```

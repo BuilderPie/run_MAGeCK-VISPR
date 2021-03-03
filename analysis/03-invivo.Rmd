@@ -18,22 +18,20 @@ editor_options:
 # Positive control
 **Description**: CRISPR screens with _In-vivo_ condition using a list of positive control genes. Negative LFC values indicate genes whose knockout can increase the in-vivo efficacy of tumor killing<br />
 
-## **Original Figures**
-<!-- #### Figure -->
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("assets/positive_control_final/QC_Heatmap_scaled_sorting.svg", error = FALSE)
+knitr::include_graphics("assets/positive_control_final/QC_Heatmap_scaled_invivo.svg", error = FALSE)
 ```
 
 -----
 
-# 28723893 | WNicholasHaining | Nature | 2017 | GVAX+aPD1
+# 28723893 | WNicholasHaining | Nature | 2017 | B16F10 | GVAX+aPD1
 ## **Overview**
 **PMID**: 28723893<br />
 **Model**: B16F10 (murine skin melanoma cell line)<br />
 **Treatment**: Irradiated tumour cell vaccine (GVAX) + anti-PD1 in wild type mice<br />
 **Control**: TCRa-/- (knockout) mice<br />
 **Type**: In-vivo<br />
-**Description**: In-vivo CRISPR screen in transplantable tumours in mice treated with immunotherapy (GVAX + anti-PD1). Negative LFC values indicate genes whose knockout can enhance the efficacy of anti-PD1 mediated tumor killing
+**Description**: In-vivo CRISPR screen in transplantable tumours in mice treated with immunotherapy (GVAX + anti-PD1). Negative LFC values indicate genes whose knockout can enhance the efficacy of anti-PD1 mediated tumor killing<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
@@ -74,14 +72,14 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 
 -----
 
-# 28723893 | WNicholasHaining | Nature | 2017 | GVAX
+# 28723893 | WNicholasHaining | Nature | 2017 | B16F10 | GVAX
 ## **Overview**
 **PMID**: 28723893<br />
 **Model**: B16F10 (murine skin melanoma cell line)<br />
 **Treatment**: Irradiated tumour cell vaccine (GVAX) only in wild type mice<br />
 **Control**: TCRa-/- (knockout) mice<br />
 **Type**: In-vivo<br />
-**Description**: In-vivo CRISPR screen in transplantable tumours in mice treated with GVAX. Negative LFC values indicate genes whose knockout can enhance the efficacy of GVAX mediated tumor killing
+**Description**: In-vivo CRISPR screen in transplantable tumours in mice treated with GVAX. Negative LFC values indicate genes whose knockout can enhance the efficacy of GVAX mediated tumor killing<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
@@ -118,14 +116,14 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 
 -----
 
-# 28723893 | WNicholasHaining | Nature | 2017 | koTCRa
+# 28723893 | WNicholasHaining | Nature | 2017 | B16F10 | koTCRa
 ## **Overview**
 **PMID**: 28723893<br />
 **Model**: B16F10 (murine skin melanoma cell line)<br />
 **Treatment**: TCRa-/- (knockout) mice<br />
 **Control**: Cells growing in vitro<br />
 **Type**: In-vivo<br />
-**Description**: In-vivo CRISPR screen in transplantable tumours in TCRa-/- (knockout) mice. Negative LFC values indicate genes whose knockout can decrease tumor growing in TCRa-/- mice
+**Description**: In-vivo CRISPR screen in transplantable tumours in TCRa-/- (knockout) mice. Negative LFC values indicate genes whose knockout can decrease tumor growing in TCRa-/- mice<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
@@ -158,6 +156,47 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_r2_Invivo_SKCM.png', error = FALSE)
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_r3_Invivo_SKCM.png', error = FALSE)
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nature_2017_B16F10_koTCRa_r4_Invivo_SKCM.png', error = FALSE)
+```
+
+-----
+
+# 33497609 | RobertTManguso | Immunity | 2021 | Renca | aPD1+aCTLA4
+## **Overview**
+**PMID**: 33497609<br />
+**Model**: Renca (murine kidney carcinoma cell line)<br />
+**Treatment**: anti-PD1 plus anti-CTLA4 combination treatment on wild type mice with SCAR-transduced Renca cells<br />
+**Control**: NSG immunodeficient mice with SCAR-transduced Renca cells<br />
+**Type**: In-vivo<br />
+**Description**: In-vivo CRISPR screen in kidney cancer cells following transplantation to wild type mice vs. NSG immunodeficient mice. Negative LFC values indicate genes whose knockout can decrease tumor growing in wild type mice<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33497609_RobertTManguso_Immunity_2021_overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33497609_RobertTManguso_Immunity_2021_Renca_aPD1+aCTLA4.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33497609_RobertTManguso_Immunity_2021_Renca_aPD1+aCTLA4_Invivo_KIRC.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33497609_RobertTManguso_Immunity_2021_Renca_aPD1+aCTLA4_Invivo_KIRC.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33497609_RobertTManguso_Immunity_2021_Renca_aPD1+aCTLA4_Invivo_KIRC.png', error = FALSE)
 ```
 
 -----
