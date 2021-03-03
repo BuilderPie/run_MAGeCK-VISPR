@@ -274,46 +274,6 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33271120_JonathanWYewdell_Imm
 
 -----
 
-# 33271120 | JonathanWYewdell | Immunity | 2021 | SUDHL5 | MHCI
-## **Overview**
-**PMID**: 33271120<br />
-**Model**: SUDHL5 (human diffuse large B-cell lymphoma, DLBCL)<br />
-**Treatment**: After CRISPR screen, BJAB cells were sorted two rounds with high level MHC-I-specific W6/32 antibody<br />
-**Control**: Sorted with low level MHC-I-specific antibody<br />
-**Type**: Sorting<br />
-**Description**: CRISPR screen in human diffuse large B-cell lymphoma (DLBCL) SUDHL5 cells and sorted with MHC-I high vs. MHC-I low conditions. Positive LFC values indicate genes whose knockout can increase MHC-I protein expression level<br />
-
-## **Original Figures**
-```{r, echo=FALSE, out.width='55%', fig.align='left', fig.cap=''}
-knitr::include_graphics("assets/original_fig/33271120_JonathanWYewdell_Immunity_2021_SUDHL5_MHCI.png", error = FALSE)
-```
-
------
-
-## **MAGeCK-VISPR Results** {.tabset}
-### Processed - Rank Plot
-```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('assets/median_scaled_QC/RankPlot/33271120_JonathanWYewdell_Immunity_2021_SUDHL5_MHCI_Sorting_DLBCL.png', error = FALSE)
-```
-
------
-
-### Raw - Rank Plot
-```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('assets/RRA_QC/RankPlot/33271120_JonathanWYewdell_Immunity_2021_SUDHL5_MHCI_r1_Sorting_DLBCL.png', error = FALSE)
-knitr::include_graphics('assets/RRA_QC/RankPlot/33271120_JonathanWYewdell_Immunity_2021_SUDHL5_MHCI_r2_Sorting_DLBCL.png', error = FALSE)
-```
-
------
-
-### Raw - Volcano Plot
-```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33271120_JonathanWYewdell_Immunity_2021_SUDHL5_MHCI_r1_Sorting_DLBCL.png', error = FALSE)
-knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33271120_JonathanWYewdell_Immunity_2021_SUDHL5_MHCI_r2_Sorting_DLBCL.png', error = FALSE)
-```
-
------
-
 # 33589424 | XShirleyLiu | CancerDiscov | 2021 |  B16F10 | M1.negScreen.MHCI.high
 ## **Overview**
 **PMID**: 33589424<br />
