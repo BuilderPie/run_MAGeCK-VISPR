@@ -21,7 +21,7 @@ editor_options:
 ## **Original Figures**
 <!-- #### Figure -->
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/positive_control_final/QC_Heatmap_scaled_sorting.svg", error = FALSE)
+knitr::include_graphics("assets/positive_control_final/QC_Heatmap_scaled_sorting.svg", error = FALSE)
 ```
 
 -----
@@ -327,13 +327,13 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33271120_JonathanWYewdell_Imm
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='35%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.MHCI.high_Sorting_SKCM.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.MHCI.high_Sorting_SKCM.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.MHCI.high_Sorting_SKCM.table.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.MHCI.high_Sorting_SKCM.table.png", error = FALSE)
 ```
 
 -----
@@ -341,21 +341,21 @@ knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_Cancer
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.MHCI.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.MHCI.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.MHCI.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.MHCI.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.MHCI.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.MHCI.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -371,13 +371,13 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='35%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.MHCI.high_Sorting_SKCM.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.MHCI.high_Sorting_SKCM.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.MHCI.high_Sorting_SKCM.table.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.MHCI.high_Sorting_SKCM.table.png", error = FALSE)
 ```
 
 -----
@@ -385,21 +385,21 @@ knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_Cancer
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.MHCI.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.MHCI.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.MHCI.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.MHCI.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.MHCI.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.MHCI.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -415,13 +415,13 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='35%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.MHCI.high+PDL1.high_Sorting_SKCM.table.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.MHCI.high+PDL1.high_Sorting_SKCM.table.png", error = FALSE)
 ```
 
 -----
@@ -429,21 +429,21 @@ knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_Cancer
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -459,13 +459,13 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='35%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.MHCI.high+PDL1.high_Sorting_SKCM.table.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.MHCI.high+PDL1.high_Sorting_SKCM.table.png", error = FALSE)
 ```
 
 -----
@@ -473,21 +473,21 @@ knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_Cancer
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -503,10 +503,10 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.PDL1.high_Sorting_SKCM.table.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.PDL1.high_Sorting_SKCM.table.png", error = FALSE)
 ```
 
 -----
@@ -514,21 +514,21 @@ knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_Cancer
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -544,10 +544,10 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.PDL1.high_Sorting_SKCM.table.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.PDL1.high_Sorting_SKCM.table.png", error = FALSE)
 ```
 
 -----
@@ -555,21 +555,21 @@ knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_Cancer
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -585,13 +585,13 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='35%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low_Sorting_SKCM.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low_Sorting_SKCM.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low_Sorting_SKCM.table.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low_Sorting_SKCM.table.png", error = FALSE)
 ```
 
 -----
@@ -599,21 +599,21 @@ knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_Cancer
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.MHCI.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.MHCI.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.MHCI.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.MHCI.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.MHCI.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.MHCI.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -629,13 +629,13 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='35%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low_Sorting_SKCM.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low_Sorting_SKCM.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low_Sorting_SKCM.table.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low_Sorting_SKCM.table.png", error = FALSE)
 ```
 
 -----
@@ -643,21 +643,21 @@ knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_Cancer
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.MHCI.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.MHCI.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.MHCI.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.MHCI.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.MHCI.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.MHCI.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -673,13 +673,13 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='35%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low+PDL1.low_Sorting_SKCM.table.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low+PDL1.low_Sorting_SKCM.table.png", error = FALSE)
 ```
 
 -----
@@ -687,21 +687,21 @@ knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_Cancer
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -717,13 +717,13 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='35%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low+PDL1.low_Sorting_SKCM.table.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low+PDL1.low_Sorting_SKCM.table.png", error = FALSE)
 ```
 
 -----
@@ -731,21 +731,21 @@ knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_Cancer
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -761,10 +761,10 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.PDL1.low_Sorting_SKCM.table.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.PDL1.low_Sorting_SKCM.table.png", error = FALSE)
 ```
 
 -----
@@ -772,21 +772,21 @@ knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_Cancer
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -802,10 +802,10 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.PDL1.low_Sorting_SKCM.table.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.PDL1.low_Sorting_SKCM.table.png", error = FALSE)
 ```
 
 -----
@@ -813,21 +813,21 @@ knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_Cancer
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -843,7 +843,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
 ```
 
 -----
@@ -851,21 +851,21 @@ knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_ov
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.negScreen.MHCII.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.negScreen.MHCII.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.negScreen.MHCII.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.negScreen.MHCII.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.negScreen.MHCII.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.negScreen.MHCII.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -881,7 +881,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
 ```
 
 -----
@@ -889,21 +889,21 @@ knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_ov
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.negScreen.MHCII.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.negScreen.MHCII.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.negScreen.MHCII.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.negScreen.MHCII.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.negScreen.MHCII.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.negScreen.MHCII.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -919,7 +919,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
 ```
 
 -----
@@ -927,21 +927,21 @@ knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_ov
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.negScreen.MHCII.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.negScreen.MHCII.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.negScreen.MHCII.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.negScreen.MHCII.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.negScreen.MHCII.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.negScreen.MHCII.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -957,7 +957,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
 ```
 
 -----
@@ -965,21 +965,21 @@ knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_ov
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.negScreen.MHCII.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.negScreen.MHCII.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.negScreen.MHCII.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.negScreen.MHCII.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.negScreen.MHCII.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.negScreen.MHCII.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -995,7 +995,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
 ```
 
 -----
@@ -1003,21 +1003,21 @@ knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_ov
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -1033,7 +1033,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
 ```
 
 -----
@@ -1041,21 +1041,21 @@ knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_ov
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -1071,7 +1071,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
 ```
 
 -----
@@ -1079,21 +1079,21 @@ knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_ov
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.posScreen.MHCII.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.posScreen.MHCII.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.posScreen.MHCII.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.posScreen.MHCII.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.posScreen.MHCII.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.posScreen.MHCII.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -1109,7 +1109,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
 ```
 
 -----
@@ -1117,21 +1117,21 @@ knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_ov
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.posScreen.MHCII.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.posScreen.MHCII.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.posScreen.MHCII.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.posScreen.MHCII.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.posScreen.MHCII.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.posScreen.MHCII.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -1147,7 +1147,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
 ```
 
 -----
@@ -1155,21 +1155,21 @@ knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_ov
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.posScreen.MHCII.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.posScreen.MHCII.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.posScreen.MHCII.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.posScreen.MHCII.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.posScreen.MHCII.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.posScreen.MHCII.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -1185,7 +1185,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
 ```
 
 -----
@@ -1193,21 +1193,21 @@ knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_ov
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.posScreen.MHCII.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.posScreen.MHCII.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.posScreen.MHCII.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.posScreen.MHCII.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.posScreen.MHCII.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.posScreen.MHCII.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -1223,7 +1223,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
 ```
 
 -----
@@ -1231,21 +1231,21 @@ knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_ov
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M1.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -1261,7 +1261,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/TBD_XShirleyLiu_TBD_2021_overview.png", error = FALSE)
 ```
 
 -----
@@ -1269,21 +1269,21 @@ knitr::include_graphics("../docs/assets/original_fig/TBD_XShirleyLiu_TBD_2021_ov
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/TBD_XShirleyLiu_TBD_2021_B16F10_M2.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----

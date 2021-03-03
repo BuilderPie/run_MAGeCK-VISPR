@@ -15,15 +15,13 @@ editor_options:
   chunk_output_type: console
 ---
 
-What license are you using for your code? See [choosealicense.com][choose] for
-help deciding. It's a convention to save a file `LICENSE` in the root of your
-Git repo that contains the license text.
+# Positive control
+**Description**: CRISPR screens with _Essentiality_ condition using a list of positive control genes. Negative LFC values indicate genes whose knockout can decrease cancer cell proliferation<br />
 
-What license are you using for the written content on your site? It is
-traditional to choose a [Creative Commons][cc] license for this type of content.
+## **Original Figures**
+<!-- #### Figure -->
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/positive_control_final/QC_Heatmap_scaled_essentiality.svg", error = FALSE)
+```
 
-[choose]: http://choosealicense.com/
-[cc]: https://creativecommons.org/choose/
-
-How should others cite your work? It's a convention to save a file `CITATION`
-in the root of your Git repo that contains the citation information.
+-----

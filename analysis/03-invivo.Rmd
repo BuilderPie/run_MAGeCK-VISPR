@@ -1,5 +1,5 @@
 ---
-title: "Invivo screens"
+title: "In-vivo screens"
 author: "Dian Li, Wubing Zhang, Davis Zexian Zeng"
 date: "`r Sys.Date()`"
 output: 
@@ -15,6 +15,17 @@ editor_options:
   chunk_output_type: console
 ---
 
+# Positive control
+**Description**: CRISPR screens with _In-vivo_ condition using a list of positive control genes. Negative LFC values indicate genes whose knockout can increase the in-vivo efficacy of tumor killing<br />
+
+## **Original Figures**
+<!-- #### Figure -->
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/positive_control_final/QC_Heatmap_scaled_sorting.svg", error = FALSE)
+```
+
+-----
+
 # 28723893 | WNicholasHaining | Nature | 2017 | GVAX+aPD1
 ## **Overview**
 **PMID**: 28723893<br />
@@ -22,7 +33,7 @@ editor_options:
 **Treatment**: Irradiated tumour cell vaccine (GVAX) + anti-PD1 in wild type mice<br />
 **Control**: TCRa-/- (knockout) mice<br />
 **Type**: In-vivo<br />
-**Description**: In-vivo CRISPR screen in transplantable tumours in mice treated with immunotherapy (GVAX + anti-PD1). Negative LFC values indicate genes whose knockout can enhance the efficacy of anti-PD1 mediated tumor killing.<br />
+**Description**: In-vivo CRISPR screen in transplantable tumours in mice treated with immunotherapy (GVAX + anti-PD1). Negative LFC values indicate genes whose knockout can enhance the efficacy of anti-PD1 mediated tumor killing
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
@@ -70,7 +81,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 **Treatment**: Irradiated tumour cell vaccine (GVAX) only in wild type mice<br />
 **Control**: TCRa-/- (knockout) mice<br />
 **Type**: In-vivo<br />
-**Description**: In-vivo CRISPR screen in transplantable tumours in mice treated with GVAX. Negative LFC values indicate genes whose knockout can enhance the efficacy of GVAX mediated tumor killing.<br />
+**Description**: In-vivo CRISPR screen in transplantable tumours in mice treated with GVAX. Negative LFC values indicate genes whose knockout can enhance the efficacy of GVAX mediated tumor killing
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
@@ -114,7 +125,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 **Treatment**: TCRa-/- (knockout) mice<br />
 **Control**: Cells growing in vitro<br />
 **Type**: In-vivo<br />
-**Description**: In-vivo CRISPR screen in transplantable tumours in TCRa-/- (knockout) mice. Negative LFC values indicate genes whose knockout can decrease tumor growing in TCRa-/- mice.<br />
+**Description**: In-vivo CRISPR screen in transplantable tumours in TCRa-/- (knockout) mice. Negative LFC values indicate genes whose knockout can decrease tumor growing in TCRa-/- mice
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
