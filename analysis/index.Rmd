@@ -20,11 +20,11 @@ description: "This document contains quality check (QC) results for running MAGe
 
 # **Introduction**
 
-This document contains quality check (QC) results from running **MAGeCK-VISPR** _test_ module on immune-related CRISPR data. We have annotated the results into four major categories: **Coculture screenings**, **Essentiality screenings**, **In-vivo screenings**, and **Sorting screenings**. 
+This document contains quality check (QC) results from running **MAGeCK-VISPR** _test_ module on immune-related CRISPR data. We have annotated the results into four major categories: **Coculture screens**, **Essentiality screens**, **In-vivo screens**, and **Sorting screens**. 
 
 ---
 
-# **Coculture screenings**
+# **Coculture screens**
 
 ## **Coculture-NK**
 
@@ -40,13 +40,13 @@ This document contains quality check (QC) results from running **MAGeCK-VISPR** 
 
 ---
 
-# **Essentiality screenings**
+# **Essentiality screens**
 
 1. <a href="02-essentiality.html#"></a>
 
 ---
 
-# **In-vivo screenings**
+# **In-vivo screens**
 
 1. <a href="03-invivo.html#1_28723893_|_WNicholasHaining_|_Nature_|_2017_|_GVAX+aPD1">28723893 | WNicholasHaining | Nature | 2017 | GVAX+aPD1</a>
 2. <a href="03-invivo.html#2_28723893_|_WNicholasHaining_|_Nature_|_2017_|_GVAX">28723893 | WNicholasHaining | Nature | 2017 | GVAX</a>
@@ -55,7 +55,7 @@ This document contains quality check (QC) results from running **MAGeCK-VISPR** 
 
 ---
 
-# **Sorting screenings**
+# **Sorting screens**
 
 1. <a href="04-sorting.html#1_26189680_|_AvivRegev_|_Cell_|_2015_|_BMDCs_|_TNF">26189680 | AvivRegev | Cell | 2015 | BMDCs | TNF</a>
 2. <a href="04-sorting.html#2_28813417_|_MarkADawson_|_Nature_|_2017_|_BxPC-3_|_PD-L1">28813417 | MarkADawson | Nature | 2017 | BxPC-3 | PD-L1</a>
