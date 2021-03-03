@@ -22,7 +22,7 @@ editor_options:
 **Treatment**: Effect T cell<br />
 **Control**: Without T cell<br />
 **Type**: Coculture-T<br />
-**Description**: CRISPR screen in human malignant melanoma cell line Mel624 co-cultured with effect T cells. Negative values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing.<br />
+**Description**: CRISPR screen in human malignant melanoma cell line Mel624 co-cultured with effect T cells. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing.<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
@@ -62,7 +62,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28783722_NicholasPRestifo_Nat
 **Treatment**: After CRISPR screen, B16F10 cells were cocultured with OT-I T cells specific for ovalbumin (OVA) peptide.<br />
 **Control**: OT-I T cells not specific for OVA peptide<br />
 **Type**: Coculture-T<br />
-**Description**: CRISPR screen in mouse skin cancer cells co-cultured with OT-I T cells specific for OVA peptide compared to non-OVA specific. Negative values indicate genes whose knockout can enhance the efficacy of OVA specific T-cell mediated tumor killing.<br />
+**Description**: CRISPR screen in mouse skin cancer cells co-cultured with OT-I T cells specific for OVA peptide compared to non-OVA specific. Negative LFC values indicate genes whose knockout can enhance the efficacy of OVA specific T-cell mediated tumor killing.<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}

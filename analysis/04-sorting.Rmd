@@ -16,7 +16,7 @@ editor_options:
 ---
 
 # **Positive control**
-**Description**: CRISPR screens with _Soring_ condition using a list of positive control genes. Positive values indicate genes whose knockout can increase the correponding protein expression level<br />
+**Description**: CRISPR screens with _Soring_ condition using a list of positive control genes. Positive LFC values indicate genes whose knockout can increase the correponding protein expression level<br />
 
 ## **Original Figures**
 <!-- #### Figure -->
@@ -33,7 +33,7 @@ knitr::include_graphics("../docs/assets/positive_control_final/QC_Heatmap_scaled
 **Treatment**: Tumor necrosis factor (TNF) high<br />
 **Control**: Tumor necrosis factor (TNF) low<br />
 **Type**: Sorting <br />
-**Description**: CRISPR screen in mouse bone marrow derived dendritic cells (BMDCs) and sorted with TNF high vs. TNF low conditions. Positive values indicate genes whose knockout can increase TNF protein expression level<br />
+**Description**: CRISPR screen in mouse bone marrow derived dendritic cells (BMDCs) and sorted with TNF high vs. TNF low conditions. Positive LFC values indicate genes whose knockout can increase TNF protein expression level<br />
 
 ## **Original Figures**
 <!-- #### Figure -->
@@ -76,7 +76,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/26189680_AvivRegev_Cell_2015_
 **Treatment**: Sorting cells with PD-L1_low surface marker. Pretreated with or without interferon gamma<br />
 **Control**: Input<br />
 **Type**: Sorting<br />
-**Description**: CRISPR screen in human pancreatic cancer cell line BxPC-3 and sorted with PD-L1 low conditions. Positive values indicate genes whose knockout can decrease PD-L1 protein expression level<br />
+**Description**: CRISPR screen in human pancreatic cancer cell line BxPC-3 and sorted with PD-L1 low conditions. Positive LFC values indicate genes whose knockout can decrease PD-L1 protein expression level<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
@@ -123,7 +123,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28813417_MarkADawson_Nature_2
 **Treatment**: After CRISPR screen, BJAB cells were sorted two rounds with high level MHC-I-specific W6/32 antibody<br />
 **Control**: Sorted with low level MHC-I-specific antibody<br />
 **Type**: Sorting<br />
-**Description**: CRISPR screen in human diffuse large B-cell lymphoma (DLBCL) BJAB cells and sorted with MHC-I high vs. MHC-I low conditions. Positive values indicate genes whose knockout can increase MHC-I protein expression level<br />
+**Description**: CRISPR screen in human diffuse large B-cell lymphoma (DLBCL) BJAB cells and sorted with MHC-I high vs. MHC-I low conditions. Positive LFC values indicate genes whose knockout can increase MHC-I protein expression level<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='55%', fig.align='left', fig.cap=''}
@@ -163,7 +163,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33271120_JonathanWYewdell_Imm
 **Treatment**: After CRISPR screen, HBL1 cells were sorted two rounds with high level MHC-I-specific W6/32 antibody<br />
 **Control**: Sorted with low level MHC-I-specific antibody<br />
 **Type**: Sorting<br />
-**Description**: CRISPR screen in human diffuse large B-cell lymphoma (DLBCL) HBL1 cells and sorted with MHC-I high vs. MHC-I low conditions. Positive values indicate genes whose knockout can increase MHC-I protein expression level<br />
+**Description**: CRISPR screen in human diffuse large B-cell lymphoma (DLBCL) HBL1 cells and sorted with MHC-I high vs. MHC-I low conditions. Positive LFC values indicate genes whose knockout can increase MHC-I protein expression level<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='55%', fig.align='left', fig.cap=''}
@@ -203,7 +203,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33271120_JonathanWYewdell_Imm
 **Treatment**: After CRISPR screen, BJAB cells were sorted two rounds with high level MHC-I-specific W6/32 antibody<br />
 **Control**: Sorted with low level MHC-I-specific antibody<br />
 **Type**: Sorting<br />
-**Description**: CRISPR screen in human diffuse large B-cell lymphoma (DLBCL) SUDHL5 cells and sorted with MHC-I high vs. MHC-I low conditions. Positive values indicate genes whose knockout can increase MHC-I protein expression level<br />
+**Description**: CRISPR screen in human diffuse large B-cell lymphoma (DLBCL) SUDHL5 cells and sorted with MHC-I high vs. MHC-I low conditions. Positive LFC values indicate genes whose knockout can increase MHC-I protein expression level<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='55%', fig.align='left', fig.cap=''}
@@ -243,7 +243,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33271120_JonathanWYewdell_Imm
 **Treatment**: After CRISPR screen, BJAB cells were sorted two rounds with high level MHC-I-specific W6/32 antibody<br />
 **Control**: Sorted with low level MHC-I-specific antibody<br />
 **Type**: Sorting<br />
-**Description**: CRISPR screen in human diffuse large B-cell lymphoma (DLBCL) TMD8 cells and sorted with MHC-I high vs. MHC-I low conditions. Positive values indicate genes whose knockout can increase MHC-I protein expression level<br />
+**Description**: CRISPR screen in human diffuse large B-cell lymphoma (DLBCL) TMD8 cells and sorted with MHC-I high vs. MHC-I low conditions. Positive LFC values indicate genes whose knockout can increase MHC-I protein expression level<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='55%', fig.align='left', fig.cap=''}
@@ -283,7 +283,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33271120_JonathanWYewdell_Imm
 **Treatment**: After CRISPR screen, BJAB cells were sorted two rounds with high level MHC-I-specific W6/32 antibody<br />
 **Control**: Sorted with low level MHC-I-specific antibody<br />
 **Type**: Sorting<br />
-**Description**: CRISPR screen in human diffuse large B-cell lymphoma (DLBCL) SUDHL5 cells and sorted with MHC-I high vs. MHC-I low conditions. Positive values indicate genes whose knockout can increase MHC-I protein expression level<br />
+**Description**: CRISPR screen in human diffuse large B-cell lymphoma (DLBCL) SUDHL5 cells and sorted with MHC-I high vs. MHC-I low conditions. Positive LFC values indicate genes whose knockout can increase MHC-I protein expression level<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='55%', fig.align='left', fig.cap=''}
@@ -323,7 +323,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33271120_JonathanWYewdell_Imm
 **Treatment**: Negative regulators screens. B16F10 cells was pretreated with 0.1ng/ml IFNγ (low dose) followed by CRISPR screen using M1 library, and then sorted with MHC-I.high condition<br />
 **Control**: Unsorted population<br />
 **Type**: Sorting<br />
-**Description**: CRISPR screen in mouse B16F10 cells pretreated with low dose IFNγ and sorted with MHC-I.high vs. unsorted condition. Positive values indicate genes whose knockout can increase both MHC-I associated protein expression level<br />
+**Description**: CRISPR screen in mouse B16F10 cells pretreated with low dose IFNγ and sorted with MHC-I.high vs. unsorted condition. Positive LFC values indicate genes whose knockout can increase MHC-I associated proteins expression levels<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
@@ -360,8 +360,6 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_
 
 -----
 
------
-
 # **33589424 | XShirleyLiu | CancerDiscov | 2021 |  B16F10 | M2.negScreen.MHCI.high**
 ## **Overview**
 **PMID**: 33589424<br />
@@ -369,7 +367,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_
 **Treatment**: Negative regulators screens. B16F10 cells was pretreated with 0.1ng/ml IFNγ (low dose) followed by CRISPR screen using M2 library, and then sorted with MHC-I.high condition<br />
 **Control**: Unsorted population<br />
 **Type**: Sorting<br />
-**Description**: CRISPR screen in mouse B16F10 cells pretreated with low dose IFNγ and sorted with MHC-I.high vs. unsorted condition. Positive values indicate genes whose knockout can increase both MHC-I associated protein expression level<br />
+**Description**: CRISPR screen in mouse B16F10 cells pretreated with low dose IFNγ and sorted with MHC-I.high vs. unsorted condition. Positive LFC values indicate genes whose knockout can increase MHC-I associated proteins expression levels<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
@@ -402,6 +400,434 @@ knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_Can
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.MHCI.high_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+# **33589424 | XShirleyLiu | CancerDiscov | 2021 |  B16F10 | M1.negScreen.MHCI.high+PDL1.high**
+## **Overview**
+**PMID**: 33589424<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: Negative regulators screens. B16F10 cells was pretreated with 0.1ng/ml IFNγ (low dose) followed by CRISPR screen using M1 library, and then sorted with MHC-I.high+PD-L1.high condition<br />
+**Control**: Unsorted population<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in mouse B16F10 cells pretreated with low dose IFNγ and sorted with MHC-I.high+PD-L1.high vs. unsorted condition. Positive LFC values indicate genes whose knockout can increase both MHC-I associated proteins and PD-L1 protein expression levels<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='35%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.MHCI.high+PDL1.high_Sorting_SKCM.table.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+# **33589424 | XShirleyLiu | CancerDiscov | 2021 |  B16F10 | M2.negScreen.MHCI.high+PDL1.high**
+## **Overview**
+**PMID**: 33589424<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: Negative regulators screens. B16F10 cells was pretreated with 0.1ng/ml IFNγ (low dose) followed by CRISPR screen using M2 library, and then sorted with MHC-I.high+PD-L1.high condition<br />
+**Control**: Unsorted population<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in mouse B16F10 cells pretreated with low dose IFNγ and sorted with MHC-I.high+PD-L1.high vs. unsorted condition. Positive LFC values indicate genes whose knockout can increase both MHC-I associated proteins and PD-L1 protein expression levels<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='35%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.MHCI.high+PDL1.high_Sorting_SKCM.table.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.MHCI.high+PDL1.high_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+# **33589424 | XShirleyLiu | CancerDiscov | 2021 |  B16F10 | M1.negScreen.PDL1.high**
+## **Overview**
+**PMID**: 33589424<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: Negative regulators screens. B16F10 cells was pretreated with 0.1ng/ml IFNγ (low dose) followed by CRISPR screen using M1 library, and then sorted with PD-L1.high condition<br />
+**Control**: Unsorted population<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in mouse B16F10 cells pretreated with low dose IFNγ and sorted with PD-L1.high vs. unsorted condition. Positive LFC values indicate genes whose knockout can increase PD-L1 protein expression level<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.PDL1.high_Sorting_SKCM.table.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+# **33589424 | XShirleyLiu | CancerDiscov | 2021 |  B16F10 | M2.negScreen.PDL1.high**
+## **Overview**
+**PMID**: 33589424<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: Negative regulators screens. B16F10 cells was pretreated with 0.1ng/ml IFNγ (low dose) followed by CRISPR screen using M2 library, and then sorted with PD-L1.high condition<br />
+**Control**: Unsorted population<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in mouse B16F10 cells pretreated with low dose IFNγ and sorted with PD-L1.high vs. unsorted condition. Positive LFC values indicate genes whose knockout can increase PD-L1 protein expression level<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_negScreen.PDL1.high_Sorting_SKCM.table.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.negScreen.PDL1.high_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+# **33589424 | XShirleyLiu | CancerDiscov | 2021 |  B16F10 | M1.posScreen.MHCI.low**
+## **Overview**
+**PMID**: 33589424<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: Positive regulators screens. B16F10 cells was pretreated with 10ng/ml IFNγ (high dose) followed by CRISPR screen using M1 library, and then sorted with MHC-I.low condition<br />
+**Control**: Unsorted population<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in mouse B16F10 cells pretreated with high dose IFNγ and sorted with MHC-I.low vs. unsorted condition. The sign of LFC values were then reversed so that positive LFC values indicate genes whose knockout can increase MHC-I associated proteins expression levels<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='35%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low_Sorting_SKCM.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low_Sorting_SKCM.table.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.MHCI.low_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.MHCI.low_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.MHCI.low_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+# **33589424 | XShirleyLiu | CancerDiscov | 2021 |  B16F10 | M2.posScreen.MHCI.low**
+## **Overview**
+**PMID**: 33589424<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: Positive regulators screens. B16F10 cells was pretreated with 10ng/ml IFNγ (high dose) followed by CRISPR screen using M2 library, and then sorted with MHC-I.low condition<br />
+**Control**: Unsorted population<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in mouse B16F10 cells pretreated with high dose IFNγ and sorted with MHC-I.low vs. unsorted condition. The sign of LFC values were then reversed so that positive LFC values indicate genes whose knockout can increase MHC-I associated proteins expression levels<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='35%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low_Sorting_SKCM.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low_Sorting_SKCM.table.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.MHCI.low_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.MHCI.low_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.MHCI.low_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+# **33589424 | XShirleyLiu | CancerDiscov | 2021 |  B16F10 | M1.posScreen.MHCI.low+PDL1.low**
+## **Overview**
+**PMID**: 33589424<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: Positive regulators screens. B16F10 cells was pretreated with 10ng/ml IFNγ (high dose) followed by CRISPR screen using M1 library, and then sorted with MHCI.low+PDL1.low condition<br />
+**Control**: Unsorted population<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in mouse B16F10 cells pretreated with high dose IFNγ and sorted withMHCI.low+PDL1.low vs. unsorted condition. The sign of LFC values were then reversed so that positive LFC values indicate genes whose knockout can increase both MHC-I associated proteins and PD-L1 protein expression levels<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='35%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low+PDL1.low_Sorting_SKCM.table.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+# **33589424 | XShirleyLiu | CancerDiscov | 2021 |  B16F10 | M2.posScreen.MHCI.low+PDL1.low**
+## **Overview**
+**PMID**: 33589424<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: Positive regulators screens. B16F10 cells was pretreated with 10ng/ml IFNγ (high dose) followed by CRISPR screen using M2 library, and then sorted with MHCI.low+PDL1.low condition<br />
+**Control**: Unsorted population<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in mouse B16F10 cells pretreated with high dose IFNγ and sorted withMHCI.low+PDL1.low vs. unsorted condition. The sign of LFC values were then reversed so that positive LFC values indicate genes whose knockout can increase both MHC-I associated proteins and PD-L1 protein expression levels<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='35%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.MHCI.low+PDL1.low_Sorting_SKCM.table.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.MHCI.low+PDL1.low_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+# **33589424 | XShirleyLiu | CancerDiscov | 2021 |  B16F10 | M1.posScreen.PDL1.low**
+## **Overview**
+**PMID**: 33589424<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: Positive regulators screens. B16F10 cells was pretreated with 10ng/ml IFNγ (high dose) followed by CRISPR screen using M1 library, and then sorted with PD-L1.low condition<br />
+**Control**: Unsorted population<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in mouse B16F10 cells pretreated with high dose IFNγ and sorted with PD-L1.low vs. unsorted condition. The sign of LFC values were then reversed so that positive LFC values indicate genes whose knockout can increase PD-L1 protein expression level<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.PDL1.low_Sorting_SKCM.table.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M1.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+# **33589424 | XShirleyLiu | CancerDiscov | 2021 |  B16F10 | M2.posScreen.PDL1.low**
+## **Overview**
+**PMID**: 33589424<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: Positive regulators screens. B16F10 cells was pretreated with 10ng/ml IFNγ (high dose) followed by CRISPR screen using M2 library, and then sorted with PD-L1.low condition<br />
+**Control**: Unsorted population<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in mouse B16F10 cells pretreated with high dose IFNγ and sorted with PD-L1.low vs. unsorted condition. The sign of LFC values were then reversed so that positive LFC values indicate genes whose knockout can increase PD-L1 protein expression level<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_posScreen.PDL1.low_Sorting_SKCM.table.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33589424_XShirleyLiu_CancerDiscov_2021_B16F10_M2.posScreen.PDL1.low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----

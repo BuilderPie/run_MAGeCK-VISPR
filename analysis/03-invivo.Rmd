@@ -22,7 +22,7 @@ editor_options:
 **Treatment**: Irradiated tumour cell vaccine (GVAX) + anti-PD1 in wild type mice<br />
 **Control**: TCRa-/- (knockout) mice<br />
 **Type**: In-vivo<br />
-**Description**: In-vivo CRISPR screen in transplantable tumours in mice treated with immunotherapy (GVAX + anti-PD1). Negative values indicate genes whose knockout can enhance the efficacy of anti-PD1 mediated tumor killing.<br />
+**Description**: In-vivo CRISPR screen in transplantable tumours in mice treated with immunotherapy (GVAX + anti-PD1). Negative LFC values indicate genes whose knockout can enhance the efficacy of anti-PD1 mediated tumor killing.<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
@@ -70,7 +70,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 **Treatment**: Irradiated tumour cell vaccine (GVAX) only in wild type mice<br />
 **Control**: TCRa-/- (knockout) mice<br />
 **Type**: In-vivo<br />
-**Description**: In-vivo CRISPR screen in transplantable tumours in mice treated with GVAX. Negative values indicate genes whose knockout can enhance the efficacy of GVAX mediated tumor killing.<br />
+**Description**: In-vivo CRISPR screen in transplantable tumours in mice treated with GVAX. Negative LFC values indicate genes whose knockout can enhance the efficacy of GVAX mediated tumor killing.<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
@@ -114,7 +114,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 **Treatment**: TCRa-/- (knockout) mice<br />
 **Control**: Cells growing in vitro<br />
 **Type**: In-vivo<br />
-**Description**: In-vivo CRISPR screen in transplantable tumours in TCRa-/- (knockout) mice. Negative values indicate genes whose knockout can decrease tumor growing in TCRa-/- mice.<br />
+**Description**: In-vivo CRISPR screen in transplantable tumours in TCRa-/- (knockout) mice. Negative LFC values indicate genes whose knockout can decrease tumor growing in TCRa-/- mice.<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
