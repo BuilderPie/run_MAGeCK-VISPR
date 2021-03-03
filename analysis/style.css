@@ -15,6 +15,12 @@ h2{
 }
 
 ol li {
-font-size: 14pt;
+font-size: 12pt;
 margin-bottom: 0px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
 }
