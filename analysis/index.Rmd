@@ -48,9 +48,9 @@ This document contains quality check (QC) results from running **MAGeCK-VISPR** 
 
 # In-vivo screens
 
-1. <a href="03-invivo.html#1_28723893_|_WNicholasHaining_|_Nature_|_2017_|_GVAX+aPD1">28723893 | WNicholasHaining | Nature | 2017 | GVAX+aPD1</a>
-2. <a href="03-invivo.html#2_28723893_|_WNicholasHaining_|_Nature_|_2017_|_GVAX">28723893 | WNicholasHaining | Nature | 2017 | GVAX</a>
-3. <a href="03-invivo.html#3_28723893_|_WNicholasHaining_|_Nature_|_2017_|_koTCRa">28723893 | WNicholasHaining | Nature | 2017 | koTCRa</a>
+1. <a href="03-invivo.html#2_28723893_|_WNicholasHaining_|_Nature_|_2017_|_B16F10_|_GVAX+aPD1">28723893 | WNicholasHaining | Nature | 2017 | B16F10 | GVAX+aPD1</a>
+2. <a href="03-invivo.html#3_28723893_|_WNicholasHaining_|_Nature_|_2017_|_B16F10_|_GVAX">28723893 | WNicholasHaining | Nature | 2017 | B16F10 | GVAX</a>
+3. <a href="03-invivo.html#4_28723893_|_WNicholasHaining_|_Nature_|_2017_|_B16F10_|_koTCRa">28723893 | WNicholasHaining | Nature | 2017 | B16F10 | koTCRa</a>
 4. <a href="03-invivo.html#"></a>
 
 ---

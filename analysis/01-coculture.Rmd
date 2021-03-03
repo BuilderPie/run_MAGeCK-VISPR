@@ -113,10 +113,10 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpfennig_Sc
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/32968282_JasonMoffat_Nature_2020_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='25%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4.png", error = FALSE)
 ```
 
 -----
@@ -124,25 +124,25 @@ knitr::include_graphics("../docs/assets/original_fig/32968282_JasonMoffat_Nature
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4_Coculture-T_BRCA.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4_A_Coculture-T_BRCA.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4_B_Coculture-T_BRCA.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4_C_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4_A_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4_B_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4_C_Coculture-T_BRCA.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4_A_Coculture-T_BRCA.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4_B_Coculture-T_BRCA.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4_C_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4_A_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4_B_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4_C_Coculture-T_BRCA.png', error = FALSE)
 ```
 
 -----
@@ -158,10 +158,10 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/32968282_JasonMoffat_Nature_2020_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='25%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I.png", error = FALSE)
 ```
 
 -----
@@ -169,25 +169,25 @@ knitr::include_graphics("../docs/assets/original_fig/32968282_JasonMoffat_Nature
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I_A_Coculture-T_SKCM.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I_B_Coculture-T_SKCM.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I_C_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I_A_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I_B_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I_C_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I_A_Coculture-T_SKCM.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I_B_Coculture-T_SKCM.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I_C_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I_A_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I_B_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I_C_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -203,10 +203,10 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/32968282_JasonMoffat_Nature_2020_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='25%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4.png", error = FALSE)
 ```
 
 -----
@@ -214,25 +214,25 @@ knitr::include_graphics("../docs/assets/original_fig/32968282_JasonMoffat_Nature
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4_Coculture-T_COAD.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4_A_Coculture-T_COAD.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4_B_Coculture-T_COAD.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4_C_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4_A_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4_B_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4_C_Coculture-T_COAD.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4_A_Coculture-T_COAD.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4_B_Coculture-T_COAD.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4_C_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4_A_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4_B_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4_C_Coculture-T_COAD.png', error = FALSE)
 ```
 
 -----
@@ -248,10 +248,10 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/32968282_JasonMoffat_Nature_2020_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='25%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4.png", error = FALSE)
 ```
 
 -----
@@ -259,25 +259,25 @@ knitr::include_graphics("../docs/assets/original_fig/32968282_JasonMoffat_Nature
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4_Coculture-T_BRCA.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4_A_Coculture-T_BRCA.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4_B_Coculture-T_BRCA.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4_C_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4_A_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4_B_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4_C_Coculture-T_BRCA.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4_A_Coculture-T_BRCA.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4_B_Coculture-T_BRCA.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4_C_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4_A_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4_B_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4_C_Coculture-T_BRCA.png', error = FALSE)
 ```
 
 -----
@@ -293,10 +293,10 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/32968282_JasonMoffat_Nature_2020_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='25%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I.png", error = FALSE)
 ```
 
 -----
@@ -304,25 +304,25 @@ knitr::include_graphics("../docs/assets/original_fig/32968282_JasonMoffat_Nature
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I_Coculture-T_COAD.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I_A_Coculture-T_COAD.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I_B_Coculture-T_COAD.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I_C_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I_A_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I_B_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I_C_Coculture-T_COAD.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I_A_Coculture-T_COAD.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I_B_Coculture-T_COAD.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I_C_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I_A_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I_B_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I_C_Coculture-T_COAD.png', error = FALSE)
 ```
 
 -----
@@ -338,10 +338,10 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/32968282_JasonMoffat_Nature_2020_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='25%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4.png", error = FALSE)
 ```
 
 -----
@@ -349,25 +349,25 @@ knitr::include_graphics("../docs/assets/original_fig/32968282_JasonMoffat_Nature
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4_Coculture-T_KIRC.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4_Coculture-T_KIRC.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4_A_Coculture-T_KIRC.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4_B_Coculture-T_KIRC.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4_C_Coculture-T_KIRC.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4_A_Coculture-T_KIRC.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4_B_Coculture-T_KIRC.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4_C_Coculture-T_KIRC.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4_A_Coculture-T_KIRC.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4_B_Coculture-T_KIRC.png', error = FALSE)
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4_C_Coculture-T_KIRC.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4_A_Coculture-T_KIRC.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4_B_Coculture-T_KIRC.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4_C_Coculture-T_KIRC.png', error = FALSE)
 ```
 
 -----

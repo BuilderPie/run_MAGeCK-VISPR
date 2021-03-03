@@ -171,10 +171,10 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33497609_RobertTManguso_Immunity_2021_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33497609_RobertTManguso_Immunity_2021_overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/33497609_RobertTManguso_Immunity_2021_Renca_aPD1+aCTLA4.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/33497609_RobertTManguso_Immunity_2021_Renca_aPD1+aCTLA4.png", error = FALSE)
 ```
 
 -----
@@ -182,21 +182,21 @@ knitr::include_graphics("../docs/assets/original_fig/33497609_RobertTManguso_Imm
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/33497609_RobertTManguso_Immunity_2021_Renca_aPD1+aCTLA4_Invivo_KIRC.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/33497609_RobertTManguso_Immunity_2021_Renca_aPD1+aCTLA4_Invivo_KIRC.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/33497609_RobertTManguso_Immunity_2021_Renca_aPD1+aCTLA4_Invivo_KIRC.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/33497609_RobertTManguso_Immunity_2021_Renca_aPD1+aCTLA4_Invivo_KIRC.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/33497609_RobertTManguso_Immunity_2021_Renca_aPD1+aCTLA4_Invivo_KIRC.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/33497609_RobertTManguso_Immunity_2021_Renca_aPD1+aCTLA4_Invivo_KIRC.png', error = FALSE)
 ```
 
 -----
