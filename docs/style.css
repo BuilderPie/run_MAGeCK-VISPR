@@ -19,8 +19,11 @@ font-size: 12pt;
 margin-bottom: 0px;
 }
 
-.tocify .tocify-item .list-group-item {
-  font-size: 0.80em;
-  padding-left: 5px;
-  text-indent: 0;
+.list-group-item {
+	font-size: 0.8em;
+	padding: 3px;
+}
+
+.tocify-subheader .tocify-item {
+    font-size: 0.8em;
 }
