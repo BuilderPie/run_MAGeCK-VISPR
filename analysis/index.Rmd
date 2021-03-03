@@ -38,8 +38,8 @@ This document contains quality check (QC) results from running **MAGeCK-VISPR** 
 2. <a href="01-coculture.html#2_29301958_|_KaiWWucherpfennig_|_Science_|_2018_|_B16F10_|_OT-IOVA">29301958 | KaiWWucherpfennig | Science | 2018 | B16F10 | OT-I.OVA</a>
 3. <a href="01-coculture.html#4_32968282_|_JasonMoffat_|_Nature_|_2020_|_4T1-HA_|_CL4">32968282 | JasonMoffat | Nature | 2020 | 4T1-HA | CL4</a>
 4. <a href="01-coculture.html#5_32968282_|_JasonMoffat_|_Nature_|_2020_|_B16-OVA_|_OT-I">32968282 | JasonMoffat | Nature | 2020 | B16-OVA | OT-I</a>
-5. <a href="01-coculture.html#6_32968282_|_JasonMoffat_|_Nature_|_2020_|_CT26-HA_|_CL4">6_32968282_|_JasonMoffat_|_Nature_|_2020_|_CT26-HA_|_CL4</a>
-6. <a href="01-coculture.html#7_32968282_|_JasonMoffat_|_Nature_|_2020_|_EMT6-HA_|_CL4">7_32968282_|_JasonMoffat_|_Nature_|_2020_|_EMT6-HA_|_CL4</a>
+5. <a href="01-coculture.html#6_32968282_|_JasonMoffat_|_Nature_|_2020_|_CT26-HA_|_CL4">32968282 | JasonMoffat | Nature | 2020 | CT26-HA | CL4</a>
+6. <a href="01-coculture.html#7_32968282_|_JasonMoffat_|_Nature_|_2020_|_EMT6-HA_|_CL4">32968282 | JasonMoffat | Nature | 2020 | EMT6-HA | CL4</a>
 7. <a href="01-coculture.html#8_32968282_|_JasonMoffat_|_Nature_|_2020_|_MC38-OVA_|_OT-I">32968282 | JasonMoffat | Nature | 2020 | MC38-OVA | OT-I</a>
 8. <a href="01-coculture.html#9_32968282_|_JasonMoffat_|_Nature_|_2020_|_Renca-HA_|_CL4">32968282 | JasonMoffat | Nature | 2020 | Renca-HA | CL4</a>
 
