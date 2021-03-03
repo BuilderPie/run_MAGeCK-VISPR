@@ -18,21 +18,21 @@ editor_options:
 description: "This document contains quality check (QC) results for running MAGeCK-VISPR 'test' module on CRISPR data."
 ---
 
-# **Introduction**
+# Introduction
 
 This document contains quality check (QC) results from running **MAGeCK-VISPR** _test_ module on immune-related CRISPR data. We have annotated the results into four major categories: **Coculture screens**, **Essentiality screens**, **In-vivo screens**, and **Sorting screens**. 
 
 ---
 
-# **Coculture screens**
+# Coculture screens
 
-## **Coculture-NK**
+## Coculture-NK
 
 1. <a href="01-coculture.html#"></a>
 
 ---
 
-## **Coculture-T**
+## Coculture-T
 
 1. <a href="01-coculture.html#1_28783722_|_NicholasPRestifo_|_Nature_|_2017_|_Mel624_|_EffectT">28783722 | NicholasPRestifo | Nature | 2017 | Mel624 | EffectT</a>
 2. <a href="01-coculture.html#2_29301958_|_KaiWWucherpfennig_|_Science_|_2018_|_B16F10_|_OT-IOVA">29301958 | KaiWWucherpfennig | Science | 2018 | B16F10 | OT-I.OVA</a>
@@ -40,13 +40,13 @@ This document contains quality check (QC) results from running **MAGeCK-VISPR** 
 
 ---
 
-# **Essentiality screens**
+# Essentiality screens
 
 1. <a href="02-essentiality.html#"></a>
 
 ---
 
-# **In-vivo screens**
+# In-vivo screens
 
 1. <a href="03-invivo.html#1_28723893_|_WNicholasHaining_|_Nature_|_2017_|_GVAX+aPD1">28723893 | WNicholasHaining | Nature | 2017 | GVAX+aPD1</a>
 2. <a href="03-invivo.html#2_28723893_|_WNicholasHaining_|_Nature_|_2017_|_GVAX">28723893 | WNicholasHaining | Nature | 2017 | GVAX</a>
@@ -55,7 +55,7 @@ This document contains quality check (QC) results from running **MAGeCK-VISPR** 
 
 ---
 
-# **Sorting screens**
+# Sorting screens
 
 1. <a href="04-sorting.html#1_26189680_|_AvivRegev_|_Cell_|_2015_|_BMDCs_|_TNF">26189680 | AvivRegev | Cell | 2015 | BMDCs | TNF</a>
 2. <a href="04-sorting.html#2_28813417_|_MarkADawson_|_Nature_|_2017_|_BxPC-3_|_PD-L1">28813417 | MarkADawson | Nature | 2017 | BxPC-3 | PD-L1</a>
@@ -68,7 +68,7 @@ This document contains quality check (QC) results from running **MAGeCK-VISPR** 
 
 ---
 
-# **Additional files**
+# Additional files
 1. <a href="https://builderpie.github.io/run_MAGeCK-VISPR/32968282_JasonMoffat_Nature_2020.html">32968282_JasonMoffat_Nature_2020</a>
 
 ---

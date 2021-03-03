@@ -15,7 +15,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-# **28783722 | NicholasPRestifo | Nature | 2017 | Mel624 | EffectT**
+# 28783722 | NicholasPRestifo | Nature | 2017 | Mel624 | EffectT
 ## **Overview**
 **PMID**: 28783722<br />
 **Model**: Mel624 (human malignant melanoma cell line)<br />
@@ -55,7 +55,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28783722_NicholasPRestifo_Nat
 
 -----
 
-# **29301958 | KaiWWucherpfennig | Science | 2018 | B16F10 | OT-I.OVA**
+# 29301958 | KaiWWucherpfennig | Science | 2018 | B16F10 | OT-I.OVA
 ## **Overview**
 **PMID**: 29301958<br />
 **Model**: B16F10 (murine skin melanoma cell line)<br />

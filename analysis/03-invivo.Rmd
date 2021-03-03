@@ -15,7 +15,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-# **28723893 | WNicholasHaining | Nature | 2017 | GVAX+aPD1**
+# 28723893 | WNicholasHaining | Nature | 2017 | GVAX+aPD1
 ## **Overview**
 **PMID**: 28723893<br />
 **Model**: B16F10 (murine skin melanoma cell line)<br />
@@ -63,7 +63,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 
 -----
 
-# **28723893 | WNicholasHaining | Nature | 2017 | GVAX**
+# 28723893 | WNicholasHaining | Nature | 2017 | GVAX
 ## **Overview**
 **PMID**: 28723893<br />
 **Model**: B16F10 (murine skin melanoma cell line)<br />
@@ -107,7 +107,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 
 -----
 
-# **28723893 | WNicholasHaining | Nature | 2017 | koTCRa**
+# 28723893 | WNicholasHaining | Nature | 2017 | koTCRa
 ## **Overview**
 **PMID**: 28723893<br />
 **Model**: B16F10 (murine skin melanoma cell line)<br />
