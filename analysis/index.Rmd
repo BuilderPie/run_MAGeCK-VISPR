@@ -32,7 +32,7 @@ This document contains quality check (QC) results from running **MAGeCK-VISPR** 
 
 ---
 
-## Coculture-T
+## Co-culture-T
 
 1. <a href="01-coculture.html#1_28783722_|_NicholasPRestifo_|_Nature_|_2017_|_Mel624_|_EffectT">28783722 | NicholasPRestifo | Nature | 2017 | Mel624 | EffectT</a>
 2. <a href="01-coculture.html#2_29301958_|_KaiWWucherpfennig_|_Science_|_2018_|_B16F10_|_OT-IOVA">29301958 | KaiWWucherpfennig | Science | 2018 | B16F10 | OT-I.OVA</a>

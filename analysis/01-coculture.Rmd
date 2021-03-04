@@ -1,5 +1,5 @@
 ---
-title: "Coculture screens"
+title: "Co-culture screens"
 author: "Dian Li, Wubing Zhang, Davis Zexian Zeng"
 date: "`r Sys.Date()`"
 output: 
@@ -34,7 +34,7 @@ knitr::include_graphics("assets/positive_control_final/QC_Heatmap_scaled_cocultu
 **Description**: CRISPR screen in human malignant melanoma cell line Mel624 co-cultured with effect T cells. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing
 
 ## **Original Figures**
-```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics("assets/original_fig/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_Coculture.png", error = FALSE)
 ```
 
@@ -67,15 +67,16 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28783722_NicholasPRestifo_Nat
 # 29301958 | KaiWWucherpfennig | Science | 2018 | B16F10 | OT-I.OVA
 ## **Overview**
 **PMID**: 29301958<br />
-**Model**: B16F10 (murine skin melanoma cell line)<br />
-**Treatment**: After CRISPR screen, B16F10 cells were cocultured with OT-I T cells specific for ovalbumin (OVA) peptide
-**Control**: OT-I T cells not specific for OVA peptide<br />
+**Model**: B16F10 (murine skin melanoma cell line) pretreated with IFNg<br />
+**Treatment**: OT-I T cells specific for ovalbumin (OVA) peptide
+**Control**: OT-I T cells unspecific for OVA peptide<br />
 **Type**: Coculture-T<br />
-**Description**: CRISPR screen in mouse skin cancer cells co-cultured with OT-I T cells specific for OVA peptide compared to non-OVA specific. Negative LFC values indicate genes whose knockout can enhance the efficacy of OVA specific T-cell mediated tumor killing
+**Description**: CRISPR screen in mouse skin cancer cells B16F10 co-cultured with OT-I T cells specific for OVA peptide compared to OT-I T cells unspecific for OVA peptide. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing
 
 ## **Original Figures**
-```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
-knitr::include_graphics("assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA.png", error = FALSE)
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_overview.png", error = FALSE)
+knitr::include_graphics("../docs/assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA.table.png", error = FALSE)
 ```
 
 -----
@@ -83,21 +84,99 @@ knitr::include_graphics("assets/original_fig/29301958_KaiWWucherpfennig_Science_
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('assets/median_scaled_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('assets/RRA_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+# 29301958 | KaiWWucherpfennig | Science | 2018 | B16F10 | Pmel-1.IFNg
+## **Overview**
+**PMID**: 29301958<br />
+**Model**: B16F10 (murine skin melanoma cell line) pretreated with IFNg<br />
+**Treatment**: After CRISPR screen, B16F10 cells were cocultured with Pmel-1 T cells specific for gp100 melanoma antigen
+**Control**: Pmel-1 T cells unspecific for gp100 melanoma antigen<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in mouse skin cancer cells B16F10 co-cultured with Pmel-1 T cells specific for gp100 melanoma antigen compared to Pmel-1 T cells unspecific for gp100 melanoma antigen. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_overview.png", error = FALSE)
+knitr::include_graphics("../docs/assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg.png", error = FALSE)
+knitr::include_graphics("../docs/assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg.table.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+# 29301958 | KaiWWucherpfennig | Science | 2018 | B16F10 | Pmel-1.IFNg-
+## **Overview**
+**PMID**: 29301958<br />
+**Model**: B16F10 (murine skin melanoma cell line) without pretreatment of IFNg<br />
+**Treatment**: After CRISPR screen, B16F10 cells were cocultured with Pmel-1 T cells specific for gp100 melanoma antigen
+**Control**: Pmel-1 T cells unspecific for gp100 melanoma antigen<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in mouse skin cancer cells B16F10 co-cultured with Pmel-1 T cells specific for gp100 melanoma antigen compared to Pmel-1 T cells unspecific for gp100 melanoma antigen. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_overview.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg-_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg-_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg-_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----
