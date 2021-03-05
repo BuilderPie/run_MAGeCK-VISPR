@@ -30,7 +30,7 @@ knitr::include_graphics("assets/positive_control_final/QC_Heatmap_scaled_cocultu
 **Model**: MC38 (murine colon adenocarcinoma cell line)<br />
 **Treatment**: After CRISPR screen, MC38 cells were cocultured with natural killer (NK) cells at effector : target ratio of 10<br />
 **Control**: T-end without NK cell treatment<br />
-**Type**: Coculture-T<br />
+**Type**: Coculture-NK<br />
 **Description**: CRISPR screen in mouse colon adenocarcinoma cells MC38 co-cultured with NK cells at E:T ratio of 10, compared to T-end without NK cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of NK-cell mediated tumor killing<br />
 
 ## **Original Figures**
@@ -69,7 +69,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmuno
 **Model**: MC38 (murine colon adenocarcinoma cell line)<br />
 **Treatment**: After CRISPR screen, MC38 cells were cocultured with natural killer (NK) cells at effector : target (E:T) ratio of 20<br />
 **Control**: T-end without NK cell treatment<br />
-**Type**: Coculture-T<br />
+**Type**: Coculture-NK<br />
 **Description**: CRISPR screen in mouse colon adenocarcinoma cells MC38 co-cultured with NK cells at E:T ratio of 20, compared to T-end without NK cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of NK-cell mediated tumor killing<br />
 
 ## **Original Figures**
@@ -98,6 +98,46 @@ knitr::include_graphics('assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.20_Coculture-NK_COAD.png', error = FALSE)
+```
+
+-----
+
+# 31452512 | JeffreySettleman | Elife | 2019 | K562 | NK
+## **Overview**
+**PMID**: 31452512<br />
+**Model**: K562 (human chronic myelogenous leukemia cell line)<br />
+**Treatment**: After CRISPR screen, K562 cells were cocultured with natural killer (NK) cells<br />
+**Control**: T-end without NK cell treatment<br />
+**Type**: Coculture-NK<br />
+**Description**: CRISPR screen in human chronic myelogenous leukemia cells K562 co-cultured with NK cells, compared to T-end without NK cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of NK-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/31452512_JeffreySettleman_Elife_2019_K562_NK-92_Coculture-NK_LCML.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31452512_JeffreySettleman_Elife_2019_K562_NK-92_Coculture-NK_LCML.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/31452512_JeffreySettleman_Elife_2019_K562_NK-92_r1_Coculture-NK_LCML.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/31452512_JeffreySettleman_Elife_2019_K562_NK-92_r2_Coculture-NK_LCML.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31452512_JeffreySettleman_Elife_2019_K562_NK-92_r1_Coculture-NK_LCML.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31452512_JeffreySettleman_Elife_2019_K562_NK-92_r2_Coculture-NK_LCML.png', error = FALSE)
 ```
 
 -----

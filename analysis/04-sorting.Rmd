@@ -157,6 +157,46 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31365872_BenjaminEGewurz_Cell
 
 -----
 
+# 31452512 | JeffreySettleman | Elife | 2019 | K562 | MHCI
+## **Overview**
+**PMID**: 31452512<br />
+**Model**: K562 (human chronic myelogenous leukemia cell line)<br />
+**Treatment**: After CRISPR screen, K562 cells were sorted with high MHC-I expression level<br />
+**Control**: Sorted with low MHC-I expression level<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in human chronic myelogenous leukemia cells K562 and sorted with MHC-I high vs. MHC-I low conditions. Positive LFC values indicate genes whose knockout can increase MHC-I protein expression level<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/31452512_JeffreySettleman_Elife_2019_K562_MHCI_Sorting_LCML.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31452512_JeffreySettleman_Elife_2019_K562_MHCI_Sorting_LCML.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/31452512_JeffreySettleman_Elife_2019_K562_MHCI_r1_Sorting_LCML.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/31452512_JeffreySettleman_Elife_2019_K562_MHCI_r2_Sorting_LCML.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31452512_JeffreySettleman_Elife_2019_K562_MHCI_r1_Sorting_LCML.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31452512_JeffreySettleman_Elife_2019_K562_MHCI_r2_Sorting_LCML.png', error = FALSE)
+```
+
+-----
+
 # 33271120 | JonathanWYewdell | Immunity | 2021 | BJAB | MHCI
 ## **Overview**
 **PMID**: 33271120<br />
