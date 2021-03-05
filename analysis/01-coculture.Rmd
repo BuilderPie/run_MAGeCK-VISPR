@@ -24,6 +24,84 @@ knitr::include_graphics("assets/positive_control_final/QC_Heatmap_scaled_cocultu
 
 -----
 
+# 29776993 | JaneOliaro | SciImmunol | 2018 | MC38 | NK.10
+## **Overview**
+**PMID**: 29776993<br />
+**Model**: MC38 (murine colon adenocarcinoma cell line)<br />
+**Treatment**: After CRISPR screen, MC38 cells were cocultured with natural killer (NK) cells at effector : target ratio of 10<br />
+**Control**: T-end without NK cell treatment<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in mouse colon adenocarcinoma cells MC38 co-cultured with NK cells at E:T ratio of 10, compared to T-end without NK cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of NK-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_NK_Coculture-NK_COAD.overview.png", error = FALSE)
+knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_NK_Coculture-NK_COAD.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.10_Coculture-NK_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.10_Coculture-NK_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.10_Coculture-NK_COAD.png', error = FALSE)
+```
+
+-----
+
+# 29776993 | JaneOliaro | SciImmunol | 2018 | MC38 | NK.20
+## **Overview**
+**PMID**: 29776993<br />
+**Model**: MC38 (murine colon adenocarcinoma cell line)<br />
+**Treatment**: After CRISPR screen, MC38 cells were cocultured with natural killer (NK) cells at effector : target (E:T) ratio of 20<br />
+**Control**: T-end without NK cell treatment<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in mouse colon adenocarcinoma cells MC38 co-cultured with NK cells at E:T ratio of 20, compared to T-end without NK cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of NK-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_NK_Coculture-NK_COAD.overview.png", error = FALSE)
+knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_NK_Coculture-NK_COAD.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.20_Coculture-NK_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.20_Coculture-NK_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.20_Coculture-NK_COAD.png', error = FALSE)
+```
+
+-----
+
 # 28783722 | NicholasPRestifo | Nature | 2017 | Mel624 | EffectT
 ## **Overview**
 **PMID**: 28783722<br />
@@ -31,7 +109,7 @@ knitr::include_graphics("assets/positive_control_final/QC_Heatmap_scaled_cocultu
 **Treatment**: Effect T cell<br />
 **Control**: Without T cell<br />
 **Type**: Coculture-T<br />
-**Description**: CRISPR screen in human malignant melanoma cell line Mel624 co-cultured with effect T cells. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing
+**Description**: CRISPR screen in human malignant melanoma cell line Mel624 co-cultured with effect T cells. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
@@ -68,10 +146,10 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28783722_NicholasPRestifo_Nat
 ## **Overview**
 **PMID**: 29301958<br />
 **Model**: B16F10 (murine skin melanoma cell line) pretreated with IFNg<br />
-**Treatment**: OT-I T cells specific for ovalbumin (OVA) peptide
+**Treatment**: OT-I T cells specific for ovalbumin (OVA) peptide<br />
 **Control**: OT-I T cells unspecific for OVA peptide<br />
 **Type**: Coculture-T<br />
-**Description**: CRISPR screen in mouse skin cancer cells B16F10 co-cultured with OT-I T cells specific for OVA peptide compared to OT-I T cells unspecific for OVA peptide. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing
+**Description**: CRISPR screen in mouse skin cancer cells B16F10 co-cultured with OT-I T cells specific for OVA peptide, compared to OT-I T cells unspecific for OVA peptide. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
@@ -107,10 +185,10 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpf
 ## **Overview**
 **PMID**: 29301958<br />
 **Model**: B16F10 (murine skin melanoma cell line) pretreated with IFNg<br />
-**Treatment**: After CRISPR screen, B16F10 cells were cocultured with Pmel-1 T cells specific for gp100 melanoma antigen
+**Treatment**: After CRISPR screen, B16F10 cells were cocultured with Pmel-1 T cells specific for gp100 melanoma antigen<br />
 **Control**: Pmel-1 T cells unspecific for gp100 melanoma antigen<br />
 **Type**: Coculture-T<br />
-**Description**: CRISPR screen in mouse skin cancer cells B16F10 co-cultured with Pmel-1 T cells specific for gp100 melanoma antigen compared to Pmel-1 T cells unspecific for gp100 melanoma antigen. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing
+**Description**: CRISPR screen in mouse skin cancer cells B16F10 co-cultured with Pmel-1 T cells specific for gp100 melanoma antigen, compared to Pmel-1 T cells unspecific for gp100 melanoma antigen. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
@@ -147,10 +225,10 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpf
 ## **Overview**
 **PMID**: 29301958<br />
 **Model**: B16F10 (murine skin melanoma cell line) without pretreatment of IFNg<br />
-**Treatment**: After CRISPR screen, B16F10 cells were cocultured with Pmel-1 T cells specific for gp100 melanoma antigen
+**Treatment**: After CRISPR screen, B16F10 cells were cocultured with Pmel-1 T cells specific for gp100 melanoma antigen<br />
 **Control**: Pmel-1 T cells unspecific for gp100 melanoma antigen<br />
 **Type**: Coculture-T<br />
-**Description**: CRISPR screen in mouse skin cancer cells B16F10 co-cultured with Pmel-1 T cells specific for gp100 melanoma antigen compared to Pmel-1 T cells unspecific for gp100 melanoma antigen. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing
+**Description**: CRISPR screen in mouse skin cancer cells B16F10 co-cultured with Pmel-1 T cells specific for gp100 melanoma antigen, compared to Pmel-1 T cells unspecific for gp100 melanoma antigen. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
@@ -181,6 +259,196 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpf
 
 -----
 
+# 29776993 | JaneOliaro | SciImmunol | 2018 | B16F10 | OT-I
+## **Overview**
+**PMID**: 29776993<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: After CRISPR screen, B16F10 cells were cocultured with OT-I T cells<br />
+**Control**: T-end without OT-I T cell treatment<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in mouse skin cancer cells B16F10 co-cultured with OT-I T cells, compared to T-end without OT-I T cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='40%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_B16F10_OT-I_Coculture-T_SKCM.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_OT-I_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_OT-I_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_OT-I_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+# 29776993 | JaneOliaro | SciImmunol | 2018 | B16F10 | koPRF1.OT-I
+## **Overview**
+**PMID**: 29776993<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: After CRISPR screen, B16F10 cells were cocultured with perforin knockout OT-I (Prf1−/−) T cells<br />
+**Control**: T-end without OT-I T cell treatment<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in mouse skin cancer cells B16F10 co-cultured with perforin knockout OT-I (Prf1−/−) T cells, compared to T-end without OT-I T cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_B16F10_koPRF1.OT-I_Coculture-T_SKCM.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_koPRF1.OT-I_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_koPRF1.OT-I_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_koPRF1.OT-I_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+# 29776993 | JaneOliaro | SciImmunol | 2018 | MC38 | OT-I+aPD1
+## **Overview**
+**PMID**: 29776993<br />
+**Model**: MC38 (murine colon adenocarcinoma cell line)<br />
+**Treatment**: After CRISPR screen, MC38 cells were cocultured with OT-I T cells combined with anti-PD1 treatment<br />
+**Control**: T-end with IgG treatment<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in colon adenocarcinoma cells MC38 co-cultured with OT-I T cells combined with anti-PD1 treatment, compared to T-end with IgG treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell and anti-PD1 mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_OT-I+aPD1_Coculture-T_COAD.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_OT-I+aPD1_Coculture-T_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_OT-I+aPD1_Coculture-T_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_OT-I+aPD1_Coculture-T_COAD.png', error = FALSE)
+```
+
+-----
+
+# 29776993 | JaneOliaro | SciImmunol | 2018 | MC38 | koPRF1.OT-I
+## **Overview**
+**PMID**: 29776993<br />
+**Model**: MC38 (murine colon adenocarcinoma cell line)<br />
+**Treatment**: After CRISPR screen, MC38 cells were cocultured with perforin knockout OT-I (Prf1−/−) T cells<br />
+**Control**: T-end without OT-I T cell treatment<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in colon adenocarcinoma cells MC38 co-cultured with perforin knockout OT-I (Prf1−/−) T cells, compared to T-end without OT-I T cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='40%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_koPRF1.OT-I_Coculture-T_COAD.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_koPRF1.OT-I_Coculture-T_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_koPRF1.OT-I_Coculture-T_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_koPRF1.OT-I_Coculture-T_COAD.png', error = FALSE)
+```
+
+-----
+
+# 29776993 | JaneOliaro | SciImmunol | 2018 | MDA-MB-231 | CAR-T
+## **Overview**
+**PMID**: 29776993<br />
+**Model**: MDA-MB-231 (human triple-negative breast cancer cell line)<br />
+**Treatment**: After CRISPR screen, MDA-MB-231 cells were cocultured with CAR-T cells<br />
+**Control**: T-end without CAR-T cell treatment<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in human triple-negative breast cancer cells MDA-MB-231 co-cultured with CAR-T cells, compared to T-end without CAR-T cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='40%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MDA-MB-231_CAR-T_Coculture-T_TNBC.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MDA-MB-231_CAR-T_Coculture-T_TNBC.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MDA-MB-231_CAR-T_Coculture-T_TNBC.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_MDA-MB-231_CAR-T_Coculture-T_TNBC.png', error = FALSE)
+```
+
+-----
+
 # 32968282 | JasonMoffat | Nature | 2020 | 4T1-HA | CL4
 ## **Overview**
 **PMID**: 32968282<br />
@@ -188,7 +456,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpf
 **Treatment**: After CRISPR screen, 4T1-HA cells were cocultured with CL4 CD8+ T cells specific for HA antigen<br />
 **Control**: CRISPR screen 4T1-HA cells without T cell treatment<br />
 **Type**: Coculture-T<br />
-**Description**: CRISPR screen in mouse breast cancer cells expressing HA antigen co-cultured with CL4 (HA-specific) T cells compared to untreated control. Negative LFC values indicate genes whose knockout can enhance the efficacy of CL4 (HA-specific) T-cell mediated tumor killing<br />
+**Description**: CRISPR screen in mouse breast cancer cells expressing HA antigen co-cultured with CL4 (HA-specific) T cells, compared to untreated control. Negative LFC values indicate genes whose knockout can enhance the efficacy of CL4 (HA-specific) T-cell mediated tumor killing<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
@@ -233,7 +501,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2
 **Treatment**: After CRISPR screen, B16-OVA cells were cocultured with OT-I CD8+ T cells specific for OVA antigen<br />
 **Control**: CRISPR screen B16-OVA cells without T cell treatment<br />
 **Type**: Coculture-T<br />
-**Description**: CRISPR screen in mouse skin melanoma cancer cells expressing OVA antigen co-cultured with OT-I (OVA-specific) T cells compared to untreated control. Negative LFC values indicate genes whose knockout can enhance the efficacy of OT-I (OVA-specific) T-cell mediated tumor killing<br />
+**Description**: CRISPR screen in mouse skin melanoma cancer cells expressing OVA antigen co-cultured with OT-I (OVA-specific) T cells, compared to untreated control. Negative LFC values indicate genes whose knockout can enhance the efficacy of OT-I (OVA-specific) T-cell mediated tumor killing<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
@@ -278,7 +546,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2
 **Treatment**: After CRISPR screen, CT26-HA cells were cocultured with CL4 CD8+ T cells specific for HA antigen<br />
 **Control**: CRISPR screen CT26-HA cells without T cell treatment<br />
 **Type**: Coculture-T<br />
-**Description**: CRISPR screen in mouse colon carcinoma cells expressing HA antigen co-cultured with CL4 (HA-specific) T cells compared to untreated control. Negative LFC values indicate genes whose knockout can enhance the efficacy of CL4 (HA-specific) T-cell mediated tumor killing<br />
+**Description**: CRISPR screen in mouse colon carcinoma cells expressing HA antigen co-cultured with CL4 (HA-specific) T cells, compared to untreated control. Negative LFC values indicate genes whose knockout can enhance the efficacy of CL4 (HA-specific) T-cell mediated tumor killing<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
@@ -323,7 +591,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2
 **Treatment**: After CRISPR screen, EMT6-HA cells were cocultured with CL4 CD8+ T cells specific for HA antigen<br />
 **Control**: CRISPR screen EMT6-HA cells without T cell treatment<br />
 **Type**: Coculture-T<br />
-**Description**: CRISPR screen in mouse breast mammary carcinoma cells expressing HA antigen co-cultured with CL4 (HA-specific) T cells compared to untreated control. Negative LFC values indicate genes whose knockout can enhance the efficacy of CL4 (HA-specific) T-cell mediated tumor killing<br />
+**Description**: CRISPR screen in mouse breast mammary carcinoma cells expressing HA antigen co-cultured with CL4 (HA-specific) T cells, compared to untreated control. Negative LFC values indicate genes whose knockout can enhance the efficacy of CL4 (HA-specific) T-cell mediated tumor killing<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
@@ -368,7 +636,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2
 **Treatment**: After CRISPR screen, MC38-OVA cells were cocultured with OT-I CD8+ T cells specific for OVA antigen<br />
 **Control**: CRISPR screen MC38-OVA cells without T cell treatment<br />
 **Type**: Coculture-T<br />
-**Description**: CRISPR screen in mouse colon adenocarcinoma cancer cells expressing OVA antigen co-cultured with OT-I (OVA-specific) T cells compared to untreated control. Negative LFC values indicate genes whose knockout can enhance the efficacy of OT-I (OVA-specific) T-cell mediated tumor killing<br />
+**Description**: CRISPR screen in mouse colon adenocarcinoma cancer cells expressing OVA antigen co-cultured with OT-I (OVA-specific) T cells, compared to untreated control. Negative LFC values indicate genes whose knockout can enhance the efficacy of OT-I (OVA-specific) T-cell mediated tumor killing<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
@@ -413,7 +681,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2
 **Treatment**: After CRISPR screen, Renca-HA cells were cocultured with CL4 CD8+ T cells specific for HA antigen<br />
 **Control**: CRISPR screen Renca-HA cells without T cell treatment<br />
 **Type**: Coculture-T<br />
-**Description**: CRISPR screen in mouse kidney carcinoma cells expressing HA antigen co-cultured with CL4 (HA-specific) T cells compared to untreated control. Negative LFC values indicate genes whose knockout can enhance the efficacy of CL4 (HA-specific) T-cell mediated tumor killing<br />
+**Description**: CRISPR screen in mouse kidney carcinoma cells expressing HA antigen co-cultured with CL4 (HA-specific) T cells, compared to untreated control. Negative LFC values indicate genes whose knockout can enhance the efficacy of CL4 (HA-specific) T-cell mediated tumor killing<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
