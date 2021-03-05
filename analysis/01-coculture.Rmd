@@ -35,8 +35,8 @@ knitr::include_graphics("assets/positive_control_final/QC_Heatmap_scaled_cocultu
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_NK_Coculture-NK_COAD.overview.png", error = FALSE)
-knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_NK_Coculture-NK_COAD.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_NK_Coculture-NK_COAD.overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_NK_Coculture-NK_COAD.png", error = FALSE)
 ```
 
 -----
@@ -44,21 +44,21 @@ knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmu
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.10_Coculture-NK_COAD.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.10_Coculture-NK_COAD.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.10_Coculture-NK_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.10_Coculture-NK_COAD.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.10_Coculture-NK_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.10_Coculture-NK_COAD.png', error = FALSE)
 ```
 
 -----
@@ -74,8 +74,8 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_S
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_NK_Coculture-NK_COAD.overview.png", error = FALSE)
-knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_NK_Coculture-NK_COAD.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_NK_Coculture-NK_COAD.overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_NK_Coculture-NK_COAD.png", error = FALSE)
 ```
 
 -----
@@ -83,21 +83,21 @@ knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmu
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.20_Coculture-NK_COAD.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.20_Coculture-NK_COAD.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.20_Coculture-NK_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.20_Coculture-NK_COAD.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.20_Coculture-NK_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.20_Coculture-NK_COAD.png', error = FALSE)
 ```
 
 -----
@@ -153,8 +153,8 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28783722_NicholasPRestifo_Nat
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_overview.png", error = FALSE)
-knitr::include_graphics("../docs/assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA.table.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA.table.png", error = FALSE)
 ```
 
 -----
@@ -162,21 +162,21 @@ knitr::include_graphics("../docs/assets/original_fig/29301958_KaiWWucherpfennig_
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -192,9 +192,9 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpf
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_overview.png", error = FALSE)
-knitr::include_graphics("../docs/assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg.png", error = FALSE)
-knitr::include_graphics("../docs/assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg.table.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg.table.png", error = FALSE)
 ```
 
 -----
@@ -202,21 +202,21 @@ knitr::include_graphics("../docs/assets/original_fig/29301958_KaiWWucherpfennig_
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -232,7 +232,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpf
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_overview.png", error = FALSE)
 ```
 
 -----
@@ -240,21 +240,21 @@ knitr::include_graphics("../docs/assets/original_fig/29301958_KaiWWucherpfennig_
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg-_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg-_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg-_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg-_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg-_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg-_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -270,7 +270,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpf
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='40%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_B16F10_OT-I_Coculture-T_SKCM.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_B16F10_OT-I_Coculture-T_SKCM.png", error = FALSE)
 ```
 
 -----
@@ -278,21 +278,21 @@ knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmu
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_OT-I_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_OT-I_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_OT-I_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_OT-I_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_OT-I_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_OT-I_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -308,7 +308,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_S
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_B16F10_koPRF1.OT-I_Coculture-T_SKCM.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_B16F10_koPRF1.OT-I_Coculture-T_SKCM.png", error = FALSE)
 ```
 
 -----
@@ -316,21 +316,21 @@ knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmu
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_koPRF1.OT-I_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_koPRF1.OT-I_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_koPRF1.OT-I_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_koPRF1.OT-I_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_koPRF1.OT-I_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_koPRF1.OT-I_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -346,7 +346,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_S
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_OT-I+aPD1_Coculture-T_COAD.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_OT-I+aPD1_Coculture-T_COAD.png", error = FALSE)
 ```
 
 -----
@@ -354,21 +354,21 @@ knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmu
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_OT-I+aPD1_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_OT-I+aPD1_Coculture-T_COAD.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_OT-I+aPD1_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_OT-I+aPD1_Coculture-T_COAD.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_OT-I+aPD1_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_OT-I+aPD1_Coculture-T_COAD.png', error = FALSE)
 ```
 
 -----
@@ -384,7 +384,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_S
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='40%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_koPRF1.OT-I_Coculture-T_COAD.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_koPRF1.OT-I_Coculture-T_COAD.png", error = FALSE)
 ```
 
 -----
@@ -392,21 +392,21 @@ knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmu
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_koPRF1.OT-I_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_koPRF1.OT-I_Coculture-T_COAD.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_koPRF1.OT-I_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_koPRF1.OT-I_Coculture-T_COAD.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_koPRF1.OT-I_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_koPRF1.OT-I_Coculture-T_COAD.png', error = FALSE)
 ```
 
 -----
@@ -422,7 +422,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_S
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='40%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MDA-MB-231_CAR-T_Coculture-T_TNBC.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MDA-MB-231_CAR-T_Coculture-T_TNBC.png", error = FALSE)
 ```
 
 -----
@@ -430,21 +430,61 @@ knitr::include_graphics("../docs/assets/original_fig/29776993_JaneOliaro_SciImmu
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MDA-MB-231_CAR-T_Coculture-T_TNBC.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MDA-MB-231_CAR-T_Coculture-T_TNBC.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MDA-MB-231_CAR-T_Coculture-T_TNBC.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MDA-MB-231_CAR-T_Coculture-T_TNBC.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_MDA-MB-231_CAR-T_Coculture-T_TNBC.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_MDA-MB-231_CAR-T_Coculture-T_TNBC.png', error = FALSE)
+```
+
+-----
+
+# 31303383 | DanielSPeeper | Cell | 2019 | IFNGR1mut.SKCM | MART-1
+## **Overview**
+**PMID**: 31303383<br />
+**Model**: IFNGR1-deficient D10 human melanoma cell line (IFNGR1mut.SKCM)<br />
+**Treatment**: After CRISPR screen, D10 cells were cocultured with MART-1 CD8 T cells<br />
+**Control**: Untransduced (control) CD8 T cells<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in human IFNGR1-deficient skin cancer cells D10 co-cultured with MART-1 CD8 T cells, compared to untransduced (control) CD8 T cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/31303383_DanielSPeeper_Cell_2019_IFNGR1mut.SKCM_MART-1_Coculture.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31303383_DanielSPeeper_Cell_2019_IFNGR1mut.SKCM_MART-1_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/31303383_DanielSPeeper_Cell_2019_IFNGR1mut.SKCM_MART-1_r1_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/31303383_DanielSPeeper_Cell_2019_IFNGR1mut.SKCM_MART-1_r2_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31303383_DanielSPeeper_Cell_2019_IFNGR1mut.SKCM_MART-1_r1_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31303383_DanielSPeeper_Cell_2019_IFNGR1mut.SKCM_MART-1_r2_Coculture-T_SKCM.png', error = FALSE)
 ```
 
 -----

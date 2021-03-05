@@ -114,6 +114,49 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28813417_MarkADawson_Nature_2
 
 -----
 
+# 31365872 | BenjaminEGewurz | CellRep | 2019 | DaudiB | CD40
+## **Overview**
+**PMID**: 31365872<br />
+**Model**: Daudi (human B lymphoblast)<br />
+**Treatment**: After CRISPR screen, Daudi B cells were sorted with high CD40 expression level<br />
+**Control**: Sorted with low CD40 expression level<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in human B lymphoblast Daudi cells and sorted with CD40 high vs. CD40 low conditions. Positive LFC values indicate genes whose knockout can increase CD40 protein expression level<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='55%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/31365872_BenjaminEGewurz_CellRep_2019_DaudiB_CD40_Sorting.overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/31365872_BenjaminEGewurz_CellRep_2019_DaudiB_CD40_Sorting.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31365872_BenjaminEGewurz_CellRep_2019_DaudiB_CD40_Sorting_B-cell.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/31365872_BenjaminEGewurz_CellRep_2019_DaudiB_CD40_r12_Sorting_B-cell.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/31365872_BenjaminEGewurz_CellRep_2019_DaudiB_CD40_r34_Sorting_B-cell.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31365872_BenjaminEGewurz_CellRep_2019_DaudiB_CD40_r12_Sorting_B-cell.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31365872_BenjaminEGewurz_CellRep_2019_DaudiB_CD40_r34_Sorting_B-cell.png', error = FALSE)
+```
+
+-----
+
 # 33271120 | JonathanWYewdell | Immunity | 2021 | BJAB | MHCI
 ## **Overview**
 **PMID**: 33271120<br />
