@@ -142,6 +142,45 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31452512_JeffreySettleman_Eli
 
 -----
 
+# 31509742 | JaneOliaro | CellRep | 2019 | B16F10 | NK
+## **Overview**
+**PMID**: 31509742<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: After CRISPR screen, B16F10 cells were cocultured with natural killer (NK) cells<br />
+**Control**: Without NK cell treatment<br />
+**Type**: Coculture-NK<br />
+**Description**: CRISPR screen in mouse skin cancer cells B16F10 co-cultured with NK cells, compared to control without NK cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of NK-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/31509742_JaneOliaro_CellRep_2019_B16F10_NK.overview.png", error = FALSE)
+knitr::include_graphics("../docs/assets/original_fig/31509742_JaneOliaro_CellRep_2019_B16F10_NK.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/31509742_JaneOliaro_CellRep_2019_B16F10_NK_Coculture-NK_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/31509742_JaneOliaro_CellRep_2019_B16F10_NK_Coculture-NK_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/31509742_JaneOliaro_CellRep_2019_B16F10_NK_Coculture-NK_SKCM.png', error = FALSE)
+```
+
+-----
+
 # 28783722 | NicholasPRestifo | Nature | 2017 | Mel624 | EffectT
 ## **Overview**
 **PMID**: 28783722<br />

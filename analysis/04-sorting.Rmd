@@ -197,6 +197,47 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31452512_JeffreySettleman_Eli
 
 -----
 
+# 31509742 | JaneOliaro | CellRep | 2019 | B16F10 | MHCI.low
+## **Overview**
+**PMID**: 31509742<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: After CRISPR screen, B16F10 cells were sorted with low MHC-I expression level<br />
+**Control**: T0 unsorted<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in mouse skin cancer cells B16F10 and sorted with MHC-I low vs. T0 unsorted conditions. Negative LFC values indicate genes whose knockout can decrease MHC-I protein expression level<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='105%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/31509742_JaneOliaro_CellRep_2019_B16F10_MHCI.Low.overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/31509742_JaneOliaro_CellRep_2019_B16F10_MHCI.Low.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/31509742_JaneOliaro_CellRep_2019_B16F10_MHCI.Low_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/31509742_JaneOliaro_CellRep_2019_B16F10_MHCI.Low_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/31509742_JaneOliaro_CellRep_2019_B16F10_MHCI.Low_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
 # 33271120 | JonathanWYewdell | Immunity | 2021 | BJAB | MHCI
 ## **Overview**
 **PMID**: 33271120<br />
