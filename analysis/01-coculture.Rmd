@@ -568,6 +568,129 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31303383_DanielSPeeper_Cell_2
 
 -----
 
+# 31830245 | SatuMustjoki | Blood | 2019 | NALM6 | CART
+## **Overview**
+**PMID**: 31830245<br />
+**Model**: NALM6 (human B cell precursor leukemia cell line)<br />
+**Treatment**: After CRISPR screen, NALM6 cells were cocultured with CD19 CAR T cells only<br />
+**Control**: Without CAR T-cell treatment<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in human B cell precursor leukemia cells NALM6 co-cultured with CD19 CAR T cells, compared to no CAR T-cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of CAR T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='105%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/31830245_SatuMustjoki_Blood_2019.overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='40%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/31830245_SatuMustjoki_Blood_2019_NALM6_CART.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/31830245_SatuMustjoki_Blood_2019_NALM6_CART_Coculture-T_BCL.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/31830245_SatuMustjoki_Blood_2019_NALM6_CART_Coculture-T_BCL.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/31830245_SatuMustjoki_Blood_2019_NALM6_CART_Coculture-T_BCL.png', error = FALSE)
+```
+
+-----
+
+# 31830245 | SatuMustjoki | Blood | 2019 | NALM6 | CART+Birinapant
+## **Overview**
+**PMID**: 31830245<br />
+**Model**: NALM6 (human B cell precursor leukemia cell line)<br />
+**Treatment**: After CRISPR screen, NALM6 cells were cocultured with CD19 CAR T cells plus SMAC mimetic birinapant<br />
+**Control**: Cocultured with CAR T-cell only<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in human B cell precursor leukemia cells NALM6 co-cultured with CD19 CAR T cells plus birinapant, compared to CAR T-cell treatment only. Negative LFC values indicate genes whose knockout can enhance the efficacy of birinapant-mediated CAR T-cell tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='105%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/31830245_SatuMustjoki_Blood_2019_NALM6_Birinapant.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='40%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/31830245_SatuMustjoki_Blood_2019_NALM6_Birinapant.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/31830245_SatuMustjoki_Blood_2019_NALM6.CART_Birinapant_Coculture-T_BCL.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/31830245_SatuMustjoki_Blood_2019_NALM6_CART.Birinapant_Coculture-T_BCL.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/31830245_SatuMustjoki_Blood_2019_NALM6_CART.Birinapant_Coculture-T_BCL.png', error = FALSE)
+```
+
+-----
+
+# 31882897 | ChristopherDaly | SciRep | 2019 | Jeko-1 | CD3.bispecificAb
+## **Overview**
+**PMID**: 31882897<br />
+**Model**: Jeko-1 (human mantle cell lymphoma [MCL] cell line)<br />
+**Treatment**: After CRISPR screen, Jeko-1 cells were cocultured with human T cells plus CD20xCD3 bispecific antibody (CD3.bispecificAb)<br />
+**Control**: T-end<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in human mantle cell lymphoma Jeko-1 co-cultured with T cells plus CD20xCD3 bispecific antibody (CD3.bispecificAb), compared to T-end control. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell plus CD3.bispecificAb mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='105%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb.overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='105%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb_Coculture-T_MCL.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb_Coculture-T_MCL.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb_Coculture-T_MCL.png', error = FALSE)
+```
+
+-----
+
 # 32968282 | JasonMoffat | Nature | 2020 | 4T1-HA | CL4
 ## **Overview**
 **PMID**: 32968282<br />

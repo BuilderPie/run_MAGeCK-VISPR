@@ -66,8 +66,8 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmuno
 **Model**: hCD8T (human CD8 T cell)<br />
 **Treatment**: Highly dividing cells in the pilot screen<br />
 **Control**: Non-dividing cells<br />
-**Type**: SyntheticLethal<br />
-**Description**: CRISPR screen in human CD8 T cells and compare difference between the highly dividing cells and non-dividing cells. Negative LFC values indicate genes whose knockout can decrease cell proliferation<br />
+**Type**: Essentiality<br />
+**Description**: CRISPR screen in human CD8 T cells and compare difference between the highly dividing cells and non-dividing cells. Positive LFC values indicate genes whose knockout can increase T cell proliferation<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='80%', fig.align='left', fig.cap=''}
@@ -104,8 +104,8 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/30449619_AlexanderMarson_Cell
 **Model**: hCD8T (human CD8 T cell)<br />
 **Treatment**: Highly dividing cells in the essentiality screen<br />
 **Control**: Non-dividing cells<br />
-**Type**: SyntheticLethal<br />
-**Description**: CRISPR screen in human CD8 T cells and compare difference between the highly dividing cells and non-dividing cells. Negative LFC values indicate genes whose knockout can decrease cell proliferation<br />
+**Type**: Essentiality<br />
+**Description**: CRISPR screen in human CD8 T cells and compare difference between the highly dividing cells and non-dividing cells. Positive LFC values indicate genes whose knockout can increase T cell proliferation<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='105%', fig.align='left', fig.cap=''}
@@ -136,7 +136,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/30449619_AlexanderMarson_Cell
 
 -----
 
-# 30559422 | ERobertMcDonaldIII | NatMed | 2019 | HSC4 | shADAR
+# 30559422 | ERobertMcDonaldIII | NatMed | 2019 | HSC4.shADAR | Doxycycline
 ## **Overview**
 **PMID**: 30559422<br />
 **Model**: ADAR-depleted HSC4 (human tongue squamous carcinoma cell line) with <br />
@@ -210,6 +210,47 @@ knitr::include_graphics('assets/RRA_QC/RankPlot/31126740_LingyinLi_MolCell_2019_
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
 knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31126740_LingyinLi_MolCell_2019_U937_cGAMP_SyntheticLethal_MP.png', error = FALSE)
+```
+
+-----
+
+# 31882897 | ChristopherDaly | SciRep | 2019 | Jeko-1 | Essentiality
+## **Overview**
+**PMID**: 31882897<br />
+**Model**: Jeko-1 (human mantle cell lymphoma [MCL] cell line)<br />
+**Treatment**: After CRISPR screen, Jeko-1 cells were passaged in vitro and harvested after 10 doublings<br />
+**Control**: T-0<br />
+**Type**: Essentiality<br />
+**Description**: CRISPR screen in human mantle cell lymphoma Jeko-1 following in vitro 10 doublings, compared to T-0 control. Positive LFC values indicate genes whose knockout can increase cancer cell proliferation<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='105%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb.overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='65%', fig.align='left', fig.cap=''}
+knitr::include_graphics("../docs/assets/original_fig/31882897_ChristopherDaly_SciRep_2019_Jeko-1_Essentiality.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/31882897_ChristopherDaly_SciRep_2019_Jeko-1_Essentiality_Essentiality_MCL.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/31882897_ChristopherDaly_SciRep_2019_Jeko-1_Essentiality_Essentiality_MCL.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/31882897_ChristopherDaly_SciRep_2019_Jeko-1_Essentiality_Essentiality_MCL.png', error = FALSE)
 ```
 
 -----
