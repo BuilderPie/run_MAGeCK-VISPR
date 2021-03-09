@@ -225,10 +225,10 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31126740_LingyinLi_MolCell_20
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='105%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb.overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb.overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='65%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/31882897_ChristopherDaly_SciRep_2019_Jeko-1_Essentiality.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/31882897_ChristopherDaly_SciRep_2019_Jeko-1_Essentiality.png", error = FALSE)
 ```
 
 -----
@@ -236,21 +236,21 @@ knitr::include_graphics("../docs/assets/original_fig/31882897_ChristopherDaly_Sc
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/31882897_ChristopherDaly_SciRep_2019_Jeko-1_Essentiality_Essentiality_MCL.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31882897_ChristopherDaly_SciRep_2019_Jeko-1_Essentiality_Essentiality_MCL.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/31882897_ChristopherDaly_SciRep_2019_Jeko-1_Essentiality_Essentiality_MCL.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/31882897_ChristopherDaly_SciRep_2019_Jeko-1_Essentiality_Essentiality_MCL.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/31882897_ChristopherDaly_SciRep_2019_Jeko-1_Essentiality_Essentiality_MCL.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31882897_ChristopherDaly_SciRep_2019_Jeko-1_Essentiality_Essentiality_MCL.png', error = FALSE)
 ```
 
 -----

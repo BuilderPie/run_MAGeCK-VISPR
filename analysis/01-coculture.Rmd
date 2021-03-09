@@ -153,8 +153,8 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31452512_JeffreySettleman_Eli
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/31509742_JaneOliaro_CellRep_2019_B16F10_NK.overview.png", error = FALSE)
-knitr::include_graphics("../docs/assets/original_fig/31509742_JaneOliaro_CellRep_2019_B16F10_NK.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/31509742_JaneOliaro_CellRep_2019_B16F10_NK.overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/31509742_JaneOliaro_CellRep_2019_B16F10_NK.png", error = FALSE)
 ```
 
 -----
@@ -162,21 +162,21 @@ knitr::include_graphics("../docs/assets/original_fig/31509742_JaneOliaro_CellRep
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/31509742_JaneOliaro_CellRep_2019_B16F10_NK_Coculture-NK_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31509742_JaneOliaro_CellRep_2019_B16F10_NK_Coculture-NK_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/31509742_JaneOliaro_CellRep_2019_B16F10_NK_Coculture-NK_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/31509742_JaneOliaro_CellRep_2019_B16F10_NK_Coculture-NK_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/31509742_JaneOliaro_CellRep_2019_B16F10_NK_Coculture-NK_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31509742_JaneOliaro_CellRep_2019_B16F10_NK_Coculture-NK_SKCM.png', error = FALSE)
 ```
 
 -----
@@ -579,10 +579,10 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31303383_DanielSPeeper_Cell_2
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='105%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/31830245_SatuMustjoki_Blood_2019.overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/31830245_SatuMustjoki_Blood_2019.overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='40%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/31830245_SatuMustjoki_Blood_2019_NALM6_CART.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/31830245_SatuMustjoki_Blood_2019_NALM6_CART.png", error = FALSE)
 ```
 
 -----
@@ -590,21 +590,21 @@ knitr::include_graphics("../docs/assets/original_fig/31830245_SatuMustjoki_Blood
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/31830245_SatuMustjoki_Blood_2019_NALM6_CART_Coculture-T_BCL.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31830245_SatuMustjoki_Blood_2019_NALM6_CART_Coculture-T_BCL.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/31830245_SatuMustjoki_Blood_2019_NALM6_CART_Coculture-T_BCL.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/31830245_SatuMustjoki_Blood_2019_NALM6_CART_Coculture-T_BCL.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/31830245_SatuMustjoki_Blood_2019_NALM6_CART_Coculture-T_BCL.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31830245_SatuMustjoki_Blood_2019_NALM6_CART_Coculture-T_BCL.png', error = FALSE)
 ```
 
 -----
@@ -620,10 +620,10 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/31830245_SatuMustjoki
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='105%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/31830245_SatuMustjoki_Blood_2019_NALM6_Birinapant.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/31830245_SatuMustjoki_Blood_2019_NALM6_Birinapant.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='40%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/31830245_SatuMustjoki_Blood_2019_NALM6_Birinapant.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/31830245_SatuMustjoki_Blood_2019_NALM6_Birinapant.png", error = FALSE)
 ```
 
 -----
@@ -631,21 +631,21 @@ knitr::include_graphics("../docs/assets/original_fig/31830245_SatuMustjoki_Blood
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/31830245_SatuMustjoki_Blood_2019_NALM6.CART_Birinapant_Coculture-T_BCL.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31830245_SatuMustjoki_Blood_2019_NALM6.CART_Birinapant_Coculture-T_BCL.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/31830245_SatuMustjoki_Blood_2019_NALM6_CART.Birinapant_Coculture-T_BCL.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/31830245_SatuMustjoki_Blood_2019_NALM6_CART.Birinapant_Coculture-T_BCL.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/31830245_SatuMustjoki_Blood_2019_NALM6_CART.Birinapant_Coculture-T_BCL.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31830245_SatuMustjoki_Blood_2019_NALM6_CART.Birinapant_Coculture-T_BCL.png', error = FALSE)
 ```
 
 -----
@@ -661,10 +661,10 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/31830245_SatuMustjoki
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='105%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb.overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb.overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='105%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb.png", error = FALSE)
 ```
 
 -----
@@ -672,21 +672,21 @@ knitr::include_graphics("../docs/assets/original_fig/31882897_ChristopherDaly_Sc
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb_Coculture-T_MCL.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb_Coculture-T_MCL.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb_Coculture-T_MCL.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb_Coculture-T_MCL.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb_Coculture-T_MCL.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb_Coculture-T_MCL.png', error = FALSE)
 ```
 
 -----

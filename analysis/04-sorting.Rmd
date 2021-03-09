@@ -114,6 +114,47 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28813417_MarkADawson_Nature_2
 
 -----
 
+# 30890156 | NamjinChung | BMCGenomics | 2019 | MC38 | PDL1
+## **Overview**
+**PMID**: 30890156<br />
+**Model**: MC38 (murine colon adenocarcinoma cell line)<br />
+**Treatment**: After CRISPR screen, MC38 cells were sorted with high PD-L1 expression level<br />
+**Control**: Sorted with low PD-L1 expression level<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in mouse colon adenocarcinoma cells MC38 and sorted with PD-L1 high vs. PD-L1 low conditions. Negative LFC values indicate genes whose knockout can decrease PD-L1 protein expression level<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='105%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/30890156_NamjinChung_BMCGenomics_2019_MC38_PDL1.overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='40%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/30890156_NamjinChung_BMCGenomics_2019_MC38_PDL1.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/30890156_NamjinChung_BMCGenomics_2019_MC38_PDL1_Sorting_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/30890156_NamjinChung_BMCGenomics_2019_MC38_PDL1_Sorting_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/30890156_NamjinChung_BMCGenomics_2019_MC38_PDL1_Sorting_COAD.png', error = FALSE)
+```
+
+-----
+
 # 31365872 | BenjaminEGewurz | CellRep | 2019 | DaudiB | CD40
 ## **Overview**
 **PMID**: 31365872<br />
@@ -208,10 +249,10 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31452512_JeffreySettleman_Eli
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='105%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/31509742_JaneOliaro_CellRep_2019_B16F10_MHCI.Low.overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/31509742_JaneOliaro_CellRep_2019_B16F10_MHCI.Low.overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/31509742_JaneOliaro_CellRep_2019_B16F10_MHCI.Low.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/31509742_JaneOliaro_CellRep_2019_B16F10_MHCI.Low.png", error = FALSE)
 ```
 
 -----
@@ -219,21 +260,265 @@ knitr::include_graphics("../docs/assets/original_fig/31509742_JaneOliaro_CellRep
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/31509742_JaneOliaro_CellRep_2019_B16F10_MHCI.Low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31509742_JaneOliaro_CellRep_2019_B16F10_MHCI.Low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/31509742_JaneOliaro_CellRep_2019_B16F10_MHCI.Low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/31509742_JaneOliaro_CellRep_2019_B16F10_MHCI.Low_Sorting_SKCM.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/31509742_JaneOliaro_CellRep_2019_B16F10_MHCI.Low_Sorting_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31509742_JaneOliaro_CellRep_2019_B16F10_MHCI.Low_Sorting_SKCM.png', error = FALSE)
+```
+
+-----
+
+# 31801065 | MeghanHoldorf | CellRep | 2019 | HepG2 | HBsAg
+## **Overview**
+**PMID**: 31801065<br />
+**Model**: HepG2 (human liver cancer cell line)<br />
+**Treatment**: After CRISPR screen, HepG2 cells were treated with DMSO and then sorted with high Hepatitis B surface antigen (HBsAg) expression level<br />
+**Control**: Sorted with low HBsAg expression level<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in human liver cancer cells HepG2 and sorted with HBsAg high vs. HBsAg low conditions. Negative LFC values indicate genes whose knockout can decrease HBsAg protein expression level<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='105%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/31801065_MeghanHoldorf_CellRep_2019_HepG2+DMSO_HBsAg.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/31801065_MeghanHoldorf_CellRep_2019_HepG2+DMSO_HBsAg_table.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31801065_MeghanHoldorf_CellRep_2019_HepG2_HBsAg_Sorting_LIHC.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/31801065_MeghanHoldorf_CellRep_2019_HepG2_HBsAb_Sorting_LIHC.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31801065_MeghanHoldorf_CellRep_2019_HepG2_HBsAb_Sorting_LIHC.png', error = FALSE)
+```
+
+-----
+
+# 31801065 | MeghanHoldorf | CellRep | 2019 | HepG2.RG7834.Lo | HBsAg
+## **Overview**
+**PMID**: 31801065<br />
+**Model**: HepG2 (human liver cancer cell line)<br />
+**Treatment**: After CRISPR screen, HepG2 cells were treated with low dose RG7834 (0.03 nM) and then sorted with high Hepatitis B surface antigen (HBsAg) expression level<br />
+**Control**: Sorted with low HBsAg expression level<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in human liver cancer cells HepG2 and sorted with HBsAg high vs. HBsAg low conditions. Negative LFC values indicate genes whose knockout can decrease HBsAg protein expression level in the presense of low dose RG7834<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/31801065_MeghanHoldorf_CellRep_2019_HepG2.RG7834.Lo_HBsAg_table.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31801065_MeghanHoldorf_CellRep_2019_HepG2.RG7834.Lo_HBsAg_Sorting_LIHC.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/31801065_MeghanHoldorf_CellRep_2019_HepG2.RG7834.Lo_HBsAb_Sorting_LIHC.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31801065_MeghanHoldorf_CellRep_2019_HepG2.RG7834.Lo_HBsAb_Sorting_LIHC.png', error = FALSE)
+```
+
+-----
+
+# 31801065 | MeghanHoldorf | CellRep | 2019 | HepG2.RG7834.Hi | HBsAg
+## **Overview**
+**PMID**: 31801065<br />
+**Model**: HepG2 (human liver cancer cell line)<br />
+**Treatment**: After CRISPR screen, HepG2 cells were treated with high dose RG7834 (30 nM) and then sorted with high Hepatitis B surface antigen (HBsAg) expression level<br />
+**Control**: Sorted with low HBsAg expression level<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in human liver cancer cells HepG2 and sorted with HBsAg high vs. HBsAg low conditions. Negative LFC values indicate genes whose knockout can decrease HBsAg protein expression level in the presense of high dose RG7834<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/31801065_MeghanHoldorf_CellRep_2019_HepG2.RG7834.Hi_HBsAg_table.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31801065_MeghanHoldorf_CellRep_2019_HepG2.RG7834.Hi_HBsAg_Sorting_LIHC.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/31801065_MeghanHoldorf_CellRep_2019_HepG2.RG7834.Hi_HBsAb_Sorting_LIHC.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31801065_MeghanHoldorf_CellRep_2019_HepG2.RG7834.Hi_HBsAb_Sorting_LIHC.png', error = FALSE)
+```
+
+-----
+
+# 31919360 | NirHacohen | NatCommun | 2020 | A549.PR8 | IAV.HA
+## **Overview**
+**PMID**: 31919360<br />
+**Model**: A549 (non-small cell lung cancer cell line)<br />
+**Treatment**: After CRISPR screen, A549 cells were infected with influenza A/PR8 virus and then sorted with high influenza A virus hemagglutinin (IAV.HA) expression level<br />
+**Control**: Sorted with low IAV.HA expression level<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in human non-small cell lung cancer cells A549 and sorted with IAV.HA high vs. IAV.HA low conditions. Negative LFC values indicate genes whose knockout can decrease IAV.HA protein expression level<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='50%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/31919360_NirHacohen_NatCommun_2020_A549_IAV.HA_overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='105%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/31919360_NirHacohen_NatCommun_2020_A549_IAV.HA_primary.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/31919360_NirHacohen_NatCommun_2020_A549_IAV.HA_secondary.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31919360_NirHacohen_NatCommun_2020_A549_IAV.HA_Sorting_NSCLC.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/31919360_NirHacohen_NatCommun_2020_A549_IAV.HA_Sorting_NSCLC.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31919360_NirHacohen_NatCommun_2020_A549_IAV.HA_Sorting_NSCLC.png', error = FALSE)
+```
+
+-----
+
+# 32156810 | MichaelSDiamond | mBio | 2020 | BV2 | Bst2.High
+## **Overview**
+**PMID**: 32156810<br />
+**Model**: BV2 (murine microglial cell)<br />
+**Treatment**: After CRISPR screen, BV2 cells were treated with interferon beta (IFNb) and then sorted with  high tetherin (Bst2/CD317) expression level<br />
+**Control**: Unsorted population<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in mouse microglial cells BV2 followed by IFNb treatment and sorted with Bst2 high vs. unsorted population. Positive LFC values indicate genes whose knockout can increase Bst2 protein expression level<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='60%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/32156810_MichaelSDiamond_mBio_2020_BV2_Bst2.High_overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/32156810_MichaelSDiamond_mBio_2020_BV2_Bst2.High_lib1.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/32156810_MichaelSDiamond_mBio_2020_BV2_Bst2.High_lib5.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/32156810_MichaelSDiamond_mBio_2020_BV2_Bst2.High_Sorting_Microglial.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/32156810_MichaelSDiamond_mBio_2020_BV2_Bst2.High_L1_Sorting_Microglial.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32156810_MichaelSDiamond_mBio_2020_BV2_Bst2.High_L5_Sorting_Microglial.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32156810_MichaelSDiamond_mBio_2020_BV2_Bst2.High_L1_Sorting_Microglial.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32156810_MichaelSDiamond_mBio_2020_BV2_Bst2.High_L5_Sorting_Microglial.png', error = FALSE)
+```
+
+-----
+
+# 32499641 | DeyuFang | Nature | 2020 | Treg | Foxp3
+## **Overview**
+**PMID**: 32499641<br />
+**Model**: Treg (murine regulatory T cells)<br />
+**Treatment**: After CRISPR screen, Treg cells were sorted with high Foxp3 expression level<br />
+**Control**: Sorted with low Foxp3 expression level<br />
+**Type**: Sorting<br />
+**Description**: CRISPR screen in mouse regulatory T cells and sorted with Foxp3 high vs. low conditions Positive LFC values indicate genes whose knockout can increase Foxp3 protein expression level<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/32499641_DeyuFang_Nature_2020_Treg_Foxp3_overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/32499641_DeyuFang_Nature_2020_Treg_Foxp3.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/32499641_DeyuFang_Nature_2020_Treg_Foxp3_Sorting_T-cell.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/32499641_DeyuFang_Nature_2020_Treg_Foxp3_Sorting_T-cell.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32499641_DeyuFang_Nature_2020_Treg_Foxp3_Sorting_T-cell.png', error = FALSE)
 ```
 
 -----

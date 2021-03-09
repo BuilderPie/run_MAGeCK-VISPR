@@ -171,10 +171,10 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/31744829_KwokKinWong_CancerDiscov_2019_KP.overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/31744829_KwokKinWong_CancerDiscov_2019_KP.overview.png", error = FALSE)
 ```
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/31744829_KwokKinWong_CancerDiscov_2019_KP-WT_aPD1.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/31744829_KwokKinWong_CancerDiscov_2019_KP-WT_aPD1.png", error = FALSE)
 ```
 
 -----
@@ -182,21 +182,21 @@ knitr::include_graphics("../docs/assets/original_fig/31744829_KwokKinWong_Cancer
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/31744829_KwokKinWong_CancerDiscov_2019_KP_aPD1_Invivo_LUAD.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31744829_KwokKinWong_CancerDiscov_2019_KP_aPD1_Invivo_LUAD.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/31744829_KwokKinWong_CancerDiscov_2019_KP-WT_aPD1_Invivo_LUAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/31744829_KwokKinWong_CancerDiscov_2019_KP-WT_aPD1_Invivo_LUAD.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/31744829_KwokKinWong_CancerDiscov_2019_KP-WT_aPD1_Invivo_LUAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31744829_KwokKinWong_CancerDiscov_2019_KP-WT_aPD1_Invivo_LUAD.png', error = FALSE)
 ```
 
 -----
@@ -212,7 +212,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/31744829_KwokKinWong_
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/31744829_KwokKinWong_CancerDiscov_2019_KP.overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/31744829_KwokKinWong_CancerDiscov_2019_KP.overview.png", error = FALSE)
 ```
 
 -----
@@ -220,21 +220,21 @@ knitr::include_graphics("../docs/assets/original_fig/31744829_KwokKinWong_Cancer
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/31744829_KwokKinWong_CancerDiscov_2019_KP.koRag1_aPD1_Invivo_LUAD.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31744829_KwokKinWong_CancerDiscov_2019_KP.koRag1_aPD1_Invivo_LUAD.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/31744829_KwokKinWong_CancerDiscov_2019_KP-koRag1_aPD1_Invivo_LUAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/31744829_KwokKinWong_CancerDiscov_2019_KP-koRag1_aPD1_Invivo_LUAD.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/31744829_KwokKinWong_CancerDiscov_2019_KP-koRag1_aPD1_Invivo_LUAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31744829_KwokKinWong_CancerDiscov_2019_KP-koRag1_aPD1_Invivo_LUAD.png', error = FALSE)
 ```
 
 -----
@@ -250,7 +250,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/31744829_KwokKinWong_
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/31827283_HongboChi_Nature_2019_OT-I_B16F10.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/31827283_HongboChi_Nature_2019_OT-I_B16F10.png", error = FALSE)
 ```
 
 -----
@@ -258,21 +258,21 @@ knitr::include_graphics("../docs/assets/original_fig/31827283_HongboChi_Nature_2
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/31827283_HongboChi_Nature_2019_OT-I_B16F10_Invivo_CD8T.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31827283_HongboChi_Nature_2019_OT-I_B16F10_Invivo_CD8T.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/31827283_HongboChi_Nature_2019_OT-I_B16F10_Invivo_CD8T.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/31827283_HongboChi_Nature_2019_OT-I_B16F10_Invivo_CD8T.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/31827283_HongboChi_Nature_2019_OT-I_B16F10_Invivo_CD8T.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31827283_HongboChi_Nature_2019_OT-I_B16F10_Invivo_CD8T.png', error = FALSE)
 ```
 
 -----
@@ -288,7 +288,7 @@ knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/31827283_HongboChi_Na
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
-knitr::include_graphics("../docs/assets/original_fig/31827283_HongboChi_Nature_2019_OT-I.koRegnase-1_B16F10.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/31827283_HongboChi_Nature_2019_OT-I.koRegnase-1_B16F10.png", error = FALSE)
 ```
 
 -----
@@ -296,21 +296,21 @@ knitr::include_graphics("../docs/assets/original_fig/31827283_HongboChi_Nature_2
 ## **MAGeCK-VISPR Results** {.tabset}
 ### Processed - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/median_scaled_QC/RankPlot/31827283_HongboChi_Nature_2019_OT-I.koRegnase-1_B16F10_Invivo_CD8T.png', error = FALSE)
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31827283_HongboChi_Nature_2019_OT-I.koRegnase-1_B16F10_Invivo_CD8T.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Rank Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/RankPlot/31827283_HongboChi_Nature_2019_OT-I.koRegnase-1_B16F10_Invivo_CD8T.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/31827283_HongboChi_Nature_2019_OT-I.koRegnase-1_B16F10_Invivo_CD8T.png', error = FALSE)
 ```
 
 -----
 
 ### Raw - Volcano Plot
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
-knitr::include_graphics('../docs/assets/RRA_QC/VolcanoPlot/31827283_HongboChi_Nature_2019_OT-I.koRegnase-1_B16F10_Invivo_CD8T.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31827283_HongboChi_Nature_2019_OT-I.koRegnase-1_B16F10_Invivo_CD8T.png', error = FALSE)
 ```
 
 -----
