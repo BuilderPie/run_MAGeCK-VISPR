@@ -1,5 +1,5 @@
 ---
-title: "Co-culture screens"
+title: "Coculture screens"
 author: "Dian Li, Wubing Zhang, Zexian Davis Zeng"
 date: "`r Sys.Date()`"
 output: 

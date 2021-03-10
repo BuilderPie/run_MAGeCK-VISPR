@@ -28,7 +28,12 @@ library(DT)
 # **Introduction**
 
 <br />
-This document contains quality check (QC) results from running **MAGeCK-VISPR** _test_ module on immune-related CRISPR data. We have annotated the results into four major categories: **Coculture screen**, **Essentiality screen**, **In-vivo screen**, and **Sorting screen**. 
+This document contains quality check (QC) results from running **MAGeCK-VISPR** _test_ module on immune-related CRISPR data. We have annotated the results into four major categories: <br />
+<br />
+1. <a href="01-coculture.html">**Coculture screen**</a><br />
+2. <a href="02-essentiality.html">**Essentiality screen**</a><br />
+3. <a href="03-invivo.html">**In-vivo screen**</a><br />
+4. <a href="04-sorting.html">**Sorting screen**</a><br />
 
 ---
 

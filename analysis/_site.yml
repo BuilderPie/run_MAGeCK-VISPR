@@ -5,7 +5,7 @@ navbar:
   left:
   - text: Home
     href: index.html
-  - text: Co-culture
+  - text: Coculture
     href: 01-coculture.html
   - text: Essentiality
     href: 02-essentiality.html
