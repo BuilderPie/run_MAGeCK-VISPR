@@ -29,7 +29,7 @@ knitr::include_graphics("assets/positive_control_final/QC_Heatmap_scaled_sorting
 **PMID**: 26189680<br />
 **Model**: Bone marrow derived dendritic cells (BMDCs)<br />
 **Treatment**: After CRISPR screen, BMDCs were sorted with high tumor necrosis factor (TNF) expression level<br />
-**Control**: Sorted with low tumor necrosis factor (TNF) level<br />
+**Control**: Sorted with low tumor necrosis factor (TNF) expression level<br />
 **Type**: Sorting <br />
 **Description**: CRISPR screen in mouse bone marrow derived dendritic cells (BMDCs) and sorted with TNF high vs. TNF low conditions. Positive LFC values indicate genes whose knockout can increase TNF protein expression level<br />
 
