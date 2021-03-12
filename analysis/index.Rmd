@@ -38,6 +38,44 @@ This document contains quality check (QC) results from running **MAGeCK-VISPR** 
 
 ---
 
+# **Essentiality screen**
+
+<br />
+```{r, echo=FALSE, cache = FALSE}
+df = read.csv("../docs/data_list.csv", sep = ",", header=TRUE)
+df = df[grep("Essentiality|SyntheticLethal", df$Category, ignore.case = T), -grep("SubDir|Category", colnames(df), ignore.case = T)]
+rownames(df) = 1:dim(df)[1]
+# datatable(df,  rownames=TRUE, escape=FALSE, filter = 'top', options = list(pageLength = 25, autoWidth = TRUE))
+datatable(df,  rownames=TRUE, escape=FALSE, options = list(pageLength = 50, autoWidth = TRUE), callback = JS("
+    table.on( 'order.dt search.dt', function () {
+        table.column(0, {search:'applied', order:'applied'}).nodes().each( 
+            function (cell, i) {
+                cell.innerHTML = i+1;
+            } );
+    } )")) %>% formatStyle(0, target= 'row', lineHeight='100%')
+```
+
+---
+
+# **Sorting screen**
+
+<br />
+```{r, echo=FALSE, cache = FALSE}
+df = read.csv("../docs/data_list.csv", sep = ",", header=TRUE)
+df = df[grep("Sorting", df$Category, ignore.case = T), -grep("SubDir|Category", colnames(df), ignore.case = T)]
+rownames(df) = 1:dim(df)[1]
+# datatable(df,  rownames=TRUE, escape=FALSE, filter = 'top', options = list(pageLength = 25, autoWidth = TRUE))
+datatable(df,  rownames=TRUE, escape=FALSE, options = list(pageLength = 50, autoWidth = TRUE), callback = JS("
+    table.on( 'order.dt search.dt', function () {
+        table.column(0, {search:'applied', order:'applied'}).nodes().each( 
+            function (cell, i) {
+                cell.innerHTML = i+1;
+            } );
+    } )")) %>% formatStyle(0, target= 'row', lineHeight='100%')
+```
+
+---
+
 # **Coculture screen**
 
 ## **Coculture-NK**
@@ -78,50 +116,12 @@ datatable(df,  rownames=TRUE, escape=FALSE, options = list(pageLength = 50, auto
 
 ---
 
-# **Essentiality screen**
-
-<br />
-```{r, echo=FALSE, cache = FALSE}
-df = read.csv("../docs/data_list.csv", sep = ",", header=TRUE)
-df = df[grep("Essentiality|SyntheticLethal", df$Category, ignore.case = T), -grep("SubDir|Category", colnames(df), ignore.case = T)]
-rownames(df) = 1:dim(df)[1]
-# datatable(df,  rownames=TRUE, escape=FALSE, filter = 'top', options = list(pageLength = 25, autoWidth = TRUE))
-datatable(df,  rownames=TRUE, escape=FALSE, options = list(pageLength = 50, autoWidth = TRUE), callback = JS("
-    table.on( 'order.dt search.dt', function () {
-        table.column(0, {search:'applied', order:'applied'}).nodes().each( 
-            function (cell, i) {
-                cell.innerHTML = i+1;
-            } );
-    } )")) %>% formatStyle(0, target= 'row', lineHeight='100%')
-```
-
----
-
 # **In-vivo screen**
 
 <br />
 ```{r, echo=FALSE, cache = FALSE}
 df = read.csv("../docs/data_list.csv", sep = ",", header=TRUE)
 df = df[grep("Invivo|In-vivo", df$Category, ignore.case = T), -grep("SubDir|Category", colnames(df), ignore.case = T)]
-rownames(df) = 1:dim(df)[1]
-# datatable(df,  rownames=TRUE, escape=FALSE, filter = 'top', options = list(pageLength = 25, autoWidth = TRUE))
-datatable(df,  rownames=TRUE, escape=FALSE, options = list(pageLength = 50, autoWidth = TRUE), callback = JS("
-    table.on( 'order.dt search.dt', function () {
-        table.column(0, {search:'applied', order:'applied'}).nodes().each( 
-            function (cell, i) {
-                cell.innerHTML = i+1;
-            } );
-    } )")) %>% formatStyle(0, target= 'row', lineHeight='100%')
-```
-
----
-
-# **Sorting screen**
-
-<br />
-```{r, echo=FALSE, cache = FALSE}
-df = read.csv("../docs/data_list.csv", sep = ",", header=TRUE)
-df = df[grep("Sorting", df$Category, ignore.case = T), -grep("SubDir|Category", colnames(df), ignore.case = T)]
 rownames(df) = 1:dim(df)[1]
 # datatable(df,  rownames=TRUE, escape=FALSE, filter = 'top', options = list(pageLength = 25, autoWidth = TRUE))
 datatable(df,  rownames=TRUE, escape=FALSE, options = list(pageLength = 50, autoWidth = TRUE), callback = JS("
