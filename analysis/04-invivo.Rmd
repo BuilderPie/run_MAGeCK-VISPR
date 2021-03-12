@@ -28,8 +28,8 @@ knitr::include_graphics("assets/positive_control_final/QC_Heatmap_scaled_invivo.
 ## **Overview**
 **PMID**: 28723893<br />
 **Model**: B16F10 (murine skin melanoma cell line)<br />
-**Treatment**: Irradiated tumour cell vaccine (GVAX) + anti-PD1 in wild type mice<br />
-**Control**: TCRa-/- (knockout) mice without treatment<br />
+**Treatment**: Transplant to wild type mice treated with Irradiated tumour cell vaccine (GVAX) + anti-PD1<br />
+**Control**: Transplant to TCRa-/- (knockout) mice without treatment<br />
 **Type**: In-vivo<br />
 **Description**: In-vivo CRISPR screen in transplantable tumours in mice treated with immunotherapy (GVAX + anti-PD1), compared to TCRa-/- (knockout) mice without treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of anti-PD1 mediated tumor killing<br />
 
@@ -76,8 +76,8 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 ## **Overview**
 **PMID**: 28723893<br />
 **Model**: B16F10 (murine skin melanoma cell line)<br />
-**Treatment**: Irradiated tumour cell vaccine (GVAX) only in wild type mice<br />
-**Control**: TCRa-/- (knockout) mice without treatment<br />
+**Treatment**: Transplant to wild type mice treated with irradiated tumour cell vaccine (GVAX) only<br />
+**Control**: Transplant to TCRa-/- (knockout) mice without treatment<br />
 **Type**: In-vivo<br />
 **Description**: In-vivo CRISPR screen in transplantable tumours in mice treated with GVAX, compared to TCRa-/- (knockout) mice without treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of GVAX mediated tumor killing<br />
 
@@ -120,7 +120,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 ## **Overview**
 **PMID**: 28723893<br />
 **Model**: B16F10 (murine skin melanoma cell line)<br />
-**Treatment**: TCRa-/- (knockout) mice<br />
+**Treatment**: Transplant on TCRa-/- (knockout) mice without treatment<br />
 **Control**: Cells growing in vitro<br />
 **Type**: In-vivo<br />
 **Description**: In-vivo CRISPR screen in transplantable tumours in TCRa-/- (knockout) mice, compared to in vitro condition. Negative LFC values indicate genes whose knockout can decrease tumor growing in TCRa-/- mice<br />
