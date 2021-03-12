@@ -1,0 +1,963 @@
+---
+title: "Coculture screens"
+author: "Dian Li, Wubing Zhang, Zexian Davis Zeng"
+date: "`r Sys.Date()`"
+output: 
+  workflowr::wflow_html:
+    toc: true
+    number_sections: true
+    toc_depth: 1
+    df_print: paged
+    css: style.css
+    toc_float:
+      collapsed: false
+editor_options:
+  chunk_output_type: console
+---
+
+# Positive control
+**Description**: CRISPR screens with _Coculture_ condition using a list of positive control genes. Negative LFC values indicate genes whose knockout can increase the efficacy of NK / T cell mediated tumor killing<br />
+
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/positive_control_final/QC_Heatmap_scaled_coculture.svg", error = FALSE)
+```
+
+-----
+
+# 29776993 | JaneOliaro | SciImmunol | 2018 | MC38 | NK.10
+## **Overview**
+**PMID**: 29776993<br />
+**Model**: MC38 (murine colon adenocarcinoma cell line)<br />
+**Treatment**: After CRISPR screen, MC38 cells were cocultured with natural killer (NK) cells at effector : target ratio of 10<br />
+**Control**: T-end without NK cell treatment<br />
+**Type**: Coculture-NK<br />
+**Description**: CRISPR screen in mouse colon adenocarcinoma cells MC38 co-cultured with NK cells at E:T ratio of 10, compared to T-end without NK cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of NK-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_NK_Coculture-NK_COAD.overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_NK_Coculture-NK_COAD.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.10_Coculture-NK_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.10_Coculture-NK_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.10_Coculture-NK_COAD.png', error = FALSE)
+```
+
+-----
+
+# 29776993 | JaneOliaro | SciImmunol | 2018 | MC38 | NK.20
+## **Overview**
+**PMID**: 29776993<br />
+**Model**: MC38 (murine colon adenocarcinoma cell line)<br />
+**Treatment**: After CRISPR screen, MC38 cells were cocultured with natural killer (NK) cells at effector : target (E:T) ratio of 20<br />
+**Control**: T-end without NK cell treatment<br />
+**Type**: Coculture-NK<br />
+**Description**: CRISPR screen in mouse colon adenocarcinoma cells MC38 co-cultured with NK cells at E:T ratio of 20, compared to T-end without NK cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of NK-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_NK_Coculture-NK_COAD.overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_NK_Coculture-NK_COAD.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.20_Coculture-NK_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.20_Coculture-NK_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_NK.20_Coculture-NK_COAD.png', error = FALSE)
+```
+
+-----
+
+# 31452512 | JeffreySettleman | Elife | 2019 | K562 | NK
+## **Overview**
+**PMID**: 31452512<br />
+**Model**: K562 (human chronic myelogenous leukemia cell line)<br />
+**Treatment**: After CRISPR screen, K562 cells were cocultured with natural killer (NK) cells<br />
+**Control**: T-end without NK cell treatment<br />
+**Type**: Coculture-NK<br />
+**Description**: CRISPR screen in human chronic myelogenous leukemia cells K562 co-cultured with NK cells, compared to T-end without NK cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of NK-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/31452512_JeffreySettleman_Elife_2019_K562_NK-92_Coculture-NK_LCML.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31452512_JeffreySettleman_Elife_2019_K562_NK-92_Coculture-NK_LCML.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/31452512_JeffreySettleman_Elife_2019_K562_NK-92_r1_Coculture-NK_LCML.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/31452512_JeffreySettleman_Elife_2019_K562_NK-92_r2_Coculture-NK_LCML.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31452512_JeffreySettleman_Elife_2019_K562_NK-92_r1_Coculture-NK_LCML.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31452512_JeffreySettleman_Elife_2019_K562_NK-92_r2_Coculture-NK_LCML.png', error = FALSE)
+```
+
+-----
+
+# 31509742 | JaneOliaro | CellRep | 2019 | B16F10 | NK
+## **Overview**
+**PMID**: 31509742<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: After CRISPR screen, B16F10 cells were cocultured with natural killer (NK) cells<br />
+**Control**: Without NK cell treatment<br />
+**Type**: Coculture-NK<br />
+**Description**: CRISPR screen in mouse skin cancer cells B16F10 co-cultured with NK cells, compared to control without NK cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of NK-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/31509742_JaneOliaro_CellRep_2019_B16F10_NK.overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/31509742_JaneOliaro_CellRep_2019_B16F10_NK.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31509742_JaneOliaro_CellRep_2019_B16F10_NK_Coculture-NK_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/31509742_JaneOliaro_CellRep_2019_B16F10_NK_Coculture-NK_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31509742_JaneOliaro_CellRep_2019_B16F10_NK_Coculture-NK_SKCM.png', error = FALSE)
+```
+
+-----
+
+# 28783722 | NicholasPRestifo | Nature | 2017 | Mel624 | EffectT
+## **Overview**
+**PMID**: 28783722<br />
+**Model**: Mel624 (human malignant melanoma cell line)<br />
+**Treatment**: Effect T cell<br />
+**Control**: Without T cell<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in human malignant melanoma cell line Mel624 co-cultured with effect T cells. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_Coculture.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_s1_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_s2_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_s1_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28783722_NicholasPRestifo_Nature_2017_Mel624_EffectT_s2_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+# 29301958 | KaiWWucherpfennig | Science | 2018 | B16F10 | OT-I.OVA
+## **Overview**
+**PMID**: 29301958<br />
+**Model**: B16F10 (murine skin melanoma cell line) pretreated with IFNg<br />
+**Treatment**: OT-I T cells specific for ovalbumin (OVA) peptide<br />
+**Control**: OT-I T cells unspecific for OVA peptide<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in mouse skin cancer cells B16F10 co-cultured with OT-I T cells specific for OVA peptide, compared to OT-I T cells unspecific for OVA peptide. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA.table.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_OT-I.OVA_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+# 29301958 | KaiWWucherpfennig | Science | 2018 | B16F10 | Pmel-1.IFNg
+## **Overview**
+**PMID**: 29301958<br />
+**Model**: B16F10 (murine skin melanoma cell line) pretreated with IFNg<br />
+**Treatment**: After CRISPR screen, B16F10 cells were cocultured with Pmel-1 T cells specific for gp100 melanoma antigen<br />
+**Control**: Pmel-1 T cells unspecific for gp100 melanoma antigen<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in mouse skin cancer cells B16F10 co-cultured with Pmel-1 T cells specific for gp100 melanoma antigen, compared to Pmel-1 T cells unspecific for gp100 melanoma antigen. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_overview.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg.png", error = FALSE)
+knitr::include_graphics("assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg.table.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+# 29301958 | KaiWWucherpfennig | Science | 2018 | B16F10 | Pmel-1.IFNg-
+## **Overview**
+**PMID**: 29301958<br />
+**Model**: B16F10 (murine skin melanoma cell line) without pretreatment of IFNg<br />
+**Treatment**: After CRISPR screen, B16F10 cells were cocultured with Pmel-1 T cells specific for gp100 melanoma antigen<br />
+**Control**: Pmel-1 T cells unspecific for gp100 melanoma antigen<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in mouse skin cancer cells B16F10 co-cultured with Pmel-1 T cells specific for gp100 melanoma antigen, compared to Pmel-1 T cells unspecific for gp100 melanoma antigen. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/29301958_KaiWWucherpfennig_Science_2018_B16F10_overview.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg-_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg-_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29301958_KaiWWucherpfennig_Science_2018_B16F10_Pmel-1.IFNg-_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+# 29776993 | JaneOliaro | SciImmunol | 2018 | B16F10 | OT-I
+## **Overview**
+**PMID**: 29776993<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: After CRISPR screen, B16F10 cells were cocultured with OT-I T cells<br />
+**Control**: T-end without OT-I T cell treatment<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in mouse skin cancer cells B16F10 co-cultured with OT-I T cells, compared to T-end without OT-I T cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='40%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_B16F10_OT-I_Coculture-T_SKCM.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_OT-I_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_OT-I_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_OT-I_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+# 29776993 | JaneOliaro | SciImmunol | 2018 | B16F10 | koPRF1.OT-I
+## **Overview**
+**PMID**: 29776993<br />
+**Model**: B16F10 (murine skin melanoma cell line)<br />
+**Treatment**: After CRISPR screen, B16F10 cells were cocultured with perforin knockout OT-I (Prf1−/−) T cells<br />
+**Control**: T-end without OT-I T cell treatment<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in mouse skin cancer cells B16F10 co-cultured with perforin knockout OT-I (Prf1−/−) T cells, compared to T-end without OT-I T cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_B16F10_koPRF1.OT-I_Coculture-T_SKCM.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_koPRF1.OT-I_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_koPRF1.OT-I_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_B16F10_koPRF1.OT-I_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+# 29776993 | JaneOliaro | SciImmunol | 2018 | MC38 | OT-I+aPD1
+## **Overview**
+**PMID**: 29776993<br />
+**Model**: MC38 (murine colon adenocarcinoma cell line)<br />
+**Treatment**: After CRISPR screen, MC38 cells were cocultured with OT-I T cells combined with anti-PD1 treatment<br />
+**Control**: T-end with IgG treatment<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in colon adenocarcinoma cells MC38 co-cultured with OT-I T cells combined with anti-PD1 treatment, compared to T-end with IgG treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell and anti-PD1 mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_OT-I+aPD1_Coculture-T_COAD.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_OT-I+aPD1_Coculture-T_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_OT-I+aPD1_Coculture-T_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_OT-I+aPD1_Coculture-T_COAD.png', error = FALSE)
+```
+
+-----
+
+# 29776993 | JaneOliaro | SciImmunol | 2018 | MC38 | koPRF1.OT-I
+## **Overview**
+**PMID**: 29776993<br />
+**Model**: MC38 (murine colon adenocarcinoma cell line)<br />
+**Treatment**: After CRISPR screen, MC38 cells were cocultured with perforin knockout OT-I (Prf1−/−) T cells<br />
+**Control**: T-end without OT-I T cell treatment<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in colon adenocarcinoma cells MC38 co-cultured with perforin knockout OT-I (Prf1−/−) T cells, compared to T-end without OT-I T cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='40%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MC38_koPRF1.OT-I_Coculture-T_COAD.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_koPRF1.OT-I_Coculture-T_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_koPRF1.OT-I_Coculture-T_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_MC38_koPRF1.OT-I_Coculture-T_COAD.png', error = FALSE)
+```
+
+-----
+
+# 29776993 | JaneOliaro | SciImmunol | 2018 | MDA-MB-231 | CAR-T
+## **Overview**
+**PMID**: 29776993<br />
+**Model**: MDA-MB-231 (human triple-negative breast cancer cell line)<br />
+**Treatment**: After CRISPR screen, MDA-MB-231 cells were cocultured with CAR-T cells<br />
+**Control**: T-end without CAR-T cell treatment<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in human triple-negative breast cancer cells MDA-MB-231 co-cultured with CAR-T cells, compared to T-end without CAR-T cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='40%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/29776993_JaneOliaro_SciImmunol_2018_MDA-MB-231_CAR-T_Coculture-T_TNBC.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MDA-MB-231_CAR-T_Coculture-T_TNBC.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/29776993_JaneOliaro_SciImmunol_2018_MDA-MB-231_CAR-T_Coculture-T_TNBC.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/29776993_JaneOliaro_SciImmunol_2018_MDA-MB-231_CAR-T_Coculture-T_TNBC.png', error = FALSE)
+```
+
+-----
+
+# 31303383 | DanielSPeeper | Cell | 2019 | IFNGR1mut.SKCM | MART-1
+## **Overview**
+**PMID**: 31303383<br />
+**Model**: IFNGR1-deficient D10 human melanoma cell line (IFNGR1mut.SKCM)<br />
+**Treatment**: After CRISPR screen, D10 cells were cocultured with MART-1 CD8 T cells<br />
+**Control**: Untransduced (control) CD8 T cells<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in human IFNGR1-deficient skin cancer cells D10 co-cultured with MART-1 CD8 T cells, compared to untransduced (control) CD8 T cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/31303383_DanielSPeeper_Cell_2019_IFNGR1mut.SKCM_MART-1_Coculture.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31303383_DanielSPeeper_Cell_2019_IFNGR1mut.SKCM_MART-1_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/31303383_DanielSPeeper_Cell_2019_IFNGR1mut.SKCM_MART-1_r1_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/31303383_DanielSPeeper_Cell_2019_IFNGR1mut.SKCM_MART-1_r2_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31303383_DanielSPeeper_Cell_2019_IFNGR1mut.SKCM_MART-1_r1_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31303383_DanielSPeeper_Cell_2019_IFNGR1mut.SKCM_MART-1_r2_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+# 31830245 | SatuMustjoki | Blood | 2019 | NALM6 | CART
+## **Overview**
+**PMID**: 31830245<br />
+**Model**: NALM6 (human B cell precursor leukemia cell line)<br />
+**Treatment**: After CRISPR screen, NALM6 cells were cocultured with CD19 CAR T cells only<br />
+**Control**: Without CAR T-cell treatment<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in human B cell precursor leukemia cells NALM6 co-cultured with CD19 CAR T cells, compared to no CAR T-cell treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of CAR T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='105%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/31830245_SatuMustjoki_Blood_2019.overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='40%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/31830245_SatuMustjoki_Blood_2019_NALM6_CART.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31830245_SatuMustjoki_Blood_2019_NALM6_CART_Coculture-T_BCL.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/31830245_SatuMustjoki_Blood_2019_NALM6_CART_Coculture-T_BCL.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31830245_SatuMustjoki_Blood_2019_NALM6_CART_Coculture-T_BCL.png', error = FALSE)
+```
+
+-----
+
+# 31830245 | SatuMustjoki | Blood | 2019 | NALM6 | CART+Birinapant
+## **Overview**
+**PMID**: 31830245<br />
+**Model**: NALM6 (human B cell precursor leukemia cell line)<br />
+**Treatment**: After CRISPR screen, NALM6 cells were cocultured with CD19 CAR T cells plus SMAC mimetic birinapant<br />
+**Control**: Cocultured with CAR T-cell only<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in human B cell precursor leukemia cells NALM6 co-cultured with CD19 CAR T cells plus birinapant, compared to CAR T-cell treatment only. Negative LFC values indicate genes whose knockout can enhance the efficacy of birinapant-mediated CAR T-cell tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='105%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/31830245_SatuMustjoki_Blood_2019_NALM6_Birinapant.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='40%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/31830245_SatuMustjoki_Blood_2019_NALM6_Birinapant.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31830245_SatuMustjoki_Blood_2019_NALM6.CART_Birinapant_Coculture-T_BCL.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/31830245_SatuMustjoki_Blood_2019_NALM6_CART.Birinapant_Coculture-T_BCL.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31830245_SatuMustjoki_Blood_2019_NALM6_CART.Birinapant_Coculture-T_BCL.png', error = FALSE)
+```
+
+-----
+
+# 31882897 | ChristopherDaly | SciRep | 2019 | Jeko-1 | CD3.bispecificAb
+## **Overview**
+**PMID**: 31882897<br />
+**Model**: Jeko-1 (human mantle cell lymphoma [MCL] cell line)<br />
+**Treatment**: After CRISPR screen, Jeko-1 cells were cocultured with human T cells plus CD20xCD3 bispecific antibody (CD3.bispecificAb)<br />
+**Control**: T-end<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in human mantle cell lymphoma Jeko-1 co-cultured with T cells plus CD20xCD3 bispecific antibody (CD3.bispecificAb), compared to T-end control. Negative LFC values indicate genes whose knockout can enhance the efficacy of T-cell plus CD3.bispecificAb mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='105%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb.overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='105%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb_Coculture-T_MCL.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb_Coculture-T_MCL.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31882897_ChristopherDaly_SciRep_2019_Jeko-1_CD3.bispecificAb_Coculture-T_MCL.png', error = FALSE)
+```
+
+-----
+
+# 32968282 | JasonMoffat | Nature | 2020 | 4T1-HA | CL4
+## **Overview**
+**PMID**: 32968282<br />
+**Model**: 4T1-HA (engineered murine breast cancer cell line expressing haemagglutinin [HA] as marker antigens)<br />
+**Treatment**: After CRISPR screen, 4T1-HA cells were cocultured with CL4 CD8+ T cells specific for HA antigen<br />
+**Control**: Without T cell treatment<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in mouse breast cancer cells 4T1 expressing HA antigen co-cultured with CL4 (HA-specific) T cells, compared to untreated control. Negative LFC values indicate genes whose knockout can enhance the efficacy of CL4 (HA-specific) T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='25%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4_Coculture-T_BRCA.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4_A_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4_B_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4_C_Coculture-T_BRCA.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4_A_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4_B_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_4T1-HA_CL4_C_Coculture-T_BRCA.png', error = FALSE)
+```
+
+-----
+
+# 32968282 | JasonMoffat | Nature | 2020 | B16-OVA | OT-I
+## **Overview**
+**PMID**: 32968282<br />
+**Model**: B16-OVA (engineered murine skin melanoma cell line expressing ovalbumin [OVA] as marker antigens)<br />
+**Treatment**: After CRISPR screen, B16-OVA cells were cocultured with OT-I CD8+ T cells specific for OVA antigen<br />
+**Control**: Without T cell treatment<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in mouse skin melanoma cancer cells B16 expressing OVA antigen co-cultured with OT-I (OVA-specific) T cells, compared to untreated control. Negative LFC values indicate genes whose knockout can enhance the efficacy of OT-I (OVA-specific) T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='25%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I_A_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I_B_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I_C_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I_A_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I_B_Coculture-T_SKCM.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_B16-OVA_OT-I_C_Coculture-T_SKCM.png', error = FALSE)
+```
+
+-----
+
+# 32968282 | JasonMoffat | Nature | 2020 | CT26-HA | CL4
+## **Overview**
+**PMID**: 32968282<br />
+**Model**: CT26-HA (engineered murine colon carcinoma cell line expressing haemagglutinin [HA] as marker antigens)<br />
+**Treatment**: After CRISPR screen, CT26-HA cells were cocultured with CL4 CD8+ T cells specific for HA antigen<br />
+**Control**: Without T cell treatment<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in mouse colon carcinoma cells CT26 expressing HA antigen co-cultured with CL4 (HA-specific) T cells, compared to untreated control. Negative LFC values indicate genes whose knockout can enhance the efficacy of CL4 (HA-specific) T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='25%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4_Coculture-T_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4_A_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4_B_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4_C_Coculture-T_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4_A_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4_B_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_CT26-HA_CL4_C_Coculture-T_COAD.png', error = FALSE)
+```
+
+-----
+
+# 32968282 | JasonMoffat | Nature | 2020 | EMT6-HA | CL4
+## **Overview**
+**PMID**: 32968282<br />
+**Model**: EMT6-HA (engineered murine breast mammary carcinoma cell line expressing haemagglutinin [HA] as marker antigens)<br />
+**Treatment**: After CRISPR screen, EMT6-HA cells were cocultured with CL4 CD8+ T cells specific for HA antigen<br />
+**Control**: Without T cell treatment<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in mouse breast mammary carcinoma cells EMT6 expressing HA antigen co-cultured with CL4 (HA-specific) T cells, compared to untreated control. Negative LFC values indicate genes whose knockout can enhance the efficacy of CL4 (HA-specific) T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='25%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4_Coculture-T_BRCA.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4_A_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4_B_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4_C_Coculture-T_BRCA.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4_A_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4_B_Coculture-T_BRCA.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_EMT6-HA_CL4_C_Coculture-T_BRCA.png', error = FALSE)
+```
+
+-----
+
+# 32968282 | JasonMoffat | Nature | 2020 | MC38-OVA | OT-I
+## **Overview**
+**PMID**: 32968282<br />
+**Model**: MC38-OVA (engineered murine colon adenocarcinoma cell line expressing ovalbumin [OVA] as marker antigens)<br />
+**Treatment**: After CRISPR screen, MC38-OVA cells were cocultured with OT-I CD8+ T cells specific for OVA antigen<br />
+**Control**: Without T cell treatment<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in mouse colon adenocarcinoma cancer cells MC38 expressing OVA antigen co-cultured with OT-I (OVA-specific) T cells, compared to untreated control. Negative LFC values indicate genes whose knockout can enhance the efficacy of OT-I (OVA-specific) T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='25%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I_Coculture-T_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I_A_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I_B_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I_C_Coculture-T_COAD.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I_A_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I_B_Coculture-T_COAD.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_MC38-OVA_OT-I_C_Coculture-T_COAD.png', error = FALSE)
+```
+
+-----
+
+# 32968282 | JasonMoffat | Nature | 2020 | Renca-HA | CL4
+## **Overview**
+**PMID**: 32968282<br />
+**Model**: Renca-HA (engineered murine kidney carcinoma cell line expressing haemagglutinin [HA] as marker antigens)<br />
+**Treatment**: After CRISPR screen, Renca-HA cells were cocultured with CL4 CD8+ T cells specific for HA antigen<br />
+**Control**: Without T cell treatment<br />
+**Type**: Coculture-T<br />
+**Description**: CRISPR screen in mouse kidney carcinoma cells Renca expressing HA antigen co-cultured with CL4 (HA-specific) T cells, compared to untreated control. Negative LFC values indicate genes whose knockout can enhance the efficacy of CL4 (HA-specific) T-cell mediated tumor killing<br />
+
+## **Original Figures**
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_overview.png", error = FALSE)
+```
+```{r, echo=FALSE, out.width='25%', fig.align='left', fig.cap=''}
+knitr::include_graphics("assets/original_fig/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4.png", error = FALSE)
+```
+
+-----
+
+## **MAGeCK-VISPR Results** {.tabset}
+### Processed - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/median_scaled_QC/RankPlot/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4_Coculture-T_KIRC.png', error = FALSE)
+```
+
+-----
+
+### Raw - Rank Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4_A_Coculture-T_KIRC.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4_B_Coculture-T_KIRC.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/RankPlot/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4_C_Coculture-T_KIRC.png', error = FALSE)
+```
+
+-----
+
+### Raw - Volcano Plot
+```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap=''}
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4_A_Coculture-T_KIRC.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4_B_Coculture-T_KIRC.png', error = FALSE)
+knitr::include_graphics('assets/RRA_QC/VolcanoPlot/32968282_JasonMoffat_Nature_2020_Renca-HA_CL4_C_Coculture-T_KIRC.png', error = FALSE)
+```
+
+-----
+

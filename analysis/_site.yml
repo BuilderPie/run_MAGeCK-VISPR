@@ -5,14 +5,14 @@ navbar:
   left:
   - text: Home
     href: index.html
-  - text: Coculture
-    href: 01-coculture.html
   - text: Essentiality
-    href: 02-essentiality.html
-  - text: Invivo
-    href: 03-invivo.html
+    href: 01-essentiality.html
   - text: Sorting
-    href: 04-sorting.html
+    href: 02-sorting.html
+  - text: Coculture
+    href: 03-coculture.html
+  - text: Invivo
+    href: 04-invivo.html
 output:
   workflowr::wflow_html:
     toc: yes
