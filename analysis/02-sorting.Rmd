@@ -28,8 +28,8 @@ knitr::include_graphics("assets/positive_control_final/QC_Heatmap_scaled_sorting
 ## **Overview** 
 **PMID**: 26189680<br />
 **Model**: Bone marrow derived dendritic cells (BMDCs)<br />
-**Treatment**: Tumor necrosis factor (TNF) high<br />
-**Control**: Tumor necrosis factor (TNF) low<br />
+**Treatment**: After CRISPR screen, BMDCs were sorted with high tumor necrosis factor (TNF) expression level<br />
+**Control**: Sorted with low tumor necrosis factor (TNF) level<br />
 **Type**: Sorting <br />
 **Description**: CRISPR screen in mouse bone marrow derived dendritic cells (BMDCs) and sorted with TNF high vs. TNF low conditions. Positive LFC values indicate genes whose knockout can increase TNF protein expression level<br />
 
@@ -71,7 +71,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/26189680_AvivRegev_Cell_2015_
 ## **Overview**
 **PMID**: 28813417<br />
 **Model**: BxPC-3 (human pancreatic cancer cell line)<br />
-**Treatment**: Sorting cells with PD-L1_low surface marker. Pretreated with or without interferon gamma<br />
+**Treatment**: After interferon gamma treatment and CRISPR screen, BxPC-3 cells were sorted with PD-L1_low surface marker; After CRISPR screen, BxPC-3 cells were sorted with PD-L1_low surface marker<br />
 **Control**: Input<br />
 **Type**: Sorting<br />
 **Description**: CRISPR screen in human pancreatic cancer cell line BxPC-3 and sorted with PD-L1 low conditions. Positive LFC values indicate genes whose knockout can decrease PD-L1 protein expression level<br />
@@ -158,7 +158,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/30890156_NamjinChung_BMCGenom
 # 31365872 | BenjaminEGewurz | CellRep | 2019 | DaudiB | CD40
 ## **Overview**
 **PMID**: 31365872<br />
-**Model**: Daudi (human B lymphoblast)<br />
+**Model**: Daudi (human B lymphoblast cell)<br />
 **Treatment**: After CRISPR screen, Daudi B cells were sorted with high CD40 expression level<br />
 **Control**: Sorted with low CD40 expression level<br />
 **Type**: Sorting<br />

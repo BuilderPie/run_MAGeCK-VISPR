@@ -28,10 +28,10 @@ knitr::include_graphics("assets/positive_control_final/QC_Heatmap_scaled_invivo.
 ## **Overview**
 **PMID**: 28723893<br />
 **Model**: B16F10 (murine skin melanoma cell line)<br />
-**Treatment**: Transplant to wild type mice treated with Irradiated tumour cell vaccine (GVAX) + anti-PD1<br />
-**Control**: Transplant to TCRa-/- (knockout) mice without treatment<br />
+**Treatment**: Irradiated tumour cell vaccine (GVAX) + anti-PD1 treatment on wild type mice injected with post CRISPR screen B16F10 cells<br />
+**Control**: No treatment on TCRa-/- (knockout) mice injected with post CRISPR screen B16F10 cells<br />
 **Type**: In-vivo<br />
-**Description**: In-vivo CRISPR screen in transplantable tumours in mice treated with immunotherapy (GVAX + anti-PD1), compared to TCRa-/- (knockout) mice without treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of anti-PD1 mediated tumor killing<br />
+**Description**: In-vivo CRISPR screen in mouse skin cancer cells B16F10 and injected to mice treated with immunotherapy (GVAX + anti-PD1), compared to injecting to TCRa-/- (knockout) mice without treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of anti-PD1 mediated tumor killing<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
@@ -76,10 +76,10 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 ## **Overview**
 **PMID**: 28723893<br />
 **Model**: B16F10 (murine skin melanoma cell line)<br />
-**Treatment**: Transplant to wild type mice treated with irradiated tumour cell vaccine (GVAX) only<br />
-**Control**: Transplant to TCRa-/- (knockout) mice without treatment<br />
+**Treatment**: Irradiated tumour cell vaccine (GVAX) only treatment on wild type mice injected with post CRISPR screen B16F10 cells<br />
+**Control**: No treatment on TCRa-/- (knockout) mice injected with post CRISPR screen B16F10 cells<br />
 **Type**: In-vivo<br />
-**Description**: In-vivo CRISPR screen in transplantable tumours in mice treated with GVAX, compared to TCRa-/- (knockout) mice without treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of GVAX mediated tumor killing<br />
+**Description**: In-vivo CRISPR screen in mouse skin cancer cells B16F10 and injected to mice treated with GVAX, compared to injecting to TCRa-/- (knockout) mice without treatment. Negative LFC values indicate genes whose knockout can enhance the efficacy of GVAX mediated tumor killing<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
@@ -120,10 +120,10 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 ## **Overview**
 **PMID**: 28723893<br />
 **Model**: B16F10 (murine skin melanoma cell line)<br />
-**Treatment**: Transplant on TCRa-/- (knockout) mice without treatment<br />
-**Control**: Cells growing in vitro<br />
+**Treatment**: No treatment on TCRa-/- (knockout) mice injected with post CRISPR screen B16F10 cells<br />
+**Control**: Post CRISPR screen cells growing in vitro<br />
 **Type**: In-vivo<br />
-**Description**: In-vivo CRISPR screen in transplantable tumours in TCRa-/- (knockout) mice, compared to in vitro condition. Negative LFC values indicate genes whose knockout can decrease tumor growing in TCRa-/- mice<br />
+**Description**: In-vivo CRISPR screen in mouse skin cancer cells B16F10 and injected to TCRa-/- (knockout) mice, compared to in vitro condition. Negative LFC values indicate genes whose knockout can decrease tumor growing in TCRa-/- mice<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
@@ -164,8 +164,8 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/28723893_WNicholasHaining_Nat
 ## **Overview**
 **PMID**: 31744829<br />
 **Model**: KP (murine lung carcinoma cell line)<br />
-**Treatment**: anti-PD1 treatment on wild type B6 mice injected with KP cell pretreated by CRISPR screen<br />
-**Control**: IgG treatment on wild type B6 mice injected with KP cell pretreated by CRISPR screen<br />
+**Treatment**: anti-PD1 treatment on wild type B6 mice injected with post CRISPR screen KP cells<br />
+**Control**: IgG treatment on wild type B6 mice injected with post CRISPR screen KP cells<br />
 **Type**: In-vivo<br />
 **Description**: In-vivo CRISPR screen in mouse KP mutant lung cancer cells following transplantation to wild type B6 mice with anti-PD1 treatment, compared to transplantation to wild type B6 mice with IgG treatment. Negative LFC values indicate genes whose knockout can decrease tumor growing in wild type mice<br />
 
@@ -205,8 +205,8 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31744829_KwokKinWong_CancerDi
 ## **Overview**
 **PMID**: 31744829<br />
 **Model**: KP (murine lung carcinoma cell line)<br />
-**Treatment**: anti-PD1 treatment on Rag1−/− B6 mice injected with KP cell pretreated by CRISPR screen<br />
-**Control**: IgG treatment on Rag1−/− B6 mice injected with KP cell pretreated by CRISPR screen<br />
+**Treatment**: anti-PD1 treatment on Rag1−/− B6 mice injected with post CRISPR screen KP cells<br />
+**Control**: IgG treatment on wild type B6 mice injected with post CRISPR screen KP cells<br />
 **Type**: In-vivo<br />
 **Description**: In-vivo CRISPR screen in mouse KP mutant lung cancer cells following transplantation to Rag1−/− B6 mice with anti-PD1 treatment, compared to transplantation to Rag1−/− B6 mice with IgG treatment. Negative LFC values indicate genes whose knockout can decrease tumor growing in Rag1−/− mice<br />
 
@@ -243,8 +243,8 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31744829_KwokKinWong_CancerDi
 ## **Overview**
 **PMID**: 31827283<br />
 **Model**: OT-I T cell<br />
-**Treatment**: OT-I cells pretreated by CRISPR screen were intravenously transferred into mice bearing B16F10 (murine skin melanoma cell line)<br />
-**Control**: Pre-transfer OT-I cells pretreated by CRISPR screen<br />
+**Treatment**: OT-I T cells pretreated by CRISPR screen were intravenously injected into mice bearing B16F10 (murine skin melanoma cell line)<br />
+**Control**: Post CRISPR screen OT-I T cells without injection to mice<br />
 **Type**: In-vivo<br />
 **Description**: In-vivo CRISPR screen in mouse OT-I T cells following transfer to mice bearing skin cancer melanoma B16F10 cells, compared to pre-transfer OT-I cells pretreated by CRISPR screen. Negative LFC values indicate genes whose knockout can decrease T cell survival in tumor bearing mice<br />
 
@@ -281,8 +281,8 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31827283_HongboChi_Nature_201
 ## **Overview**
 **PMID**: 31827283<br />
 **Model**: Regnase-1-null OT-I T cell<br />
-**Treatment**: Regnase-1-null OT-I cells pretreated by CRISPR screen were intravenously transferred into mice bearing B16F10 (murine skin melanoma cell line)<br />
-**Control**: Pre-transfer Regnase-1-null OT-I cells pretreated by CRISPR screen<br />
+**Treatment**: Regnase-1-null OT-I T cells pretreated by CRISPR screen were intravenously transferred into mice bearing B16F10 (murine skin melanoma cell line)<br />
+**Control**: Post CRISPR screen OT-I T cells without injection to mice<br />
 **Type**: In-vivo<br />
 **Description**: In-vivo CRISPR screen in mouse Regnase-1-null OT-I T cells following transfer to mice bearing skin cancer melanoma B16F10 cells, compared to pre-transfer Regnase-1-null OT-I cells pretreated by CRISPR screen. Negative LFC values indicate genes whose knockout can decrease Regnase-1-null T cell survival in tumor bearing mice<br />
 
@@ -322,7 +322,7 @@ knitr::include_graphics('assets/RRA_QC/VolcanoPlot/31827283_HongboChi_Nature_201
 **Treatment**: anti-PD1 plus anti-CTLA4 combination treatment on wild type mice with SCAR-transduced Renca cells<br />
 **Control**: NSG immunodeficient mice with SCAR-transduced Renca cells<br />
 **Type**: In-vivo<br />
-**Description**: In-vivo CRISPR screen in kidney cancer cells following transplantation to wild type mice with anti-PD1 plus anti-CTLA4 combination treatment, compared to transplantation to NSG immunodeficient mice. Negative LFC values indicate genes whose knockout can decrease tumor growing in wild type mice<br />
+**Description**: In-vivo CRISPR screen in kidney cancer cells Renca following transplantation to wild type mice with anti-PD1 plus anti-CTLA4 combination treatment, compared to transplantation to NSG immunodeficient mice. Negative LFC values indicate genes whose knockout can decrease tumor growing in wild type mice<br />
 
 ## **Original Figures**
 ```{r, echo=FALSE, out.width='85%', fig.align='left', fig.cap=''}
